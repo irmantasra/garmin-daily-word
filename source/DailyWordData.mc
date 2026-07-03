@@ -33,8 +33,7 @@ class DailyWordData {
     private function baseUrl() as String {
         var url = Application.Properties.getValue("dataBaseUrl");
         if (url == null || (url as String).length() == 0) {
-            // Replace with your GitHub Pages URL after first deploy.
-            return "https://YOUR_USER.github.io/garmin-daily-word/data";
+            return "https://irmantasra.github.io/garmin-daily-word/data";
         }
         return url as String;
     }
