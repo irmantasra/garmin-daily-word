@@ -1,0 +1,5 @@
+project.manifest = manifest.xml
+
+# Shared resources and source across all products.
+base.sourcePath = source
+base.resourcePath = resources

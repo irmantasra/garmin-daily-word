@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <setting propertyKey="@Properties.useLithuanian" title="@Strings.SettingUseLithuanian">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.dataBaseUrl" title="@Strings.SettingDataUrl">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+</settings>

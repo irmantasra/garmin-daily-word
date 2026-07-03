@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string id="AppName">Daily Word</string>
+    <string id="Loading">Loading readings…</string>
+    <string id="ErrPrefix">Error:</string>
+
+    <!-- Settings labels -->
+    <string id="SettingUseLithuanian">Lithuanian (off = English)</string>
+    <string id="SettingDataUrl">Data base URL</string>
+</resources>
