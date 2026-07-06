@@ -46,8 +46,13 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var gospel = block["gospel"];
         var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        var top = h * 0.38;
-        var bottom = h * 0.62;
+        // Center the two-line block on h/2 so it aligns with the icon.
+        var h1 = dc.getFontHeight(Graphics.FONT_GLANCE_NUMBER);
+        var h2 = dc.getFontHeight(Graphics.FONT_XTINY);
+        var gap = -2; // lines overlap slightly; font heights include leading
+        var blockTop = (h - (h1 + gap + h2)) / 2 - 9;
+        var top = blockTop + h1 / 2;
+        var bottom = blockTop + h1 + gap + h2 / 2;
 
         dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT); // gold
         dc.drawText(2, top, Graphics.FONT_GLANCE_NUMBER,
