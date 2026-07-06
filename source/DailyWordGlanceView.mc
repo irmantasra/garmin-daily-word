@@ -46,11 +46,12 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var gospel = block["gospel"];
         var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        // Center the two-line block on h/2 so it aligns with the icon.
+        // Center the two-line block on h/2 so it aligns with the icon, which
+        // the system draws centered in the glance.
         var h1 = dc.getFontHeight(Graphics.FONT_GLANCE_NUMBER);
         var h2 = dc.getFontHeight(Graphics.FONT_XTINY);
         var gap = -2; // lines overlap slightly; font heights include leading
-        var blockTop = (h - (h1 + gap + h2)) / 2 + 1;
+        var blockTop = (h - (h1 + gap + h2)) / 2;
         var top = blockTop + h1 / 2;
         var bottom = blockTop + h1 + gap + h2 / 2;
 
