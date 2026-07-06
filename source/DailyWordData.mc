@@ -7,6 +7,7 @@ import Toybox.Time.Gregorian;
 
 // Fetches and caches the daily readings JSON published by the scraper.
 // Endpoint (GitHub Pages): <baseUrl>/YYYY-MM-DD.json
+(:glance)
 class DailyWordData {
 
     // Cached payload for the current day, or null until first successful load.
@@ -15,6 +16,7 @@ class DailyWordData {
     var loading as Boolean = false;
 
     private var _onUpdate as Method() as Void;
+    private var _triedFallback as Boolean = false;
 
     function initialize(onUpdate as Method() as Void) {
         _onUpdate = onUpdate;
@@ -56,29 +58,43 @@ class DailyWordData {
             readings = cached as Dictionary;
             _onUpdate.invoke();
         }
-        fetch(key);
+        _triedFallback = false;
+        fetch(key + ".json");
     }
 
-    private function fetch(key as String) as Void {
+    // Fetches as plain text (not JSON): GitHub Pages sends
+    // "application/json; charset=utf-8", which Communications' native JSON
+    // parser rejects with -400. We parse the text ourselves via Json.parse.
+    private function fetch(file as String) as Void {
         loading = true;
-        var url = baseUrl() + "/" + key + ".json";
+        var url = baseUrl() + "/" + file;
         var options = {
             :method => Communications.HTTP_REQUEST_METHOD_GET,
-            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
-            :headers => {
-                "Accept" => "application/json"
-            }
+            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN
         };
         Communications.makeWebRequest(url, null, options, method(:onReceive));
     }
 
     function onReceive(code as Number, data as Dictionary or String or Null) as Void {
         loading = false;
-        if (code == 200 && data instanceof Dictionary) {
-            readings = data as Dictionary;
-            errorMsg = null;
-            Application.Storage.setValue("readings", data);
-            Application.Storage.setValue("readingsDate", (data as Dictionary)["date"]);
+        if (code == 200 && data instanceof String) {
+            var parsed = Json.parse(data as String);
+            if (parsed instanceof Dictionary) {
+                readings = parsed as Dictionary;
+                errorMsg = null;
+                Application.Storage.setValue("readings", parsed);
+                Application.Storage.setValue("readingsDate", (parsed as Dictionary)["date"]);
+                _onUpdate.invoke();
+                return;
+            }
+            errorMsg = "Bad data";
+        } else if (!_triedFallback) {
+            // Today's dated file may not be published yet (the cron runs later
+            // in the day), or the request failed. Fall back to the
+            // always-current today.json once before giving up.
+            _triedFallback = true;
+            fetch("today.json");
+            return;
         } else {
             errorMsg = "HTTP " + code.toString();
         }

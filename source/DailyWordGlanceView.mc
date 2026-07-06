@@ -2,6 +2,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
+(:glance)
 class DailyWordGlanceView extends WatchUi.GlanceView {
 
     private var _data as DailyWordData;
@@ -33,8 +34,8 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
 
         if (block == null) {
             var msg = _data.errorMsg != null
-                ? (WatchUi.loadResource(Rez.Strings.ErrPrefix) as String) + " " + _data.errorMsg
-                : WatchUi.loadResource(Rez.Strings.Loading) as String;
+                ? "Error: " + _data.errorMsg
+                : "Loading readings…";
             dc.drawText(4, h / 2, Graphics.FONT_GLANCE,
                 msg, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
             return;

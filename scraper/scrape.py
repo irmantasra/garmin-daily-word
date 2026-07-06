@@ -30,7 +30,8 @@ UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 )
-LT_URL = "https://lk.katalikai.lt/_dls/ss/ss_{mmdd}.html"
+LT_BASE = "https://lk.katalikai.lt"
+LT_INDEX = LT_BASE + "/{yyyy}/{mm}/{dd}"
 EN_URL = "https://bible.usccb.org/bible/readings/{mmddyy}.cfm"
 
 
@@ -73,6 +74,26 @@ def clean_line(s: str) -> str:
 
 
 # --- Lithuanian -------------------------------------------------------------
+
+# The daily index page links to that day's readings, e.g.
+#   /_dls/ss/ss_0703.html      (Sundays / feasts)
+#   /_dls/e2/e2_14eil_1.html   (weekdays, by liturgical cycle)
+# The bare ss_MMDD.html guess only works for some days, so we resolve the
+# real link from the index instead.
+LT_LINK = re.compile(r'href="(/_dls/[^"]+\.html)"', re.IGNORECASE)
+
+
+def resolve_lt_url(date: dt.date) -> str:
+    index = LT_INDEX.format(
+        yyyy=date.strftime("%Y"), mm=date.strftime("%m"), dd=date.strftime("%d")
+    )
+    html = fetch(index, "windows-1257")
+    for path in LT_LINK.findall(html):
+        if "ivadas" in path.lower():  # skip the "readings order / intro" link
+            continue
+        return LT_BASE + path
+    raise ValueError("no readings link on index page " + index)
+
 
 # <p class="rubrika">Pirmasis skaitinys (Ef 2, 19.22) ...
 LT_RUBRIC = re.compile(
@@ -136,11 +157,10 @@ def parse_en(html: str) -> dict:
 
 
 def scrape(date: dt.date) -> dict:
-    mmdd = date.strftime("%m%d")
     mmddyy = date.strftime("%m%d%y")
     result: dict = {"date": date.isoformat()}
     try:
-        result["lt"] = parse_lt(fetch(LT_URL.format(mmdd=mmdd), "windows-1257"))
+        result["lt"] = parse_lt(fetch(resolve_lt_url(date), "windows-1257"))
     except Exception as e:  # noqa: BLE001 - record failure, keep other lang
         result["lt"] = {"error": str(e)}
     try:
