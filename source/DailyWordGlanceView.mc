@@ -46,8 +46,8 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var gospel = block["gospel"];
         var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        var top = h * 0.34;
-        var bottom = h * 0.58;
+        var top = h * 0.38;
+        var bottom = h * 0.62;
 
         dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT); // gold
         dc.drawText(2, top, Graphics.FONT_GLANCE_NUMBER,
