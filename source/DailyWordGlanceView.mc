@@ -50,7 +50,7 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var h1 = dc.getFontHeight(Graphics.FONT_GLANCE_NUMBER);
         var h2 = dc.getFontHeight(Graphics.FONT_XTINY);
         var gap = -2; // lines overlap slightly; font heights include leading
-        var blockTop = (h - (h1 + gap + h2)) / 2 - 9;
+        var blockTop = (h - (h1 + gap + h2)) / 2 - 5;
         var top = blockTop + h1 / 2;
         var bottom = blockTop + h1 + gap + h2 / 2;
 
