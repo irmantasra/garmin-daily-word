@@ -41,36 +41,23 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
             return;
         }
 
-        // Line 1: compact reading references "R1 · Ps · Gospel".
-        var refs = joinRefs(block);
-        // Line 2: the short daily scripture line.
-        var line = block["line"];
-        var lineStr = line instanceof String ? line as String : "";
+        // Line 1: the Gospel reference, large and gold.
+        // Line 2: a smaller invite to open the app for the full readings.
+        var gospel = block["gospel"];
+        var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        var y = h * 0.20;
-        dc.drawText(4, y, Graphics.FONT_GLANCE_NUMBER,
-            refs, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+        var top = h * 0.30;
+        var bottom = h * 0.74;
 
-        y = h * 0.62;
-        dc.drawText(4, y, Graphics.FONT_GLANCE,
-            fit(dc, lineStr, w - 8, Graphics.FONT_GLANCE),
+        dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT); // gold
+        dc.drawText(2, top, Graphics.FONT_GLANCE_NUMBER,
+            fit(dc, gospelStr, w - 4, Graphics.FONT_GLANCE_NUMBER),
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-    }
 
-    private function joinRefs(block as Dictionary) as String {
-        var parts = [] as Array<String>;
-        var keys = ["reading1", "psalm", "gospel"] as Array<String>;
-        for (var i = 0; i < keys.size(); i++) {
-            var v = block[keys[i]];
-            if (v instanceof String && (v as String).length() > 0) {
-                parts.add(v as String);
-            }
-        }
-        var out = "";
-        for (var i = 0; i < parts.size(); i++) {
-            out += (i == 0 ? "" : "  ·  ") + parts[i];
-        }
-        return out.length() > 0 ? out : "—";
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(2, bottom, Graphics.FONT_XTINY,
+            "Open for readings",
+            Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
     // Truncates text with an ellipsis to fit the given pixel width.
