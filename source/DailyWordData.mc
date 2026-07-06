@@ -45,15 +45,9 @@ class DailyWordData {
     function load() as Void {
         var key = todayKey();
         var cached = Application.Storage.getValue("readings");
-        var cachedDate = Application.Storage.getValue("readingsDate");
 
-        if (cached != null && cachedDate != null && (cachedDate as String).equals(key)) {
-            readings = cached as Dictionary;
-            _onUpdate.invoke();
-            return;
-        }
-
-        // Show stale cache (if any) while fetching fresh data.
+        // Show cached data instantly (if any), then always refresh from the
+        // network so same-day content updates are picked up.
         if (cached != null) {
             readings = cached as Dictionary;
             _onUpdate.invoke();

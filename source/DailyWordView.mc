@@ -2,15 +2,24 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-// Full-screen readings view: date header, First reading / Psalm / Gospel
-// references with labels, and the day's short scripture line.
+// Scrollable readings view: Bible icon, date + liturgical event, the reading
+// references (label above reference, with a gap), and the daily line.
+// UP/DOWN scroll the content so nothing is clipped by the round screen.
 class DailyWordView extends WatchUi.View {
 
     private var _data as DailyWordData;
+    private var _icon as WatchUi.BitmapResource?;
+    private var _scroll as Number = 0;      // px scrolled from the top
+    private var _contentH as Number = 0;    // total drawn height (last frame)
+    private var _viewH as Number = 0;
 
     function initialize() {
         View.initialize();
         _data = new DailyWordData(method(:onDataUpdate));
+    }
+
+    function onLayout(dc as Graphics.Dc) as Void {
+        _icon = WatchUi.loadResource(Rez.Drawables.LauncherIcon) as WatchUi.BitmapResource;
     }
 
     function onShow() as Void {
@@ -23,6 +32,22 @@ class DailyWordView extends WatchUi.View {
 
     // Called by the settings menu after the language changes.
     function refresh() as Void {
+        _scroll = 0;
+        WatchUi.requestUpdate();
+    }
+
+    // Scrolls by dy px (positive = down), clamped to content bounds.
+    function scrollBy(dy as Number) as Void {
+        var maxScroll = _contentH - _viewH;
+        if (maxScroll < 0) {
+            maxScroll = 0;
+        }
+        _scroll += dy;
+        if (_scroll < 0) {
+            _scroll = 0;
+        } else if (_scroll > maxScroll) {
+            _scroll = maxScroll;
+        }
         WatchUi.requestUpdate();
     }
 
@@ -32,42 +57,66 @@ class DailyWordView extends WatchUi.View {
 
         var w = dc.getWidth();
         var cx = w / 2;
+        _viewH = dc.getHeight();
         var block = _data.localized();
 
         if (block == null) {
             var msg = _data.errorMsg != null
                 ? "Error: " + _data.errorMsg
                 : "Loading…";
-            dc.drawText(cx, dc.getHeight() / 2, Graphics.FONT_SMALL, msg,
+            dc.drawText(cx, _viewH / 2, Graphics.FONT_SMALL, msg,
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
             return;
         }
 
-        var y = dc.getHeight() * 0.13;
+        // y walks down the virtual (unscrolled) content; subtract _scroll to
+        // place it on screen.
+        var y = 8 - _scroll;
 
-        // Date header, gold.
+        // Bible icon, centered.
+        if (_icon != null) {
+            var iw = (_icon as WatchUi.BitmapResource).getWidth();
+            dc.drawBitmap(cx - iw / 2, y, _icon as WatchUi.BitmapResource);
+            y += (_icon as WatchUi.BitmapResource).getHeight() + 4;
+        }
+
+        // Date, gold.
         dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT);
         var date = _data.readings != null ? (_data.readings as Dictionary)["date"] : null;
-        dc.drawText(cx, y, Graphics.FONT_TINY,
-            date instanceof String ? date as String : "",
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        y += dc.getFontHeight(Graphics.FONT_TINY) + 6;
+        if (date instanceof String) {
+            dc.drawText(cx, y, Graphics.FONT_TINY, date as String,
+                Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+            y += dc.getFontHeight(Graphics.FONT_TINY);
+        }
 
-        y = drawRow(dc, cx, y, "Reading", block["reading1"]);
-        y = drawRow(dc, cx, y, "Reading 2", block["reading2"]);
+        // Liturgical event, white, wrapped.
+        var event = block["event"];
+        if (event instanceof String && (event as String).length() > 0) {
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            y = drawWrapped(dc, cx, y, w - 24, event as String, Graphics.FONT_XTINY);
+        }
+        y += 10;
+
+        y = drawRow(dc, cx, y, "1st Reading", block["reading1"]);
+        y = drawRow(dc, cx, y, "2nd Reading", block["reading2"]);
         y = drawRow(dc, cx, y, "Psalm", block["psalm"]);
         y = drawRow(dc, cx, y, "Gospel", block["gospel"]);
 
-        // Daily scripture line, italic-ish (small font), wrapped.
+        // Daily scripture line, gray, wrapped.
         var line = block["line"];
         if (line instanceof String && (line as String).length() > 0) {
-            y += 4;
+            y += 6;
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-            drawWrapped(dc, cx, y, w - 20, line as String, Graphics.FONT_XTINY);
+            y = drawWrapped(dc, cx, y, w - 24, line as String, Graphics.FONT_XTINY);
         }
+
+        // Record total content height for scroll clamping.
+        _contentH = y + _scroll + 8;
+
+        drawScrollHint(dc, w);
     }
 
-    // Draws "Label  Reference" and returns the next y. Skips missing refs.
+    // Draws label then reference on the next line (with a gap), returns next y.
     private function drawRow(dc as Graphics.Dc, cx as Number, y as Numeric,
                              label as String, ref as Object?) as Numeric {
         if (!(ref instanceof String) || (ref as String).length() == 0) {
@@ -76,18 +125,19 @@ class DailyWordView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, y, Graphics.FONT_XTINY, label,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        y += dc.getFontHeight(Graphics.FONT_XTINY) - 2;
+        y += dc.getFontHeight(Graphics.FONT_XTINY) + 2; // gap label -> ref
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, y, Graphics.FONT_SMALL, ref as String,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        y += dc.getFontHeight(Graphics.FONT_SMALL) + 2;
+        y += dc.getFontHeight(Graphics.FONT_SMALL) + 10; // gap to next row
         return y;
     }
 
-    // Word-wraps text into lines that fit maxW, drawing centered from y.
+    // Word-wraps text, drawing centered lines from y. Returns the y after the
+    // last line.
     private function drawWrapped(dc as Graphics.Dc, cx as Number, y as Numeric,
-                                 maxW as Number, text as String, font as Graphics.FontType) as Void {
+                                 maxW as Number, text as String, font as Graphics.FontType) as Numeric {
         var words = splitWords(text);
         var lineH = dc.getFontHeight(font);
         var cur = "";
@@ -105,7 +155,20 @@ class DailyWordView extends WatchUi.View {
         if (!cur.equals("")) {
             dc.drawText(cx, y, font, cur,
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+            y += lineH;
         }
+        return y;
+    }
+
+    // Small down-arrow when there is more content below the fold.
+    private function drawScrollHint(dc as Graphics.Dc, w as Number) as Void {
+        if (_contentH - _viewH - _scroll <= 2) {
+            return;
+        }
+        var cx = w / 2;
+        var by = _viewH - 12;
+        dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT);
+        dc.fillPolygon([[cx - 6, by], [cx + 6, by], [cx, by + 6]]);
     }
 
     private function splitWords(text as String) as Array<String> {

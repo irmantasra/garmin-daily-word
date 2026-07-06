@@ -100,9 +100,29 @@ LT_RUBRIC = re.compile(
     r'class="rubrika"[^>]*>\s*([^(<]+?)\s*\(([^)]+)\)', re.IGNORECASE
 )
 
+# Header spans naming the liturgical day/feast, e.g.
+#   <span class="savaites_nr"> XIV eilinė savaitė</span>
+#   <span class="savaites_d"> Pirmadienis</span>
+#   <span class="iskilme">šv. apaštalas Tomas (F)</span>
+LT_EVENT = re.compile(
+    r'class="(savaites_nr|savaites_d|iskilme)"[^>]*>([^<]+)', re.IGNORECASE
+)
+
+
+def parse_lt_event(html: str) -> str:
+    parts = []
+    for _cls, text in LT_EVENT.findall(html):
+        t = re.sub(r"\s+", " ", unescape(text)).strip()
+        if t and t not in parts:
+            parts.append(t)
+    return ", ".join(parts)
+
 
 def parse_lt(html: str) -> dict:
     out: dict[str, str] = {}
+    event = parse_lt_event(html)
+    if event:
+        out["event"] = event
     for label, ref in LT_RUBRIC.findall(html):
         label = label.lower()
         ref = norm_ref(ref)
@@ -133,6 +153,12 @@ EN_BLOCK = re.compile(
 
 def parse_en(html: str) -> dict:
     out: dict[str, str] = {}
+    m = re.search(r"<title>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+    if m:
+        title = strip_tags(m.group(1))
+        title = re.sub(r"\s*\|\s*USCCB\s*$", "", title).strip()
+        if title:
+            out["event"] = title
     for name, addr in EN_BLOCK.findall(html):
         name = strip_tags(name).lower()
         addr = strip_tags(addr)

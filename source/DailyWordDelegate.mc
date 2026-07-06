@@ -16,9 +16,20 @@ class DailyWordDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
-    // On button devices without a dedicated MENU, SELECT also opens settings.
+    // On button devices without a dedicated MENU, SELECT opens settings.
     function onSelect() as Boolean {
         openSettings();
+        return true;
+    }
+
+    // UP / DOWN scroll the readings; also handle swipe on touch devices.
+    function onNextPage() as Boolean {
+        _view.scrollBy(40);
+        return true;
+    }
+
+    function onPreviousPage() as Boolean {
+        _view.scrollBy(-40);
         return true;
     }
 
