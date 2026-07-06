@@ -77,7 +77,7 @@ class DailyWordView extends WatchUi.View {
         if (_icon != null) {
             var iw = (_icon as WatchUi.BitmapResource).getWidth();
             dc.drawBitmap(cx - iw / 2, y, _icon as WatchUi.BitmapResource);
-            y += (_icon as WatchUi.BitmapResource).getHeight() + 4;
+            y += (_icon as WatchUi.BitmapResource).getHeight() + 14;
         }
 
         // Date, gold.
@@ -101,14 +101,6 @@ class DailyWordView extends WatchUi.View {
         y = drawRow(dc, cx, y, "2nd Reading", block["reading2"]);
         y = drawRow(dc, cx, y, "Psalm", block["psalm"]);
         y = drawRow(dc, cx, y, "Gospel", block["gospel"]);
-
-        // Daily scripture line, gray, wrapped.
-        var line = block["line"];
-        if (line instanceof String && (line as String).length() > 0) {
-            y += 6;
-            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-            y = drawWrapped(dc, cx, y, w - 24, line as String, Graphics.FONT_XTINY);
-        }
 
         // Record total content height for scroll clamping.
         _contentH = y + _scroll + 8;

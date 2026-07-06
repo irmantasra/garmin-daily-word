@@ -3,10 +3,10 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 // Language chooser. A checkmark marks the currently active language.
-class LanguageMenu extends WatchUi.Menu2 {
+class LanguageMenu extends WatchUi.CheckboxMenu {
 
     function initialize() {
-        Menu2.initialize({ :title => "Language" });
+        CheckboxMenu.initialize({ :title => "Language" });
         var useLt = usingLithuanian();
         addItem(new WatchUi.CheckboxMenuItem(
             "Lietuvių", "LT", "lt", useLt, null));
