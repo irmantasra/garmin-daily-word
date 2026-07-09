@@ -53,7 +53,15 @@ Upload **`bin/DailyWord.iq`** (≈1.25 MB, covers all 64 supported devices).
 **Privacy policy URL:**
 > https://irmantasra.github.io/garmin-daily-word/privacy.html
 
-## 4. Screenshots (required)
+## 4. Store artwork
+
+Pre-generated in `store-art/` (regenerate with
+`python3 scraper/make_store_art.py store-art`):
+
+- **`hero.png`** — 1440×720 hero banner
+- **`cover.png`** — 512×512 cover image
+
+## 5. Screenshots (required)
 
 Garmin requires at least one screenshot per listing. Capture from the
 simulator (device screen only, not the whole window):
@@ -65,7 +73,7 @@ simulator (device screen only, not the whole window):
 Recommended: one from a round device (e.g. fr965) and one from an
 AMOLED/rectangular device (e.g. venux1).
 
-## 5. Review notes
+## 6. Review notes
 
 - **Supported devices:** 64 watches (see DEVICES.md). 16 older models
   (API < 3.5) run as a full app without the glance — this is expected.
