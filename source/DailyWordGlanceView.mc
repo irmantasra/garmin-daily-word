@@ -24,9 +24,10 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
     }
 
     function onUpdate(dc as Graphics.Dc) as Void {
-        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
-        dc.clear();
+        // Clear to transparent so the system's glance background (a gradient
+        // on AMOLED devices) shows through instead of a flat black box.
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.clear();
 
         var w = dc.getWidth();
         var h = dc.getHeight();
