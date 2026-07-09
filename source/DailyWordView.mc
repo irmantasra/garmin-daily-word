@@ -100,10 +100,11 @@ class DailyWordView extends WatchUi.View {
         }
         y += 10;
 
-        y = drawRow(dc, cx, y, "1st Reading", block["reading1"]);
-        y = drawRow(dc, cx, y, "2nd Reading", block["reading2"]);
-        y = drawRow(dc, cx, y, "Psalm", block["psalm"]);
-        y = drawRow(dc, cx, y, "Gospel", block["gospel"]);
+        var lt = LanguageMenu.usingLithuanian();
+        y = drawRow(dc, cx, y, lt ? "Pirmasis skaitinys" : "1st Reading", block["reading1"]);
+        y = drawRow(dc, cx, y, lt ? "Antrasis skaitinys" : "2nd Reading", block["reading2"]);
+        y = drawRow(dc, cx, y, lt ? "Psalmė" : "Psalm", block["psalm"]);
+        y = drawRow(dc, cx, y, lt ? "Evangelija" : "Gospel", block["gospel"]);
 
         // Record total content height for scroll clamping.
         _contentH = y + _scroll + 8;
