@@ -69,15 +69,18 @@ class DailyWordView extends WatchUi.View {
             return;
         }
 
+        // Top margin scales with screen height so content clears the round
+        // screen's top chord on small and large devices alike.
+        var topMargin = _viewH / 8;
         // y walks down the virtual (unscrolled) content; subtract _scroll to
         // place it on screen.
-        var y = 8 - _scroll;
+        var y = topMargin - _scroll;
 
-        // Bible icon, centered.
+        // Bible icon, centered (gap scales with screen).
         if (_icon != null) {
             var iw = (_icon as WatchUi.BitmapResource).getWidth();
             dc.drawBitmap(cx - iw / 2, y, _icon as WatchUi.BitmapResource);
-            y += (_icon as WatchUi.BitmapResource).getHeight() + 14;
+            y += (_icon as WatchUi.BitmapResource).getHeight() + _viewH / 20;
         }
 
         // Date, gold.
