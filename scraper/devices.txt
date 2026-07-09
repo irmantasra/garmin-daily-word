@@ -1,67 +1,67 @@
-# Target devices: <productId> <launcherIconSize>
-# Popular modern glance-capable watches (CIQ >= 3.2). Icon sizes per Garmin
-# device reference; used to generate per-device launcher icons and the
-# manifest product list.
+# Auto-generated from installed SDK device definitions.
+# <productId> <launcherIconSize>. Only glance-capable devices.
 
-# Forerunner
-fr55 35
-fr165 40
-fr165m 40
-fr245 35
-fr245m 35
+enduro 40
+fenix6 40
+fenix6pro 40
+fenix6s 40
+fenix6spro 40
+fenix6xpro 40
+fenix7 40
+fenix7pro 40
+fenix7pronowifi 40
+fenix7s 40
+fenix7spro 40
+fenix7x 40
+fenix7xpro 40
+fenix7xpronowifi 40
+fenix843mm 60
+fenix847mm 65
+fenix8pro47mm 65
+fenix8solar47mm 40
+fenix8solar51mm 40
+fenixe 60
+fr165 54
+fr165m 54
+fr170 54
+fr170m 54
+fr245 40
+fr245m 40
 fr255 40
-fr255s 40
 fr255m 40
+fr255s 40
 fr255sm 40
 fr265 60
 fr265s 60
-fr955 60
-fr965 60
-
-# Fenix / Epix / tactix / quatix
-fenix6 36
-fenix6pro 36
-fenix6s 36
-fenix6spro 36
-fenix6x 36
-fenix6xpro 36
-fenix7 40
-fenix7s 40
-fenix7x 40
-fenix7pro 40
-fenix7spro 40
-fenix7xpro 40
-fenix843mm 40
-fenix847mm 40
-fenixe 40
-epix2 60
-epix2pro42mm 60
-epix2pro47mm 60
-epix2pro51mm 60
-
-# Venu
-venu 60
-venu2 60
-venu2s 60
-venu2plus 60
-venu3 60
-venu3s 60
-venusq 40
-venusq2 60
-venusqm 40
-
-# Vivoactive
-vivoactive4 60
-vivoactive4s 60
-vivoactive5 60
-
-# Instinct
-instinct2 30
-instinct2s 30
-instinct2x 30
-instinct3amoled45mm 40
-instinct3solar45mm 30
-
-# MARQ (gen2)
-marq2 60
-marq2aviator 60
+fr55 35
+fr57042mm 54
+fr57047mm 65
+fr70 54
+fr745 40
+fr945 40
+fr945lte 40
+fr955 40
+fr965 65
+fr970 65
+instinct2 62
+instinct2s 54
+instinct2x 62
+instinct3amoled45mm 60
+instinct3amoled50mm 60
+instinct3solar45mm 62
+instinctcrossover 26
+instinctcrossoveramoled 38
+instincte40mm 52
+instincte45mm 62
+venu2 70
+venu2plus 70
+venu2s 61
+venu3 70
+venu3s 70
+venu441mm 54
+venu445mm 65
+venusq2 40
+venusq2m 40
+venux1 65
+vivoactive5 56
+vivoactive6 54
