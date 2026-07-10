@@ -122,7 +122,7 @@ class DailyWordView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, y, Graphics.FONT_XTINY, label,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        y += dc.getFontHeight(Graphics.FONT_XTINY) + 2; // gap label -> ref
+        y += dc.getFontHeight(Graphics.FONT_XTINY) + 8; // gap label -> ref
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         y = drawWrapped(dc, cx, y, w - 16, ref as String, Graphics.FONT_SMALL);
