@@ -47,9 +47,9 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var gospel = block["gospel"];
         var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        // Center the two-line block on h/2 so it aligns with the icon, which
-        // the system draws centered in the glance.
-        var h1 = dc.getFontHeight(Graphics.FONT_GLANCE_NUMBER);
+        // FONT_GLANCE (not FONT_GLANCE_NUMBER, which is digits-only and would
+        // drop the book abbreviation letters like "Mt").
+        var h1 = dc.getFontHeight(Graphics.FONT_GLANCE);
         var h2 = dc.getFontHeight(Graphics.FONT_XTINY);
         var gap = -2; // lines overlap slightly; font heights include leading
         var blockTop = (h - (h1 + gap + h2)) / 2;
@@ -57,8 +57,8 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var bottom = blockTop + h1 + gap + h2 / 2;
 
         dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT); // gold
-        dc.drawText(2, top, Graphics.FONT_GLANCE_NUMBER,
-            fit(dc, gospelStr, w - 4, Graphics.FONT_GLANCE_NUMBER),
+        dc.drawText(2, top, Graphics.FONT_GLANCE,
+            fit(dc, gospelStr, w - 4, Graphics.FONT_GLANCE),
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
