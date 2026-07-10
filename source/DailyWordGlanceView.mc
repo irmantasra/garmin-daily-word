@@ -48,9 +48,11 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var gospel = block["gospel"];
         var gospelStr = gospel instanceof String ? gospel as String : "—";
 
-        // FONT_GLANCE (not FONT_GLANCE_NUMBER, which is digits-only and would
-        // drop the book abbreviation letters like "Mt").
-        var h1 = dc.getFontHeight(Graphics.FONT_GLANCE);
+        // Largest font whose text fits the width (and has letters, unlike the
+        // digits-only FONT_GLANCE_NUMBER). Keeps the reference big without
+        // truncating the book abbreviation.
+        var refFont = largestFontThatFits(dc, gospelStr, w - 4);
+        var h1 = dc.getFontHeight(refFont);
         var h2 = dc.getFontHeight(Graphics.FONT_XTINY);
         var gap = -2; // lines overlap slightly; font heights include leading
         var blockTop = (h - (h1 + gap + h2)) / 2;
@@ -58,8 +60,7 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
         var bottom = blockTop + h1 + gap + h2 / 2;
 
         dc.setColor(0xE2B74A, Graphics.COLOR_TRANSPARENT); // gold
-        dc.drawText(2, top, Graphics.FONT_GLANCE,
-            fit(dc, gospelStr, w - 4, Graphics.FONT_GLANCE),
+        dc.drawText(2, top, refFont, gospelStr,
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
         var useLt = Application.Properties.getValue("useLithuanian");
@@ -70,15 +71,19 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
-    // Truncates text with an ellipsis to fit the given pixel width.
-    private function fit(dc as Graphics.Dc, text as String, maxW as Number, font as Graphics.FontType) as String {
-        if (dc.getTextWidthInPixels(text, font) <= maxW) {
-            return text;
+    // Returns the largest font (from big to small) whose text fits maxW.
+    // Falls back to the smallest if none fit.
+    private function largestFontThatFits(dc as Graphics.Dc, text as String, maxW as Number) as Graphics.FontType {
+        var fonts = [
+            Graphics.FONT_MEDIUM,
+            Graphics.FONT_GLANCE,
+            Graphics.FONT_XTINY
+        ] as Array<Graphics.FontType>;
+        for (var i = 0; i < fonts.size(); i++) {
+            if (dc.getTextWidthInPixels(text, fonts[i]) <= maxW) {
+                return fonts[i];
+            }
         }
-        var s = text;
-        while (s.length() > 1 && dc.getTextWidthInPixels(s + "…", font) > maxW) {
-            s = s.substring(0, s.length() - 1);
-        }
-        return s + "…";
+        return Graphics.FONT_XTINY;
     }
 }
