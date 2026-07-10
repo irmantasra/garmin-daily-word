@@ -64,7 +64,7 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
 
         var useLt = Application.Properties.getValue("useLithuanian");
         var invite = (useLt == null || useLt as Boolean)
-            ? "Atverti skaitinius" : "Open for readings";
+            ? "Žiūrėti skaitinius" : "Open for readings";
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(2, bottom, Graphics.FONT_XTINY, invite,
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
