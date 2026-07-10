@@ -1,3 +1,4 @@
+import Toybox.Application;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
@@ -61,9 +62,11 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
             fit(dc, gospelStr, w - 4, Graphics.FONT_GLANCE),
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
 
+        var useLt = Application.Properties.getValue("useLithuanian");
+        var invite = (useLt == null || useLt as Boolean)
+            ? "Atverti skaitinius" : "Open for readings";
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(2, bottom, Graphics.FONT_XTINY,
-            "Open for readings",
+        dc.drawText(2, bottom, Graphics.FONT_XTINY, invite,
             Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 

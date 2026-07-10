@@ -112,21 +112,21 @@ class DailyWordView extends WatchUi.View {
         drawScrollHint(dc, w);
     }
 
-    // Draws label then reference on the next line (with a gap), returns next y.
+    // Draws label then reference (wrapped if long) below it, returns next y.
     private function drawRow(dc as Graphics.Dc, cx as Number, y as Numeric,
                              label as String, ref as Object?) as Numeric {
         if (!(ref instanceof String) || (ref as String).length() == 0) {
             return y;
         }
+        var w = dc.getWidth();
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, y, Graphics.FONT_XTINY, label,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         y += dc.getFontHeight(Graphics.FONT_XTINY) + 2; // gap label -> ref
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(cx, y, Graphics.FONT_SMALL, ref as String,
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        y += dc.getFontHeight(Graphics.FONT_SMALL) + 10; // gap to next row
+        y = drawWrapped(dc, cx, y, w - 16, ref as String, Graphics.FONT_SMALL);
+        y += 8; // gap to next row
         return y;
     }
 

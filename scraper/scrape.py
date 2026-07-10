@@ -150,6 +150,48 @@ EN_BLOCK = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 
+# Abbreviate English book names so references fit a watch screen, e.g.
+# "Matthew 10:16-23" -> "Mt 10:16-23". Longest names first so multi-word
+# names match before their prefixes.
+EN_BOOK_ABBR = [
+    ("Song of Songs", "Sg"), ("Song of Solomon", "Sg"),
+    ("1 Samuel", "1 Sm"), ("2 Samuel", "2 Sm"),
+    ("1 Kings", "1 Kgs"), ("2 Kings", "2 Kgs"),
+    ("1 Chronicles", "1 Chr"), ("2 Chronicles", "2 Chr"),
+    ("1 Maccabees", "1 Mc"), ("2 Maccabees", "2 Mc"),
+    ("1 Corinthians", "1 Cor"), ("2 Corinthians", "2 Cor"),
+    ("1 Thessalonians", "1 Thes"), ("2 Thessalonians", "2 Thes"),
+    ("1 Timothy", "1 Tm"), ("2 Timothy", "2 Tm"),
+    ("1 Peter", "1 Pt"), ("2 Peter", "2 Pt"),
+    ("1 John", "1 Jn"), ("2 John", "2 Jn"), ("3 John", "3 Jn"),
+    ("Genesis", "Gn"), ("Exodus", "Ex"), ("Leviticus", "Lv"),
+    ("Numbers", "Nm"), ("Deuteronomy", "Dt"), ("Joshua", "Jos"),
+    ("Judges", "Jgs"), ("Ruth", "Ru"), ("Nehemiah", "Neh"),
+    ("Ezra", "Ezr"), ("Tobit", "Tb"), ("Judith", "Jdt"),
+    ("Esther", "Est"), ("Job", "Jb"), ("Psalms", "Ps"), ("Psalm", "Ps"),
+    ("Proverbs", "Prv"), ("Ecclesiastes", "Eccl"), ("Wisdom", "Wis"),
+    ("Sirach", "Sir"), ("Isaiah", "Is"), ("Jeremiah", "Jer"),
+    ("Lamentations", "Lam"), ("Baruch", "Bar"), ("Ezekiel", "Ez"),
+    ("Daniel", "Dn"), ("Hosea", "Hos"), ("Joel", "Jl"), ("Amos", "Am"),
+    ("Obadiah", "Ob"), ("Jonah", "Jon"), ("Micah", "Mi"), ("Nahum", "Na"),
+    ("Habakkuk", "Hb"), ("Zephaniah", "Zep"), ("Haggai", "Hg"),
+    ("Zechariah", "Zec"), ("Malachi", "Mal"),
+    ("Matthew", "Mt"), ("Mark", "Mk"), ("Luke", "Lk"), ("John", "Jn"),
+    ("Acts of the Apostles", "Acts"), ("Acts", "Acts"),
+    ("Romans", "Rom"), ("Galatians", "Gal"), ("Ephesians", "Eph"),
+    ("Philippians", "Phil"), ("Colossians", "Col"), ("Philemon", "Phlm"),
+    ("Hebrews", "Heb"), ("James", "Jas"), ("Jude", "Jude"),
+    ("Revelation", "Rv"),
+]
+
+
+def abbrev_en(ref: str) -> str:
+    """Replace a leading English book name with its short form."""
+    for full, short in EN_BOOK_ABBR:
+        if ref.startswith(full):
+            return short + ref[len(full):]
+    return ref
+
 
 def parse_en(html: str) -> dict:
     out: dict[str, str] = {}
@@ -161,7 +203,7 @@ def parse_en(html: str) -> dict:
             out["event"] = title
     for name, addr in EN_BLOCK.findall(html):
         name = strip_tags(name).lower()
-        addr = strip_tags(addr)
+        addr = abbrev_en(strip_tags(addr))
         if name.startswith("reading 1") or name == "reading i":
             out["reading1"] = addr
         elif name.startswith("reading 2") or name == "reading ii":
