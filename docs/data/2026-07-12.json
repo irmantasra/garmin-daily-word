@@ -1,13 +1,15 @@
 {
   "date": "2026-07-12",
-  "lt": {},
+  "lt": {
+    "event": "XV eilinis sekmadienis",
+    "reading1": "Iz 55, 10-11",
+    "psalm": "Ps 64 (65), 10abcd. 10e-11. 12-13. 14",
+    "reading2": "Rom 8, 18-23",
+    "gospel": "Mt 13, 1-23",
+    "line": "Pasėlys geroje žemėje – tasai, kuris girdi ir supranta žodį; tas ir duoda derlių: kas šimteriopą, kas šešiasdešimteriopą, o kas trisdešimteriopą."
+  },
   "season": "ordinary",
   "en": {
-    "event": "Fifteenth Sunday in Ordinary Time",
-    "reading1": "Is 55:10-11",
-    "psalm": "Ps 65:10, 11, 12-13, 14",
-    "reading2": "Rom 8:18-23",
-    "gospel": "Mt 13:1-23",
-    "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
+    "error": "HTTP Error 403: Forbidden"
   }
 }

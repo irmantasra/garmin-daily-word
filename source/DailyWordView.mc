@@ -1,6 +1,5 @@
 import Toybox.Graphics;
 import Toybox.Lang;
-import Toybox.System;
 import Toybox.WatchUi;
 
 // Scrollable readings view: Bible icon, date + liturgical event, the reading
@@ -124,90 +123,6 @@ class DailyWordView extends WatchUi.View {
         _contentH = y + _scroll + 8;
 
         drawScrollHint(dc, w);
-        drawSeasonRing(dc);
-    }
-
-    // Liturgical season color (or -1 for none).
-    private function seasonColor() as Number {
-        var r = _data.readings;
-        if (!(r instanceof Dictionary)) {
-            return -1;
-        }
-        var s = (r as Dictionary)["season"];
-        if (!(s instanceof String)) {
-            return -1;
-        }
-        if (s.equals("ordinary")) { return 0x1E7A34; }  // green
-        if (s.equals("lent"))     { return 0x6A3FA0; }  // violet
-        if (s.equals("festive"))  { return 0xE2B74A; }  // gold
-        if (s.equals("red"))      { return 0xC0392B; }  // red
-        if (s.equals("rose"))     { return 0xD98CA8; }  // rose
-        return -1;
-    }
-
-    // Draws a 2px accent ring in the season color, shaped to the screen.
-    // AMOLED screens get a subtle top-to-bottom gradient; MIP screens a flat
-    // ring.
-    private function drawSeasonRing(dc as Graphics.Dc) as Void {
-        var color = seasonColor();
-        if (color < 0) {
-            return;
-        }
-        var w = dc.getWidth();
-        var h = dc.getHeight();
-        var pen = 3;
-        dc.setPenWidth(pen);
-
-        var shape = System.getDeviceSettings().screenShape;
-        var amoled = isAmoled();
-
-        if (shape == System.SCREEN_SHAPE_ROUND) {
-            var r = (w < h ? w : h) / 2 - pen;
-            if (amoled) {
-                drawGradientArc(dc, w / 2, h / 2, r, color);
-            } else {
-                dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-                dc.drawCircle(w / 2, h / 2, r);
-            }
-        } else {
-            // Rectangle / semi-round: rounded-rect border.
-            dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-            var inset = pen;
-            dc.drawRoundedRectangle(inset, inset, w - 2 * inset, h - 2 * inset, 12);
-        }
-        dc.setPenWidth(1);
-    }
-
-    // Approximates a gradient by drawing arc segments from a darker shade at
-    // the bottom to the full color at the top.
-    private function drawGradientArc(dc as Graphics.Dc, cx as Number, cy as Number,
-                                     r as Number, color as Number) as Void {
-        var steps = 12;
-        for (var i = 0; i < steps; i++) {
-            var startDeg = 90 - (i * 360 / steps);
-            var endDeg = 90 - ((i + 1) * 360 / steps);
-            // Fade factor: 1.0 at top (i=0/steps), down to ~0.45 at bottom.
-            var t = i < steps / 2 ? i : steps - i;
-            var f = 100 - (t * 55 / (steps / 2));
-            dc.setColor(scaleColor(color, f), Graphics.COLOR_TRANSPARENT);
-            dc.drawArc(cx, cy, r, Graphics.ARC_CLOCKWISE, startDeg, endDeg);
-        }
-    }
-
-    // Scales an RGB color's brightness to pct (0-100).
-    private function scaleColor(color as Number, pct as Number) as Number {
-        var r = ((color >> 16) & 0xFF) * pct / 100;
-        var g = ((color >> 8) & 0xFF) * pct / 100;
-        var b = (color & 0xFF) * pct / 100;
-        return (r << 16) | (g << 8) | b;
-    }
-
-    private function isAmoled() as Boolean {
-        var s = System.getDeviceSettings();
-        if (s has :requiresBurnInProtection) {
-            return s.requiresBurnInProtection;
-        }
-        return false;
     }
 
     // Draws label then reference (wrapped if long) below it, returns next y.

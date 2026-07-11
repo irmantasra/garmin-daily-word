@@ -36,6 +36,9 @@ EN_URL = "https://bible.usccb.org/bible/readings/{mmddyy}.cfm"
 
 
 def fetch(url: str, encoding: str) -> str:
+    """Fetch a URL. encoding may be a codec name, or "auto" to detect the
+    charset from the page's <meta> tag (katalikai mixes windows-1257 weekday
+    pages with UTF-8 Sunday pages)."""
     headers = {
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -46,7 +49,11 @@ def fetch(url: str, encoding: str) -> str:
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-                return resp.read().decode(encoding, errors="replace")
+                raw = resp.read()
+                if encoding == "auto":
+                    enc = detect_charset(raw)
+                    return raw.decode(enc, errors="replace")
+                return raw.decode(encoding, errors="replace")
         except urllib.error.HTTPError as e:
             last = e
             if e.code in (403, 429, 503) and attempt < 2:
@@ -54,6 +61,15 @@ def fetch(url: str, encoding: str) -> str:
                 continue
             raise
     raise last  # pragma: no cover
+
+
+def detect_charset(raw: bytes) -> str:
+    head = raw[:2048].decode("ascii", errors="replace").lower()
+    m = re.search(r'charset=["\']?([\w-]+)', head)
+    if m:
+        cs = m.group(1)
+        return "windows-1257" if cs in ("windows-1257", "cp1257") else cs
+    return "windows-1257"  # katalikai weekday default
 
 
 def strip_tags(s: str) -> str:
@@ -117,9 +133,14 @@ def resolve_lt_url(date: dt.date) -> tuple[str, str | None]:
     raise ValueError("no readings link on index page " + index)
 
 
-# <p class="rubrika">Pirmasis skaitinys (Ef 2, 19.22) ...
+# Weekday format: <p class="rubrika">Pirmasis skaitinys (Ef 2, 19.22) ...
 LT_RUBRIC = re.compile(
     r'class="rubrika"[^>]*>\s*([^(<]+?)\s*\(([^)]+)\)', re.IGNORECASE
+)
+
+# Sunday/feast format: <h2>Pirmasis skaitinys <code>Iz 55, 10-11</code></h2>
+LT_H2 = re.compile(
+    r'<h2[^>]*>\s*([^<]+?)\s*<code>\s*(.*?)\s*</code>', re.IGNORECASE | re.DOTALL
 )
 
 # Header spans naming the liturgical day/feast, e.g.
@@ -131,13 +152,74 @@ LT_EVENT = re.compile(
 )
 
 
+LT_H1 = re.compile(r'<h1[^>]*>(.*?)</h1>', re.IGNORECASE | re.DOTALL)
+
+
 def parse_lt_event(html: str) -> str:
-    parts = []
-    for _cls, text in LT_EVENT.findall(html):
+    # Group by span class: the site sometimes splits one title across multiple
+    # same-class spans (e.g. "X" + "V eilinė savaitė"), so join those directly
+    # and only separate different classes with a comma.
+    groups: dict[str, str] = {}
+    order: list[str] = []
+    for cls, text in LT_EVENT.findall(html):
         t = re.sub(r"\s+", " ", unescape(text)).strip()
-        if t and t not in parts:
-            parts.append(t)
-    return ", ".join(parts)
+        if not t:
+            continue
+        cls = cls.lower()
+        if cls not in groups:
+            groups[cls] = ""
+            order.append(cls)
+        # No space when the running text ends mid-word (e.g. "X" + "V ...").
+        sep = "" if groups[cls] == "" else " "
+        groups[cls] = (groups[cls] + sep + t).strip()
+    parts = []
+    for cls in order:
+        v = groups[cls]
+        if v and v not in parts:
+            parts.append(v)
+    if parts:
+        joined = ", ".join(parts)
+        # Collapse a split Roman numeral like "X V eilinė" -> "XV eilinė".
+        joined = re.sub(r"\b([IVXLCDM]) ([IVXLCDM]+)\b", r"\1\2", joined)
+        return joined
+    # Sunday/feast pages carry the title in <h1>, e.g.
+    # "XV EILINIS SEKMADIENIS (A/_ABC)". Drop the lectionary-cycle marker and
+    # title-case it.
+    m = LT_H1.search(html)
+    if m:
+        inner = re.sub(r"(?is)<small>.*?</small>", "", m.group(1))  # drop "(p. 275)"
+        t = strip_tags(inner)
+        t = re.sub(r"\s*\([^)]*\)", "", t).strip()  # drop cycle marker "(A/_ABC)"
+        if t:
+            return sentence_case_lt(t)
+    return ""
+
+
+def sentence_case_lt(text: str) -> str:
+    """Site prints Sunday titles all-caps. Lowercase words but keep Roman
+    numerals (e.g. XV) upper: 'XV EILINIS SEKMADIENIS' -> 'XV eilinis
+    sekmadienis'."""
+    roman = re.compile(r"^[IVXLCDM]+$")
+    words = text.split()
+    out = []
+    for w in words:
+        out.append(w if roman.match(w) else w.lower())
+    return " ".join(out)
+
+
+def _assign_lt_ref(out: dict, label: str, ref: str) -> None:
+    label = label.lower()
+    ref = norm_ref(ref)
+    if "pirmasis" in label:
+        out["reading1"] = ref
+    elif "antrasis" in label:
+        out["reading2"] = ref
+    elif "psalm" in label:
+        out["psalm"] = ref
+    elif "evangelija" in label:
+        out["gospel"] = ref
+    elif "skaitinys" in label and "reading1" not in out:
+        out["reading1"] = ref
 
 
 def parse_lt(html: str) -> dict:
@@ -145,24 +227,46 @@ def parse_lt(html: str) -> dict:
     event = parse_lt_event(html)
     if event:
         out["event"] = event
+
+    # Weekday format (class="rubrika" with "(ref)").
     for label, ref in LT_RUBRIC.findall(html):
-        label = label.lower()
-        ref = norm_ref(ref)
-        if "pirmasis" in label or "skaitinys" in label and "reading1" not in out:
-            out.setdefault("reading1", ref)
-        if "psalm" in label:
-            out["psalm"] = ref
-        if "evangelija" in label:
-            out["gospel"] = ref
-    # Daily line: last sentence of the gospel block (after the final <br>).
-    body = html.split('class="rubrika">Evangelija', 1)
-    if len(body) == 2:
-        text = strip_tags(body[1])
-        # take the closing sentence(s) inside quotes if present, else last sentence
-        sentences = re.split(r"(?<=[.!?])\s+", text)
-        tail = [s for s in sentences if s][-1:] or [""]
-        out["line"] = clean_line(tail[0])[:180]
+        _assign_lt_ref(out, label, ref)
+    if "reading1" in out or "gospel" in out:
+        body = html.split('class="rubrika">Evangelija', 1)
+        if len(body) == 2:
+            out["line"] = _last_sentence(strip_tags(body[1]))
+        return out
+
+    # Sunday/feast format (<h2>Label <code>ref</code></h2>).
+    for label, ref in LT_H2.findall(html):
+        ref = re.sub(r"<[^>]+>", " ", ref)  # drop inner <br/> etc.
+        ref = re.sub(r"\s+", " ", ref).strip()
+        # Gospel may offer "Ilgoji forma <ref> Trumpoji forma <ref>"; keep the
+        # long form (the reference right after "Ilgoji forma").
+        m = re.search(r"(?i)ilgoji\s+forma\s+(.*?)(?:\s+trumpoji\s+forma|$)", ref)
+        if m:
+            ref = m.group(1).strip()
+        ref = re.sub(r"(?i)\b(ilgoji|trumpoji)\s+forma\b", "", ref).strip()
+        # Psalm refs carry a "(P.: ...)" response cue — drop it for brevity.
+        ref = re.sub(r"\s*\(P\.:.*?\)", "", ref).strip()
+        _assign_lt_ref(out, label, ref)
+    # Daily line: closing sentence of the gospel body. The gospel text sits in
+    # <p> tags after the Evangelija <h2>, before the footer <hr>. Cut at <hr>.
+    gi = html.lower().rfind("<h2>evangelija")
+    if gi < 0:
+        gi = html.lower().rfind("evangelija")
+    if gi >= 0:
+        section = html[gi:]
+        section = re.split(r"<hr", section, 1, re.IGNORECASE)[0]
+        out["line"] = _last_sentence(strip_tags(section))
     return out
+
+
+def _last_sentence(text: str) -> str:
+    # Drop the liturgical closer that follows the passage on Sunday pages.
+    text = re.sub(r"(?i)\s*Tai (Viešpaties|Dievo) žodis\.?\s*$", "", text.strip())
+    sentences = [s for s in re.split(r"(?<=[.!?])\s+", text) if s]
+    return clean_line(sentences[-1])[:180] if sentences else ""
 
 
 # --- English (USCCB) --------------------------------------------------------
@@ -251,7 +355,7 @@ def scrape(date: dt.date) -> dict:
     result: dict = {"date": date.isoformat()}
     try:
         lt_url, season = resolve_lt_url(date)
-        result["lt"] = parse_lt(fetch(lt_url, "windows-1257"))
+        result["lt"] = parse_lt(fetch(lt_url, "auto"))
         if season:
             result["season"] = season
     except Exception as e:  # noqa: BLE001 - record failure, keep other lang
