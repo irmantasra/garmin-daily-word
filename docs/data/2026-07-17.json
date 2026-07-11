@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Friday of the Fifteenth Week in Ordinary Time",
+    "reading1": "Is 38:1-6, 21-22, 7-8",
+    "psalm": "Is 38:10, 11, 12abcd, 16",
+    "gospel": "Mt 12:1-8",
+    "line": "For the Son of Man is Lord of the sabbath."
   }
 }

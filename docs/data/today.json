@@ -1,15 +1,18 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-11",
   "lt": {
-    "event": "XV eilinis sekmadienis",
-    "reading1": "Iz 55, 10-11",
-    "psalm": "Ps 64 (65), 10abcd. 10e-11. 12-13. 14",
-    "reading2": "Rom 8, 18-23",
-    "gospel": "Mt 13, 1-23",
-    "line": "Pasėlys geroje žemėje – tasai, kuris girdi ir supranta žodį; tas ir duoda derlių: kas šimteriopą, kas šešiasdešimteriopą, o kas trisdešimteriopą."
+    "event": "Liepos 11 d., Šv. Benediktas (F)",
+    "reading1": "Pat 2, 1-9",
+    "psalm": "Ps 33, 2-4. 6. 9. 12. 14-15",
+    "gospel": "Mt 19, 27-29",
+    "line": "Ir kiekvienas, kas palieka namus, brolius, seseris, tėvą, motiną, vaikus, dirvas dėl manęs, gaus šimteriopai ir paveldės amžinąjį gyvenimą“."
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Memorial of Saint Benedict, Abbot",
+    "reading1": "Is 6:1-8",
+    "psalm": "Ps 93:1ab, 1cd-2, 5",
+    "gospel": "Mt 10:24-33",
+    "line": "But whoever denies me before others, I will deny before my heavenly Father."
   }
 }

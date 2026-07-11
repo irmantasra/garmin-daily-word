@@ -1,5 +1,23 @@
 {
   "days": {
+    "2026-07-11": {
+      "date": "2026-07-11",
+      "lt": {
+        "event": "Liepos 11 d., Šv. Benediktas (F)",
+        "reading1": "Pat 2, 1-9",
+        "psalm": "Ps 33, 2-4. 6. 9. 12. 14-15",
+        "gospel": "Mt 19, 27-29",
+        "line": "Ir kiekvienas, kas palieka namus, brolius, seseris, tėvą, motiną, vaikus, dirvas dėl manęs, gaus šimteriopai ir paveldės amžinąjį gyvenimą“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Benedict, Abbot",
+        "reading1": "Is 6:1-8",
+        "psalm": "Ps 93:1ab, 1cd-2, 5",
+        "gospel": "Mt 10:24-33",
+        "line": "But whoever denies me before others, I will deny before my heavenly Father."
+      }
+    },
     "2026-07-12": {
       "date": "2026-07-12",
       "lt": {
@@ -40,7 +58,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Memorial of Saint Kateri Tekakwitha, Virgin [In the Dioceses of the United States]",
+        "reading1": "Is 7:1-9",
+        "psalm": "Ps 48:2-3a, 3b-4, 5-6, 7-8",
+        "gospel": "Mt 11:20-24",
+        "line": "But I tell you, it will be more tolerable for the land of Sodom on the day of judgment than for you."
       }
     },
     "2026-07-15": {
@@ -82,21 +104,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
-      }
-    },
-    "2026-07-18": {
-      "date": "2026-07-18",
-      "lt": {
-        "event": "XV eilinė savaitė, Šeštadienis",
-        "reading1": "Mch 2, 1-5",
-        "psalm": "Ps 10 (Hebr.",
-        "gospel": "Mt 12, 14-21",
-        "line": "Jis nenulauš palūžusios nendrės ir neužgesins gruzdančio dagčio, kol neatneš teisybei laimėjimo; o jo vardas teiks viltį tautoms!"
-      },
-      "season": "ordinary",
-      "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Friday of the Fifteenth Week in Ordinary Time",
+        "reading1": "Is 38:1-6, 21-22, 7-8",
+        "psalm": "Is 38:10, 11, 12abcd, 16",
+        "gospel": "Mt 12:1-8",
+        "line": "For the Son of Man is Lord of the sabbath."
       }
     }
   }
