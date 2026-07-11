@@ -132,8 +132,10 @@ class DailyWordView extends WatchUi.View {
         y = drawRow(dc, cx, y, lt ? "Psalmė" : "Psalm", block["psalm"]);
         y = drawRow(dc, cx, y, lt ? "Evangelija" : "Gospel", block["gospel"]);
 
-        // Record total content height for scroll clamping.
-        _contentH = y + _scroll + 8;
+        // Record total content height for scroll clamping. Add bottom padding
+        // (~half a screen) so the last reading can scroll up to the middle
+        // instead of stopping at the bottom edge.
+        _contentH = y + _scroll + _viewH / 2;
 
         drawScrollHint(dc, w);
     }
