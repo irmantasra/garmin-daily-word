@@ -22,15 +22,29 @@ class DailyWordDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
-    // UP / DOWN scroll the readings; also handle swipe on touch devices.
+    // UP / DOWN buttons scroll by ~half a screen (animated).
     function onNextPage() as Boolean {
-        _view.scrollBy(40);
+        _view.scrollByPage(0.5);
         return true;
     }
 
     function onPreviousPage() as Boolean {
-        _view.scrollBy(-40);
+        _view.scrollByPage(-0.5);
         return true;
+    }
+
+    // Touchscreen swipe: up = scroll down, down = scroll up. A swipe moves
+    // most of a screen, animated for smoothness.
+    function onSwipe(evt as WatchUi.SwipeEvent) as Boolean {
+        var dir = evt.getDirection();
+        if (dir == WatchUi.SWIPE_UP) {
+            _view.scrollByPage(0.8);
+            return true;
+        } else if (dir == WatchUi.SWIPE_DOWN) {
+            _view.scrollByPage(-0.8);
+            return true;
+        }
+        return false;
     }
 
     private function openSettings() as Void {

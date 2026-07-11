@@ -40,20 +40,32 @@ class DailyWordData {
         return url as String;
     }
 
-    // Loads from local cache immediately, then refreshes over the network
-    // if the cache is stale (different day).
+    // Shows the best cached day immediately (works fully offline), then
+    // refreshes the multi-day bundle from the network when reachable.
     function load() as Void {
-        var key = todayKey();
-        var cached = Application.Storage.getValue("readings");
+        showCachedDay();
+        _triedFallback = false;
+        fetch("week.json");
+    }
 
-        // Show cached data instantly (if any), then always refresh from the
-        // network so same-day content updates are picked up.
-        if (cached != null) {
+    // Picks today's entry from the cached multi-day bundle (or the legacy
+    // single-day cache) so the app is useful before/without a network fetch.
+    private function showCachedDay() as Void {
+        var key = todayKey();
+        var bundle = Application.Storage.getValue("week");
+        if (bundle instanceof Dictionary) {
+            var days = (bundle as Dictionary)["days"];
+            if (days instanceof Dictionary && (days as Dictionary)[key] instanceof Dictionary) {
+                readings = (days as Dictionary)[key] as Dictionary;
+                _onUpdate.invoke();
+                return;
+            }
+        }
+        var cached = Application.Storage.getValue("readings");
+        if (cached instanceof Dictionary) {
             readings = cached as Dictionary;
             _onUpdate.invoke();
         }
-        _triedFallback = false;
-        fetch(key + ".json");
     }
 
     // Fetches as plain text (not JSON): GitHub Pages sends
@@ -74,25 +86,37 @@ class DailyWordData {
         if (code == 200 && data instanceof String) {
             var parsed = Json.parse(data as String);
             if (parsed instanceof Dictionary) {
-                readings = parsed as Dictionary;
-                errorMsg = null;
-                Application.Storage.setValue("readings", parsed);
-                Application.Storage.setValue("readingsDate", (parsed as Dictionary)["date"]);
+                storeResponse(parsed as Dictionary);
                 _onUpdate.invoke();
                 return;
             }
             errorMsg = "Bad data";
         } else if (!_triedFallback) {
-            // Today's dated file may not be published yet (the cron runs later
-            // in the day), or the request failed. Fall back to the
-            // always-current today.json once before giving up.
+            // week.json may be missing; fall back to the single-day file.
             _triedFallback = true;
-            fetch("today.json");
+            fetch(todayKey() + ".json");
             return;
-        } else {
+        } else if (readings == null) {
+            // Only surface an error if we have nothing cached to show.
             errorMsg = "HTTP " + code.toString();
         }
         _onUpdate.invoke();
+    }
+
+    // Handles both the multi-day bundle ({"days": {...}}) and a single day.
+    private function storeResponse(parsed as Dictionary) as Void {
+        errorMsg = null;
+        if (parsed["days"] instanceof Dictionary) {
+            Application.Storage.setValue("week", parsed);
+            var key = todayKey();
+            var days = parsed["days"] as Dictionary;
+            if (days[key] instanceof Dictionary) {
+                readings = days[key] as Dictionary;
+            }
+        } else {
+            readings = parsed;
+            Application.Storage.setValue("readings", parsed);
+        }
     }
 
     // Returns the sub-dictionary for the active language ("lt" or "en").

@@ -82,16 +82,38 @@ def clean_line(s: str) -> str:
 # real link from the index instead.
 LT_LINK = re.compile(r'href="(/_dls/[^"]+\.html)"', re.IGNORECASE)
 
+# Liturgical season band on the daily page, e.g. class="laikotarpio_juosta
+# lzalias". Maps the site's Lithuanian color word to a canonical season key.
+LT_SEASON = re.compile(r'laikotarpio_juosta\s+l([a-z]+)', re.IGNORECASE)
+SEASON_MAP = {
+    "zalias": "ordinary",    # green
+    "violetas": "lent",      # violet (Lent / Advent)
+    "geltonas": "festive",   # gold (Christmas / Easter / solemnities)
+    "baltas": "festive",     # white
+    "raudonas": "red",       # red (martyrs, Passion, Pentecost)
+    "rozinis": "rose",       # rose (Gaudete / Laetare)
+    "tridienis": "festive",  # Easter Triduum
+}
 
-def resolve_lt_url(date: dt.date) -> str:
+
+def parse_lt_season(index_html: str) -> str | None:
+    m = LT_SEASON.search(index_html)
+    if not m:
+        return None
+    return SEASON_MAP.get(m.group(1).lower())
+
+
+def resolve_lt_url(date: dt.date) -> tuple[str, str | None]:
+    """Returns (readings_url, season_key) for the given day."""
     index = LT_INDEX.format(
         yyyy=date.strftime("%Y"), mm=date.strftime("%m"), dd=date.strftime("%d")
     )
     html = fetch(index, "windows-1257")
+    season = parse_lt_season(html)
     for path in LT_LINK.findall(html):
         if "ivadas" in path.lower():  # skip the "readings order / intro" link
             continue
-        return LT_BASE + path
+        return LT_BASE + path, season
     raise ValueError("no readings link on index page " + index)
 
 
@@ -228,7 +250,10 @@ def scrape(date: dt.date) -> dict:
     mmddyy = date.strftime("%m%d%y")
     result: dict = {"date": date.isoformat()}
     try:
-        result["lt"] = parse_lt(fetch(resolve_lt_url(date), "windows-1257"))
+        lt_url, season = resolve_lt_url(date)
+        result["lt"] = parse_lt(fetch(lt_url, "windows-1257"))
+        if season:
+            result["season"] = season
     except Exception as e:  # noqa: BLE001 - record failure, keep other lang
         result["lt"] = {"error": str(e)}
     try:
@@ -238,26 +263,43 @@ def scrape(date: dt.date) -> dict:
     return result
 
 
+def write_json(path: Path, obj: object) -> None:
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8")
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="Scrape daily Mass reading refs.")
     p.add_argument("--date", help="YYYY-MM-DD (default: today)")
     p.add_argument("--out", default="data", help="output directory")
     p.add_argument("--stdout", action="store_true", help="print instead of writing")
+    p.add_argument("--days", type=int, default=1,
+                   help="also bundle N days from --date into week.json (offline cache)")
     args = p.parse_args()
 
     date = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
     data = scrape(date)
-    text = json.dumps(data, ensure_ascii=False, indent=2)
 
     if args.stdout:
-        print(text)
+        print(json.dumps(data, ensure_ascii=False, indent=2))
         return 0
 
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / f"{date.isoformat()}.json").write_text(text + "\n", encoding="utf-8")
-    (out_dir / "today.json").write_text(text + "\n", encoding="utf-8")
+    write_json(out_dir / f"{date.isoformat()}.json", data)
+    write_json(out_dir / "today.json", data)
     print(f"wrote {out_dir}/{date.isoformat()}.json", file=sys.stderr)
+
+    # Bundle several upcoming days so the watch can work offline for a while.
+    if args.days > 1:
+        bundle = {"days": {date.isoformat(): data}}
+        for i in range(1, args.days):
+            d = date + dt.timedelta(days=i)
+            day_data = scrape(d)
+            bundle["days"][d.isoformat()] = day_data
+            write_json(out_dir / f"{d.isoformat()}.json", day_data)
+        write_json(out_dir / "week.json", bundle)
+        print(f"wrote {out_dir}/week.json ({args.days} days)", file=sys.stderr)
     return 0
 
 
