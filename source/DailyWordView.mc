@@ -105,22 +105,24 @@ class DailyWordView extends WatchUi.View {
             y += dc.getFontHeight(Graphics.FONT_TINY);
         }
 
-        // Liturgical event, white, wrapped. A small season-colored dovetail
-        // pennant sits just left of the first line.
+        // Liturgical event, white, wrapped. A season-colored vertical dovetail
+        // flag sits just left of the first line.
         var event = block["event"];
         if (event instanceof String && (event as String).length() > 0) {
+            var eventFont = Graphics.FONT_XTINY;
             var color = seasonColor();
             if (color >= 0) {
-                var fh = dc.getFontHeight(Graphics.FONT_XTINY);
-                var firstLine = firstWrappedLine(dc, event as String, w - 24, Graphics.FONT_XTINY);
-                var lineW = dc.getTextWidthInPixels(firstLine, Graphics.FONT_XTINY);
-                var flagW = (fh * 0.9).toNumber();
-                var flagH = (fh * 0.55).toNumber();
-                var flagX = cx - lineW / 2 - flagW - 4;
-                drawFlag(dc, flagX, y, flagW, flagH, color);
+                var fh = dc.getFontHeight(eventFont);
+                var firstLine = firstWrappedLine(dc, event as String, w - 24, eventFont);
+                var lineW = dc.getTextWidthInPixels(firstLine, eventFont);
+                var flagW = (fh * 0.5).toNumber();
+                var flagH = (fh * 0.85).toNumber();
+                var flagX = cx - lineW / 2 - flagW - 6;
+                var flagY = y - flagH / 2;
+                drawFlag(dc, flagX, flagY, flagW, flagH, color);
             }
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            y = drawWrapped(dc, cx, y, w - 24, event as String, Graphics.FONT_XTINY);
+            y = drawWrapped(dc, cx, y, w - 24, event as String, eventFont);
         }
         y += 10;
 
@@ -172,27 +174,18 @@ class DailyWordView extends WatchUi.View {
         return -1;
     }
 
-    // Draws a small dovetail (swallowtail) pennant with its pole at (x, top).
+    // Draws a vertical dovetail flag (top-left at x/top), with the swallowtail
+    // notch cut into the bottom edge. No pole.
     private function drawFlag(dc as Graphics.Dc, x as Number, top as Numeric,
                               fw as Number, fh as Number, color as Number) as Void {
-        var poleX = x;
-        var poleTop = top;
-        var poleBot = top + (fh * 1.7).toNumber();
-        // Pole.
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(2);
-        dc.drawLine(poleX, poleTop, poleX, poleBot);
-        dc.setPenWidth(1);
-        // Pennant: rectangle-ish body with a V-notch cut into the fly end.
-        var fx = poleX + 1;
-        var notch = (fw * 0.35).toNumber();
+        var notch = (fh * 0.3).toNumber();
         dc.setColor(color, Graphics.COLOR_TRANSPARENT);
         dc.fillPolygon([
-            [fx, poleTop],
-            [fx + fw, poleTop],
-            [fx + fw - notch, poleTop + fh / 2],
-            [fx + fw, poleTop + fh],
-            [fx, poleTop + fh]
+            [x, top],
+            [x + fw, top],
+            [x + fw, top + fh],
+            [x + fw / 2, top + fh - notch],
+            [x, top + fh]
         ]);
     }
 
