@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Memorial of Saint Bonaventure, Bishop and Doctor of the Church",
+    "reading1": "Is 10:5-7, 13b-16",
+    "psalm": "Ps 94:5-6, 7-8, 9-10, 14-15",
+    "gospel": "Mt 11:25-27",
+    "line": "No one knows the Son except the Father, and no one knows the Father except the Son and anyone to whom the Son wishes to reveal him."
   }
 }
