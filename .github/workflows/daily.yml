@@ -25,8 +25,9 @@ jobs:
 
       - name: Scrape today + next week (and prune old files)
         run: |
-          # --days 7 also writes week.json so the watch works offline for days.
-          python3 scraper/scrape.py --out docs/data --days 7
+          # --days 7 writes week.json for offline use. --delay spaces out
+          # USCCB requests (Fastly blocks bursts); the daily cron can be slow.
+          python3 scraper/scrape.py --out docs/data --days 7 --delay 25
           # Keep only the last 14 daily files plus today.json / week.json.
           ls -1 docs/data/*.json 2>/dev/null | grep -E '[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$' \
             | sort | head -n -14 | xargs -r rm -f
