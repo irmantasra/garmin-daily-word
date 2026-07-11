@@ -105,9 +105,20 @@ class DailyWordView extends WatchUi.View {
             y += dc.getFontHeight(Graphics.FONT_TINY);
         }
 
-        // Liturgical event, white, wrapped.
+        // Liturgical event, white, wrapped. A small season-colored dovetail
+        // pennant sits just left of the first line.
         var event = block["event"];
         if (event instanceof String && (event as String).length() > 0) {
+            var color = seasonColor();
+            if (color >= 0) {
+                var fh = dc.getFontHeight(Graphics.FONT_XTINY);
+                var firstLine = firstWrappedLine(dc, event as String, w - 24, Graphics.FONT_XTINY);
+                var lineW = dc.getTextWidthInPixels(firstLine, Graphics.FONT_XTINY);
+                var flagW = (fh * 0.9).toNumber();
+                var flagH = (fh * 0.55).toNumber();
+                var flagX = cx - lineW / 2 - flagW - 4;
+                drawFlag(dc, flagX, y, flagW, flagH, color);
+            }
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             y = drawWrapped(dc, cx, y, w - 24, event as String, Graphics.FONT_XTINY);
         }
@@ -141,6 +152,63 @@ class DailyWordView extends WatchUi.View {
         y = drawWrapped(dc, cx, y, w - 16, ref as String, Graphics.FONT_SMALL);
         y += 8; // gap to next row
         return y;
+    }
+
+    // Liturgical season color from the readings data (or -1 for none).
+    private function seasonColor() as Number {
+        var r = _data.readings;
+        if (!(r instanceof Dictionary)) {
+            return -1;
+        }
+        var s = (r as Dictionary)["season"];
+        if (!(s instanceof String)) {
+            return -1;
+        }
+        if (s.equals("ordinary")) { return 0x2E9E4F; }  // green
+        if (s.equals("lent"))     { return 0x8A5CC8; }  // violet
+        if (s.equals("festive"))  { return 0xEACB5A; }  // gold/white
+        if (s.equals("red"))      { return 0xD0392B; }  // red
+        if (s.equals("rose"))     { return 0xE79ABD; }  // rose
+        return -1;
+    }
+
+    // Draws a small dovetail (swallowtail) pennant with its pole at (x, top).
+    private function drawFlag(dc as Graphics.Dc, x as Number, top as Numeric,
+                              fw as Number, fh as Number, color as Number) as Void {
+        var poleX = x;
+        var poleTop = top;
+        var poleBot = top + (fh * 1.7).toNumber();
+        // Pole.
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(2);
+        dc.drawLine(poleX, poleTop, poleX, poleBot);
+        dc.setPenWidth(1);
+        // Pennant: rectangle-ish body with a V-notch cut into the fly end.
+        var fx = poleX + 1;
+        var notch = (fw * 0.35).toNumber();
+        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+        dc.fillPolygon([
+            [fx, poleTop],
+            [fx + fw, poleTop],
+            [fx + fw - notch, poleTop + fh / 2],
+            [fx + fw, poleTop + fh],
+            [fx, poleTop + fh]
+        ]);
+    }
+
+    // Returns the first line drawWrapped would render (for flag positioning).
+    private function firstWrappedLine(dc as Graphics.Dc, text as String,
+                                      maxW as Number, font as Graphics.FontType) as String {
+        var words = splitWords(text);
+        var cur = "";
+        for (var i = 0; i < words.size(); i++) {
+            var trial = cur.equals("") ? words[i] : cur + " " + words[i];
+            if (dc.getTextWidthInPixels(trial, font) > maxW && !cur.equals("")) {
+                return cur;
+            }
+            cur = trial;
+        }
+        return cur;
     }
 
     // Word-wraps text, drawing centered lines from y. Returns the y after the
