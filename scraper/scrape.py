@@ -46,7 +46,8 @@ def fetch(url: str, encoding: str) -> str:
     }
     req = urllib.request.Request(url, headers=headers)
     last: Exception | None = None
-    for attempt in range(3):
+    # USCCB (Fastly) rate-limits bursts, so back off generously on 403/429.
+    for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 raw = resp.read()
@@ -56,8 +57,8 @@ def fetch(url: str, encoding: str) -> str:
                 return raw.decode(encoding, errors="replace")
         except urllib.error.HTTPError as e:
             last = e
-            if e.code in (403, 429, 503) and attempt < 2:
-                time.sleep(2 * (attempt + 1))
+            if e.code in (403, 429, 503) and attempt < 4:
+                time.sleep(5 * (attempt + 1))  # 5, 10, 15, 20s
                 continue
             raise
     raise last  # pragma: no cover
@@ -372,6 +373,29 @@ def write_json(path: Path, obj: object) -> None:
                     encoding="utf-8")
 
 
+def _has_readings(block: object) -> bool:
+    return isinstance(block, dict) and ("gospel" in block or "reading1" in block)
+
+
+def merge_prev(new: dict, out_dir: Path, date: dt.date) -> dict:
+    """If a language failed to scrape this run but the previously published
+    file for this date has good data, keep the good data (USCCB blocks bursts,
+    so we must not overwrite valid readings with an error placeholder)."""
+    prev_path = out_dir / f"{date.isoformat()}.json"
+    if not prev_path.exists():
+        return new
+    try:
+        prev = json.loads(prev_path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return new
+    for lang in ("lt", "en"):
+        if not _has_readings(new.get(lang)) and _has_readings(prev.get(lang)):
+            new[lang] = prev[lang]
+    if not new.get("season") and prev.get("season"):
+        new["season"] = prev["season"]
+    return new
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="Scrape daily Mass reading refs.")
     p.add_argument("--date", help="YYYY-MM-DD (default: today)")
@@ -379,6 +403,8 @@ def main() -> int:
     p.add_argument("--stdout", action="store_true", help="print instead of writing")
     p.add_argument("--days", type=int, default=1,
                    help="also bundle N days from --date into week.json (offline cache)")
+    p.add_argument("--delay", type=float, default=8.0,
+                   help="seconds to wait between days (avoids USCCB rate-blocks)")
     args = p.parse_args()
 
     date = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
@@ -390,6 +416,7 @@ def main() -> int:
 
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
+    data = merge_prev(data, out_dir, date)
     write_json(out_dir / f"{date.isoformat()}.json", data)
     write_json(out_dir / "today.json", data)
     print(f"wrote {out_dir}/{date.isoformat()}.json", file=sys.stderr)
@@ -398,8 +425,10 @@ def main() -> int:
     if args.days > 1:
         bundle = {"days": {date.isoformat(): data}}
         for i in range(1, args.days):
+            # Space out requests: USCCB (Fastly) blocks rapid bursts.
+            time.sleep(args.delay)
             d = date + dt.timedelta(days=i)
-            day_data = scrape(d)
+            day_data = merge_prev(scrape(d), out_dir, d)
             bundle["days"][d.isoformat()] = day_data
             write_json(out_dir / f"{d.isoformat()}.json", day_data)
         write_json(out_dir / "week.json", bundle)

@@ -74,9 +74,16 @@ class DailyWordView extends WatchUi.View {
         var block = _data.localized();
 
         if (block == null) {
-            var msg = _data.errorMsg != null
-                ? "Error: " + _data.errorMsg
-                : "Loading…";
+            var lt = LanguageMenu.usingLithuanian();
+            var msg;
+            if (_data.activeLangUnavailable()) {
+                // Data loaded, but the chosen language has no readings.
+                msg = lt ? "Nėra skaitinių\nšia kalba" : "No readings\nin this language";
+            } else if (_data.errorMsg != null) {
+                msg = (lt ? "Klaida: " : "Error: ") + _data.errorMsg;
+            } else {
+                msg = lt ? "Kraunama…" : "Loading…";
+            }
             dc.drawText(cx, _viewH / 2, Graphics.FONT_SMALL, msg,
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
             return;

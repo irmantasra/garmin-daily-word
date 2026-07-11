@@ -119,7 +119,8 @@ class DailyWordData {
         }
     }
 
-    // Returns the sub-dictionary for the active language ("lt" or "en").
+    // Returns the readings for the active language, or null if that language
+    // has no usable data (missing, or only an error placeholder).
     function localized() as Dictionary? {
         if (readings == null) {
             return null;
@@ -127,6 +128,21 @@ class DailyWordData {
         var useLt = Application.Properties.getValue("useLithuanian");
         var lang = (useLt == null || useLt as Boolean) ? "lt" : "en";
         var block = readings[lang];
-        return block instanceof Dictionary ? block as Dictionary : null;
+        if (!(block instanceof Dictionary)) {
+            return null;
+        }
+        var b = block as Dictionary;
+        // A block that only carries an "error" (or has no references) is not
+        // usable — treat as no data so the view shows a message.
+        if (b["gospel"] == null && b["reading1"] == null) {
+            return null;
+        }
+        return b;
+    }
+
+    // True when data loaded but the *active* language is unavailable (so the
+    // view can suggest switching language rather than just "no data").
+    function activeLangUnavailable() as Boolean {
+        return readings != null && localized() == null;
     }
 }
