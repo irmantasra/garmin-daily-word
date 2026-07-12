@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-11": {
-      "date": "2026-07-11",
-      "lt": {
-        "event": "Liepos 11 d., Šv. Benediktas (F)",
-        "reading1": "Pat 2, 1-9",
-        "psalm": "Ps 33, 2-4. 6. 9. 12. 14-15",
-        "gospel": "Mt 19, 27-29",
-        "line": "Ir kiekvienas, kas palieka namus, brolius, seseris, tėvą, motiną, vaikus, dirvas dėl manęs, gaus šimteriopai ir paveldės amžinąjį gyvenimą“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Benedict, Abbot",
-        "reading1": "Is 6:1-8",
-        "psalm": "Ps 93:1ab, 1cd-2, 5",
-        "gospel": "Mt 10:24-33",
-        "line": "But whoever denies me before others, I will deny before my heavenly Father."
-      }
-    },
     "2026-07-12": {
       "date": "2026-07-12",
       "lt": {
@@ -30,7 +12,12 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Fifteenth Sunday in Ordinary Time",
+        "reading1": "Is 55:10-11",
+        "psalm": "Ps 65:10, 11, 12-13, 14",
+        "reading2": "Rom 8:18-23",
+        "gospel": "Mt 13:1-23",
+        "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
       }
     },
     "2026-07-13": {
@@ -98,7 +85,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Thursday of the Fifteenth Week in Ordinary Time",
+        "reading1": "Is 26:7-9, 12, 16-19",
+        "psalm": "Ps 102:13-14ab and 15, 16-18, 19-21",
+        "gospel": "Mt 11:28-30",
+        "line": "For my yoke is easy, and my burden light."
       }
     },
     "2026-07-17": {
@@ -117,6 +108,24 @@
         "psalm": "Is 38:10, 11, 12abcd, 16",
         "gospel": "Mt 12:1-8",
         "line": "For the Son of Man is Lord of the sabbath."
+      }
+    },
+    "2026-07-18": {
+      "date": "2026-07-18",
+      "lt": {
+        "event": "XV eilinė savaitė, Šeštadienis",
+        "reading1": "Mch 2, 1-5",
+        "psalm": "Ps 10 (Hebr.",
+        "gospel": "Mt 12, 14-21",
+        "line": "Jis nenulauš palūžusios nendrės ir neužgesins gruzdančio dagčio, kol neatneš teisybei laimėjimo; o jo vardas teiks viltį tautoms!"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Saturday of the Fifteenth Week in Ordinary Time",
+        "reading1": "Mi 2:1-5",
+        "psalm": "Ps 10:1-2, 3-4, 7-8, 14",
+        "gospel": "Mt 12:14-21",
+        "line": "And in his name the Gentiles will hope."
       }
     }
   }

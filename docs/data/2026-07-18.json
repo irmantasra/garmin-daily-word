@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Saturday of the Fifteenth Week in Ordinary Time",
+    "reading1": "Mi 2:1-5",
+    "psalm": "Ps 10:1-2, 3-4, 7-8, 14",
+    "gospel": "Mt 12:14-21",
+    "line": "And in his name the Gentiles will hope."
   }
 }
