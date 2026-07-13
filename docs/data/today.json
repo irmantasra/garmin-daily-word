@@ -1,20 +1,18 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "lt": {
-    "event": "XV eilinis sekmadienis",
-    "reading1": "Iz 55, 10-11",
-    "psalm": "Ps 64 (65), 10abcd. 10e-11. 12-13. 14",
-    "reading2": "Rom 8, 18-23",
-    "gospel": "Mt 13, 1-23",
-    "line": "Pasėlys geroje žemėje – tasai, kuris girdi ir supranta žodį; tas ir duoda derlių: kas šimteriopą, kas šešiasdešimteriopą, o kas trisdešimteriopą."
+    "event": "XV eilinė savaitė, Pirmadienis",
+    "reading1": "Iz 1, 11-17",
+    "psalm": "Ps 49, 8-9. 16-17. 21. 23",
+    "gospel": "Mt 10, 34-11, 1",
+    "line": "Baigęs nurodymus dvylikai mokinių, Jėzus iškeliavo toliau mokyti ir skelbti Evangelijos kituose miestuose."
   },
   "season": "ordinary",
   "en": {
-    "event": "Fifteenth Sunday in Ordinary Time",
-    "reading1": "Is 55:10-11",
-    "psalm": "Ps 65:10, 11, 12-13, 14",
-    "reading2": "Rom 8:18-23",
-    "gospel": "Mt 13:1-23",
-    "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
+    "event": "Monday of the Fifteenth Week in Ordinary Time",
+    "reading1": "Is 1:10-17",
+    "psalm": "Ps 50:8-9, 16bc-17, 21, 23",
+    "gospel": "Mt 10:34-11:1",
+    "line": "And whoever gives only a cup of cold water to one of these little ones to drink because he is a disciple– amen, I say to you, he will surely not lose his reward.”When Jesus finishe"
   }
 }
