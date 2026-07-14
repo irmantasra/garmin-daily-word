@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-13": {
-      "date": "2026-07-13",
-      "lt": {
-        "event": "XV eilinė savaitė, Pirmadienis",
-        "reading1": "Iz 1, 11-17",
-        "psalm": "Ps 49, 8-9. 16-17. 21. 23",
-        "gospel": "Mt 10, 34-11, 1",
-        "line": "Baigęs nurodymus dvylikai mokinių, Jėzus iškeliavo toliau mokyti ir skelbti Evangelijos kituose miestuose."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Fifteenth Week in Ordinary Time",
-        "reading1": "Is 1:10-17",
-        "psalm": "Ps 50:8-9, 16bc-17, 21, 23",
-        "gospel": "Mt 10:34-11:1",
-        "line": "And whoever gives only a cup of cold water to one of these little ones to drink because he is a disciple– amen, I say to you, he will surely not lose his reward.”When Jesus finishe"
-      }
-    },
     "2026-07-14": {
       "date": "2026-07-14",
       "lt": {
@@ -120,6 +102,24 @@
       "season": "ordinary",
       "en": {
         "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    "2026-07-20": {
+      "date": "2026-07-20",
+      "lt": {
+        "event": "XVI eilinė savaitė, Pirmadienis",
+        "reading1": "Mch 6, 1-4. 6-8",
+        "psalm": "Ps 49, 5-6. 8-9. 16bc-17. 21. 23.",
+        "gospel": "Mt 12, 38-42",
+        "line": "Pietų karalienė teismo dieną prisikels drauge su šia karta ir ją pasmerks, ji ėjo iš žemės pakraščių klausytis Saliamono išminties, o štai čia daugiau, negu Saliamonas“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Sixteenth Week in Ordinary Time",
+        "reading1": "Mi 6:1-4, 6-8",
+        "psalm": "Ps 50:5-6, 8-9, 16bc-17, 21, 23",
+        "gospel": "Mt 12:38-42",
+        "line": "At the judgment the queen of the south will arise with this generation and condemn it, because she came from the ends of the earth to hear the wisdom of Solomon; and there is somet"
       }
     }
   }
