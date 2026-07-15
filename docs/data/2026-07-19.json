@@ -9,6 +9,11 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Sixteenth Sunday in Ordinary Time",
+    "reading1": "Wis 12:13, 16-19",
+    "psalm": "Ps 86:5-6, 9-10, 15-16",
+    "reading2": "Rom 8:26-27",
+    "gospel": "Mt 13:24-43",
+    "line": "Whoever has ears ought to hear."
   }
 }
