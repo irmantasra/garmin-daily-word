@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "lt": {
-    "event": "XV eilinė savaitė, Penktadienis",
-    "reading1": "Iz 38, 1-6. 22. 7-8",
-    "psalm": "Iz 38, 10-12. 16",
-    "gospel": "Mt 12, 1-8",
-    "line": "Žmogaus Sūnus yra šeštadienio Viešpats“."
+    "event": "XV eilinė savaitė, Šeštadienis",
+    "reading1": "Mch 2, 1-5",
+    "psalm": "Ps 10 (Hebr.",
+    "gospel": "Mt 12, 14-21",
+    "line": "Jis nenulauš palūžusios nendrės ir neužgesins gruzdančio dagčio, kol neatneš teisybei laimėjimo; o jo vardas teiks viltį tautoms!"
   },
   "season": "ordinary",
   "en": {
-    "event": "Friday of the Fifteenth Week in Ordinary Time",
-    "reading1": "Is 38:1-6, 21-22, 7-8",
-    "psalm": "Is 38:10, 11, 12abcd, 16",
-    "gospel": "Mt 12:1-8",
-    "line": "For the Son of Man is Lord of the sabbath."
+    "event": "Saturday of the Fifteenth Week in Ordinary Time",
+    "reading1": "Mi 2:1-5",
+    "psalm": "Ps 10:1-2, 3-4, 7-8, 14",
+    "gospel": "Mt 12:14-21",
+    "line": "And in his name the Gentiles will hope."
   }
 }

@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-17": {
-      "date": "2026-07-17",
-      "lt": {
-        "event": "XV eilinė savaitė, Penktadienis",
-        "reading1": "Iz 38, 1-6. 22. 7-8",
-        "psalm": "Iz 38, 10-12. 16",
-        "gospel": "Mt 12, 1-8",
-        "line": "Žmogaus Sūnus yra šeštadienio Viešpats“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Fifteenth Week in Ordinary Time",
-        "reading1": "Is 38:1-6, 21-22, 7-8",
-        "psalm": "Is 38:10, 11, 12abcd, 16",
-        "gospel": "Mt 12:1-8",
-        "line": "For the Son of Man is Lord of the sabbath."
-      }
-    },
     "2026-07-18": {
       "date": "2026-07-18",
       "lt": {
@@ -125,6 +107,24 @@
         "psalm": "Ps 36:6-7ab, 8-9, 10-11",
         "gospel": "Mt 13:10-17",
         "line": "Amen, I say to you, many prophets and righteous people longed to see what you see but did not see it, and to hear what you hear but did not hear it."
+      }
+    },
+    "2026-07-24": {
+      "date": "2026-07-24",
+      "lt": {
+        "event": "XVI eilinė savaitė, Penktadienis",
+        "reading1": "Jer 3, 14-17",
+        "psalm": "Jer 31, 10-13",
+        "gospel": "Mt 13, 18-23",
+        "line": "Pasėlys geroje žemėje – tasai, kuris girdi ir supranta žodį; tas ir duoda derlių: kas šimteriopą, kas šešiasdešimteriopą, o kas trisdešimteriopą“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Sixteenth Week in Ordinary Time",
+        "reading1": "Jer 3:14-17",
+        "psalm": "Jer 31:10, 11-12abcd, 13",
+        "gospel": "Mt 13:18-23",
+        "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
       }
     }
   }
