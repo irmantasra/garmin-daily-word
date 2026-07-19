@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-18": {
-      "date": "2026-07-18",
-      "lt": {
-        "event": "XV eilinė savaitė, Šeštadienis",
-        "reading1": "Mch 2, 1-5",
-        "psalm": "Ps 10 (Hebr.",
-        "gospel": "Mt 12, 14-21",
-        "line": "Jis nenulauš palūžusios nendrės ir neužgesins gruzdančio dagčio, kol neatneš teisybei laimėjimo; o jo vardas teiks viltį tautoms!"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Fifteenth Week in Ordinary Time",
-        "reading1": "Mi 2:1-5",
-        "psalm": "Ps 10:1-2, 3-4, 7-8, 14",
-        "gospel": "Mt 12:14-21",
-        "line": "And in his name the Gentiles will hope."
-      }
-    },
     "2026-07-19": {
       "date": "2026-07-19",
       "lt": {
@@ -125,6 +107,24 @@
         "psalm": "Jer 31:10, 11-12abcd, 13",
         "gospel": "Mt 13:18-23",
         "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
+      }
+    },
+    "2026-07-25": {
+      "date": "2026-07-25",
+      "lt": {
+        "event": "Liepos 25 d., Šv. apaštalas Jokūbas (F)",
+        "reading1": "2 Kor 4, 7-15",
+        "psalm": "Ps 125, 1-6",
+        "gospel": "Mt 20, 20-28",
+        "line": "Žmogaus Sūnus irgi atėjo, ne kad jam tarnautų, bet pats tarnauti ir savo gyvybės atiduoti kaip išpirkimo už daugelį“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Feast of Saint James, Apostle",
+        "reading1": "2 Cor 4:7-15",
+        "psalm": "Ps 126:1bc-2ab, 2cd-3, 4-5, 6",
+        "gospel": "Mt 20:20-28",
+        "line": "Just so, the Son of Man did not come to be served but to serve and to give his life as a ransom for many."
       }
     }
   }

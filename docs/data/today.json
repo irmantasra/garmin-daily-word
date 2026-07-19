@@ -1,18 +1,19 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "lt": {
-    "event": "XV eilinė savaitė, Šeštadienis",
-    "reading1": "Mch 2, 1-5",
-    "psalm": "Ps 10 (Hebr.",
-    "gospel": "Mt 12, 14-21",
-    "line": "Jis nenulauš palūžusios nendrės ir neužgesins gruzdančio dagčio, kol neatneš teisybei laimėjimo; o jo vardas teiks viltį tautoms!"
+    "event": "XVI eilinis sekmadienis",
+    "psalm": "Ps 85 (86), 5-6. 9-10. 15-16a",
+    "reading2": "Rom 8, 26-27",
+    "gospel": "Mt 13, 24-43",
+    "line": "Kas turi ausis, teklauso!"
   },
   "season": "ordinary",
   "en": {
-    "event": "Saturday of the Fifteenth Week in Ordinary Time",
-    "reading1": "Mi 2:1-5",
-    "psalm": "Ps 10:1-2, 3-4, 7-8, 14",
-    "gospel": "Mt 12:14-21",
-    "line": "And in his name the Gentiles will hope."
+    "event": "Sixteenth Sunday in Ordinary Time",
+    "reading1": "Wis 12:13, 16-19",
+    "psalm": "Ps 86:5-6, 9-10, 15-16",
+    "reading2": "Rom 8:26-27",
+    "gospel": "Mt 13:24-43",
+    "line": "Whoever has ears ought to hear."
   }
 }
