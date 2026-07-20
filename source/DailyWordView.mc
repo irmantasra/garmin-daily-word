@@ -118,18 +118,23 @@ class DailyWordView extends WatchUi.View {
         if (event instanceof String && (event as String).length() > 0) {
             var eventFont = Graphics.FONT_XTINY;
             var color = seasonColor();
+            var fh = dc.getFontHeight(eventFont);
+            var flagW = (fh * 0.5).toNumber();
+            var flagGap = 6;
+            // Reserve room for the flag on both sides so the centered text
+            // never pushes the flag off the left edge, whatever its length.
+            var reserve = color >= 0 ? flagW + flagGap : 0;
+            var eventMaxW = w - 24 - 2 * reserve;
             if (color >= 0) {
-                var fh = dc.getFontHeight(eventFont);
-                var firstLine = firstWrappedLine(dc, event as String, w - 24, eventFont);
+                var firstLine = firstWrappedLine(dc, event as String, eventMaxW, eventFont);
                 var lineW = dc.getTextWidthInPixels(firstLine, eventFont);
-                var flagW = (fh * 0.5).toNumber();
                 var flagH = (fh * 0.85).toNumber();
-                var flagX = cx - lineW / 2 - flagW - 6;
+                var flagX = cx - lineW / 2 - flagW - flagGap;
                 var flagY = y - flagH / 2;
                 drawFlag(dc, flagX, flagY, flagW, flagH, color);
             }
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            y = drawWrapped(dc, cx, y, w - 24, event as String, eventFont);
+            y = drawWrapped(dc, cx, y, eventMaxW, event as String, eventFont);
         }
         y += 10;
 
