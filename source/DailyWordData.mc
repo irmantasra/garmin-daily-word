@@ -16,7 +16,6 @@ class DailyWordData {
     var loading as Boolean = false;
 
     private var _onUpdate as Method() as Void;
-    private var _triedFallback as Boolean = false;
 
     function initialize(onUpdate as Method() as Void) {
         _onUpdate = onUpdate;
@@ -40,52 +39,18 @@ class DailyWordData {
         return url as String;
     }
 
-    // Shows the best cached day immediately (works fully offline), then
-    // refreshes the multi-day bundle from the network when reachable.
+    // Shows the cached day immediately (works offline), then refreshes just
+    // today's file from the network. We fetch a single day rather than a
+    // multi-day bundle: parsing the larger bundle synchronously in onReceive
+    // trips the watchdog ("Code Executed Too Long") on slower devices such as
+    // the Forerunner 255 and fenix 6X Pro.
     function load() as Void {
-        showCachedDay();
-        _triedFallback = false;
-        fetch("week.json");
-    }
-
-    // Lightweight load for the glance, whose memory budget is tiny (32 KB on
-    // older devices like the fenix 6X Pro / tactix Delta). Only ever touches
-    // the small single-day file and cache — loading the multi-day week bundle
-    // here overflows the glance heap and crashes the app with OOM.
-    function loadToday() as Void {
-        showCachedToday();
-        _triedFallback = true; // single-day file is already the fallback
+        var cached = Application.Storage.getValue("readings");
+        if (cached instanceof Dictionary) {
+            readings = cached as Dictionary;
+            _onUpdate.invoke();
+        }
         fetch(todayKey() + ".json");
-    }
-
-    // Picks today's entry from the cached multi-day bundle (or the legacy
-    // single-day cache) so the app is useful before/without a network fetch.
-    private function showCachedDay() as Void {
-        var key = todayKey();
-        var bundle = Application.Storage.getValue("week");
-        if (bundle instanceof Dictionary) {
-            var days = (bundle as Dictionary)["days"];
-            if (days instanceof Dictionary && (days as Dictionary)[key] instanceof Dictionary) {
-                readings = (days as Dictionary)[key] as Dictionary;
-                _onUpdate.invoke();
-                return;
-            }
-        }
-        var cached = Application.Storage.getValue("readings");
-        if (cached instanceof Dictionary) {
-            readings = cached as Dictionary;
-            _onUpdate.invoke();
-        }
-    }
-
-    // Glance-only: read just the single-day cache, never the week bundle,
-    // to stay within the small glance memory budget.
-    private function showCachedToday() as Void {
-        var cached = Application.Storage.getValue("readings");
-        if (cached instanceof Dictionary) {
-            readings = cached as Dictionary;
-            _onUpdate.invoke();
-        }
     }
 
     // Fetches as plain text (not JSON): GitHub Pages sends
@@ -106,37 +71,18 @@ class DailyWordData {
         if (code == 200 && data instanceof String) {
             var parsed = Json.parse(data as String);
             if (parsed instanceof Dictionary) {
-                storeResponse(parsed as Dictionary);
+                errorMsg = null;
+                readings = parsed as Dictionary;
+                Application.Storage.setValue("readings", parsed);
                 _onUpdate.invoke();
                 return;
             }
             errorMsg = "Bad data";
-        } else if (!_triedFallback) {
-            // week.json may be missing; fall back to the single-day file.
-            _triedFallback = true;
-            fetch(todayKey() + ".json");
-            return;
         } else if (readings == null) {
             // Only surface an error if we have nothing cached to show.
             errorMsg = "HTTP " + code.toString();
         }
         _onUpdate.invoke();
-    }
-
-    // Handles both the multi-day bundle ({"days": {...}}) and a single day.
-    private function storeResponse(parsed as Dictionary) as Void {
-        errorMsg = null;
-        if (parsed["days"] instanceof Dictionary) {
-            Application.Storage.setValue("week", parsed);
-            var key = todayKey();
-            var days = parsed["days"] as Dictionary;
-            if (days[key] instanceof Dictionary) {
-                readings = days[key] as Dictionary;
-            }
-        } else {
-            readings = parsed;
-            Application.Storage.setValue("readings", parsed);
-        }
     }
 
     // Returns the readings for the active language, or null if that language

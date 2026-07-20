@@ -17,7 +17,7 @@ class DailyWordGlanceView extends WatchUi.GlanceView {
     }
 
     function onShow() as Void {
-        _data.loadToday();
+        _data.load();
     }
 
     function onDataUpdate() as Void {
