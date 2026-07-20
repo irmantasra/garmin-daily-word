@@ -120,13 +120,21 @@ class Json {
 
     private function parseString() as String {
         _i += 1; // opening quote
+        // Copy unescaped runs with a single substring() rather than appending
+        // char-by-char: per-char concatenation is O(n^2) and trips the
+        // watchdog on long fields / slower CPUs (e.g. fenix 6X Pro).
         var sb = "";
+        var runStart = _i;
         while (_i < _n) {
-            var c = next();
+            var c = _chars[_i];
             if (c == '"') {
+                sb += _s.substring(runStart, _i);
+                _i += 1; // closing quote
                 return sb;
             }
             if (c == '\\') {
+                sb += _s.substring(runStart, _i); // flush run before the escape
+                _i += 1; // backslash
                 var e = next();
                 if (e == 'n') {
                     sb += "\n";
@@ -141,11 +149,12 @@ class Json {
                 } else {
                     sb += e.toString(); // " \ / and any other escaped char
                 }
+                runStart = _i;
             } else {
-                sb += c.toString();
+                _i += 1;
             }
         }
-        return sb;
+        return sb + _s.substring(runStart, _i);
     }
 
     private function parseBool() as Boolean {

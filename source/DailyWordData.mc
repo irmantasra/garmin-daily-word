@@ -48,6 +48,16 @@ class DailyWordData {
         fetch("week.json");
     }
 
+    // Lightweight load for the glance, whose memory budget is tiny (32 KB on
+    // older devices like the fenix 6X Pro / tactix Delta). Only ever touches
+    // the small single-day file and cache — loading the multi-day week bundle
+    // here overflows the glance heap and crashes the app with OOM.
+    function loadToday() as Void {
+        showCachedToday();
+        _triedFallback = true; // single-day file is already the fallback
+        fetch(todayKey() + ".json");
+    }
+
     // Picks today's entry from the cached multi-day bundle (or the legacy
     // single-day cache) so the app is useful before/without a network fetch.
     private function showCachedDay() as Void {
@@ -61,6 +71,16 @@ class DailyWordData {
                 return;
             }
         }
+        var cached = Application.Storage.getValue("readings");
+        if (cached instanceof Dictionary) {
+            readings = cached as Dictionary;
+            _onUpdate.invoke();
+        }
+    }
+
+    // Glance-only: read just the single-day cache, never the week bundle,
+    // to stay within the small glance memory budget.
+    private function showCachedToday() as Void {
         var cached = Application.Storage.getValue("readings");
         if (cached instanceof Dictionary) {
             readings = cached as Dictionary;
