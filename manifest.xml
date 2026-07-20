@@ -5,7 +5,7 @@
                     launcherIcon="@Drawables.LauncherIcon"
                     name="@Strings.AppName"
                     minSdkVersion="3.2.0"
-                    type="widget">
+                    type="watch-app">
         <iq:products>
             <iq:product id="enduro"/>
             <iq:product id="fenix6"/>
