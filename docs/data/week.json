@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-20": {
-      "date": "2026-07-20",
-      "lt": {
-        "event": "XVI eilinė savaitė, Pirmadienis",
-        "reading1": "Mch 6, 1-4. 6-8",
-        "psalm": "Ps 49, 5-6. 8-9. 16bc-17. 21. 23.",
-        "gospel": "Mt 12, 38-42",
-        "line": "Pietų karalienė teismo dieną prisikels drauge su šia karta ir ją pasmerks, ji ėjo iš žemės pakraščių klausytis Saliamono išminties, o štai čia daugiau, negu Saliamonas“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Sixteenth Week in Ordinary Time",
-        "reading1": "Mi 6:1-4, 6-8",
-        "psalm": "Ps 50:5-6, 8-9, 16bc-17, 21, 23",
-        "gospel": "Mt 12:38-42",
-        "line": "At the judgment the queen of the south will arise with this generation and condemn it, because she came from the ends of the earth to hear the wisdom of Solomon; and there is somet"
-      }
-    },
     "2026-07-21": {
       "date": "2026-07-21",
       "lt": {
@@ -126,6 +108,24 @@
         "reading2": "Rom 8:28-30",
         "gospel": "Mt 13:44-52",
         "line": "Do you understand all these things?\" They answered, \"Yes.\" And he replied, \"Then every scribe who has been instructed in the kingdom of heaven is like the head of a household who b"
+      }
+    },
+    "2026-07-27": {
+      "date": "2026-07-27",
+      "lt": {
+        "event": "XVII eilinė savaitė, Pirmadienis",
+        "reading1": "Jer 13, 1-11",
+        "psalm": "Įst 32, 18-21",
+        "gospel": "Mt 13, 31-35",
+        "line": "Išsipildė, kas buvo pranašo pasakyta: „Aš atversiu savo burną palyginimais, išpasakosiu nuo pasaulio sukūrimo paslėptus dalykus“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Seventeenth Week in Ordinary Time",
+        "reading1": "Jer 13:1-11",
+        "psalm": "Dt 32:18-19, 20, 21",
+        "gospel": "Mt 13:31-35",
+        "line": "He spoke to them only in parables, to fulfill what had been said through the prophet: I will open my mouth in parables, I will announce what has lain hidden from the foundation of "
       }
     }
   }
