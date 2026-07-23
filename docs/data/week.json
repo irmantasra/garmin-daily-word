@@ -1,41 +1,5 @@
 {
   "days": {
-    "2026-07-21": {
-      "date": "2026-07-21",
-      "lt": {
-        "event": "XVI eilinė savaitė, Antradienis",
-        "reading1": "Mch 7, 14-15. 18-20",
-        "psalm": "Ps 84, 2-8",
-        "gospel": "Mt 12, 46-50",
-        "line": "Kiekvienas, kas tik vykdo mano dangiškojo Tėvo valią, yra man ir brolis, ir sesuo, ir motina“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Tuesday of the Sixteenth Week in Ordinary Time",
-        "reading1": "Mi 7:14-15, 18-20",
-        "psalm": "Ps 85:2-4, 5-6, 7-8",
-        "gospel": "Mt 12:46-50",
-        "line": "For whoever does the will of my heavenly Father is my brother, and sister, and mother."
-      }
-    },
-    "2026-07-22": {
-      "date": "2026-07-22",
-      "lt": {
-        "event": "Liepos 22 d., Šv. Marija Magdalietė (Š)",
-        "reading1": "Gg 3, 1-4a",
-        "psalm": "Ps 62, 2-9",
-        "gospel": "Jn 20, 1. 11-18",
-        "line": "Marija Magdalietė nuėjo ir pranešė mokiniams, kad mačiusi Viešpatį ir ką jis jai sakęs."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Feast of Saint Mary Magdalene",
-        "reading1": "Sg 3:1-4b",
-        "psalm": "Ps 63:2, 3-4, 5-6, 8-9",
-        "gospel": "Jn 20:1-2, 11-18",
-        "line": "But go to my brothers and tell them, 'I am going to my Father and your Father, to my God and your God.'\" Mary Magdalene went and announced to the disciples, \"I have seen the Lord,\""
-      }
-    },
     "2026-07-23": {
       "date": "2026-07-23",
       "lt": {
@@ -126,6 +90,38 @@
         "psalm": "Dt 32:18-19, 20, 21",
         "gospel": "Mt 13:31-35",
         "line": "He spoke to them only in parables, to fulfill what had been said through the prophet: I will open my mouth in parables, I will announce what has lain hidden from the foundation of "
+      }
+    },
+    "2026-07-28": {
+      "date": "2026-07-28",
+      "lt": {
+        "event": "XVII eilinė savaitė, Antradienis",
+        "reading1": "Jer 14, 17-22",
+        "psalm": "Ps 78, 8-9. 11. 13",
+        "gospel": "Mt 13, 36-43",
+        "line": "Kas turi ausis, teklauso!"
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    "2026-07-29": {
+      "date": "2026-07-29",
+      "lt": {
+        "event": "Liepos 29 d., Šv. Morta (M)",
+        "reading1": "1 Jn 4, 7-16",
+        "psalm": "Ps 112, 1-8",
+        "gospel": "Jn 11, 19-27",
+        "line": "Aš tikiu, jog tu Mesijas, Dievo Sūnus, kuris turi ateiti į šį pasaulį“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saints Martha, Mary, and Lazarus",
+        "reading1": "Jer 15:10, 16-21",
+        "psalm": "Ps 59:2-3, 4, 10-11, 17, 18",
+        "gospel": "Jn 11:19-27",
+        "line": "Mary has chosen the better part and it will not be taken from her."
       }
     }
   }
