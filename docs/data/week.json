@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-23": {
-      "date": "2026-07-23",
-      "lt": {
-        "event": "Liepos 23 d., Šv. Brigita (F)",
-        "reading1": "Gal 2, 19-20",
-        "psalm": "Ps 15, 1-2. 5. 7-8. 11",
-        "gospel": "Jn 15, 1-8",
-        "line": "Tuo bus pašlovintas mano Tėvas, kad jūs duosite gausių vaisių ir būsite mano mokiniai“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Sixteenth Week in Ordinary Time",
-        "reading1": "Jer 2:1-3, 7-8, 12-13",
-        "psalm": "Ps 36:6-7ab, 8-9, 10-11",
-        "gospel": "Mt 13:10-17",
-        "line": "Amen, I say to you, many prophets and righteous people longed to see what you see but did not see it, and to hear what you hear but did not hear it."
-      }
-    },
     "2026-07-24": {
       "date": "2026-07-24",
       "lt": {
@@ -103,7 +85,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Tuesday of the Seventeenth Week in Ordinary Time",
+        "reading1": "Jer 14:17-22",
+        "psalm": "Ps 79:8, 9, 11 and 13",
+        "gospel": "Mt 13:36-43",
+        "line": "Whoever has ears ought to hear."
       }
     },
     "2026-07-29": {
@@ -122,6 +108,24 @@
         "psalm": "Ps 59:2-3, 4, 10-11, 17, 18",
         "gospel": "Jn 11:19-27",
         "line": "Mary has chosen the better part and it will not be taken from her."
+      }
+    },
+    "2026-07-30": {
+      "date": "2026-07-30",
+      "lt": {
+        "event": "XVII eilinė savaitė, Ketvirtadienis",
+        "reading1": "Jer 18, 1-6",
+        "psalm": "Ps 145, 1-6",
+        "gospel": "Mt 13, 47-53",
+        "line": "Baigęs sakyti tuos palyginimus, Jėzus iškeliavo iš tenai."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thursday of the Seventeenth Week in Ordinary Time",
+        "reading1": "Jer 18:1-6",
+        "psalm": "Ps 146:1B-2, 3-4, 5-6ab",
+        "gospel": "Mt 13:47-53",
+        "line": "The angels will go out and separate the wicked from the righteous and throw them into the fiery furnace, where there will be wailing and grinding of teeth.” “Do you understand all "
       }
     }
   }
