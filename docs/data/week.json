@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-24": {
-      "date": "2026-07-24",
-      "lt": {
-        "event": "XVI eilinė savaitė, Penktadienis",
-        "reading1": "Jer 3, 14-17",
-        "psalm": "Jer 31, 10-13",
-        "gospel": "Mt 13, 18-23",
-        "line": "Pasėlys geroje žemėje – tasai, kuris girdi ir supranta žodį; tas ir duoda derlių: kas šimteriopą, kas šešiasdešimteriopą, o kas trisdešimteriopą“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Sixteenth Week in Ordinary Time",
-        "reading1": "Jer 3:14-17",
-        "psalm": "Jer 31:10, 11-12abcd, 13",
-        "gospel": "Mt 13:18-23",
-        "line": "But the seed sown on rich soil is the one who hears the word and understands it, who indeed bears fruit and yields a hundred or sixty or thirtyfold."
-      }
-    },
     "2026-07-25": {
       "date": "2026-07-25",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 146:1B-2, 3-4, 5-6ab",
         "gospel": "Mt 13:47-53",
         "line": "The angels will go out and separate the wicked from the righteous and throw them into the fiery furnace, where there will be wailing and grinding of teeth.” “Do you understand all "
+      }
+    },
+    "2026-07-31": {
+      "date": "2026-07-31",
+      "lt": {
+        "event": "XVII eilinė savaitė, Penktadienis",
+        "reading1": "Jer 26, 1-9",
+        "psalm": "Ps 68, 5. 8-10. 14",
+        "gospel": "Mt 13, 54-58",
+        "line": "Dėl jų netikėjimo jis ten nedarė tiek daug stebuklų."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Ignatius of Loyola, Priest",
+        "reading1": "Jer 26:1-9",
+        "psalm": "Ps 69:5, 8-10, 14",
+        "gospel": "Mt 13:54-58",
+        "line": "But Jesus said to them, “A prophet is not without honor except in his native place and in his own house.” And he did not work many mighty deeds there because of their lack of faith"
       }
     }
   }
