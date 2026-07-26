@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-25": {
-      "date": "2026-07-25",
-      "lt": {
-        "event": "Liepos 25 d., Šv. apaštalas Jokūbas (F)",
-        "reading1": "2 Kor 4, 7-15",
-        "psalm": "Ps 125, 1-6",
-        "gospel": "Mt 20, 20-28",
-        "line": "Žmogaus Sūnus irgi atėjo, ne kad jam tarnautų, bet pats tarnauti ir savo gyvybės atiduoti kaip išpirkimo už daugelį“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Feast of Saint James, Apostle",
-        "reading1": "2 Cor 4:7-15",
-        "psalm": "Ps 126:1bc-2ab, 2cd-3, 4-5, 6",
-        "gospel": "Mt 20:20-28",
-        "line": "Just so, the Son of Man did not come to be served but to serve and to give his life as a ransom for many."
-      }
-    },
     "2026-07-26": {
       "date": "2026-07-26",
       "lt": {
@@ -126,6 +108,20 @@
         "psalm": "Ps 69:5, 8-10, 14",
         "gospel": "Mt 13:54-58",
         "line": "But Jesus said to them, “A prophet is not without honor except in his native place and in his own house.” And he did not work many mighty deeds there because of their lack of faith"
+      }
+    },
+    "2026-08-01": {
+      "date": "2026-08-01",
+      "lt": {
+        "event": "XVII eilinė savaitė, Šeštadienis",
+        "reading1": "Jer 26, 11-16. 24",
+        "psalm": "Ps 68, 15-16. 30-31. 33-34",
+        "gospel": "Mt 14, 1-12",
+        "line": "Tuomet Jono mokiniai atėję pasiėmė kūną, palaidojo ir davė žinią Jėzui."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 404: Not Found"
       }
     }
   }
