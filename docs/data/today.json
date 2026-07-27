@@ -1,20 +1,18 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "lt": {
-    "event": "XVII eilinis sekmadienis",
-    "reading1": "1 Kar 3, 5. 7-12",
-    "psalm": "Ps 118 (119), 57 ir 72. 76-77. 127-128. 129-130",
-    "reading2": "Rom 8, 28-30",
-    "gospel": "Mt 13, 44-52",
-    "line": "Tuomet jis tarė: „Todėl kiekvienas Rašto aiškintojas, tapęs Dangaus Karalystės mokiniu, panašus į šeimininką, kuris iškelia iš savo lobyno naujų ir senų daiktų."
+    "event": "XVII eilinė savaitė, Pirmadienis",
+    "reading1": "Jer 13, 1-11",
+    "psalm": "Įst 32, 18-21",
+    "gospel": "Mt 13, 31-35",
+    "line": "Išsipildė, kas buvo pranašo pasakyta: „Aš atversiu savo burną palyginimais, išpasakosiu nuo pasaulio sukūrimo paslėptus dalykus“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Seventeenth Sunday in Ordinary Time",
-    "reading1": "1 Kgs 3:5, 7-12",
-    "psalm": "Ps 119:57, 72, 76-77, 127-128, 129-130",
-    "reading2": "Rom 8:28-30",
-    "gospel": "Mt 13:44-52",
-    "line": "Do you understand all these things?\" They answered, \"Yes.\" And he replied, \"Then every scribe who has been instructed in the kingdom of heaven is like the head of a household who b"
+    "event": "Monday of the Seventeenth Week in Ordinary Time",
+    "reading1": "Jer 13:1-11",
+    "psalm": "Dt 32:18-19, 20, 21",
+    "gospel": "Mt 13:31-35",
+    "line": "He spoke to them only in parables, to fulfill what had been said through the prophet: I will open my mouth in parables, I will announce what has lain hidden from the foundation of "
   }
 }
