@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-28": {
-      "date": "2026-07-28",
-      "lt": {
-        "event": "XVII eilinė savaitė, Antradienis",
-        "reading1": "Jer 14, 17-22",
-        "psalm": "Ps 78, 8-9. 11. 13",
-        "gospel": "Mt 13, 36-43",
-        "line": "Kas turi ausis, teklauso!"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Tuesday of the Seventeenth Week in Ordinary Time",
-        "reading1": "Jer 14:17-22",
-        "psalm": "Ps 79:8, 9, 11 and 13",
-        "gospel": "Mt 13:36-43",
-        "line": "Whoever has ears ought to hear."
-      }
-    },
     "2026-07-29": {
       "date": "2026-07-29",
       "lt": {
@@ -122,6 +104,24 @@
         "psalm": "Ps 119:29, 43, 79, 80, 95, 102",
         "gospel": "Mt 14:22-36",
         "line": "People brought to him all those who were sick and begged him that they might touch only the tassel on his cloak, and as many as touched it were healed."
+      }
+    },
+    "2026-08-04": {
+      "date": "2026-08-04",
+      "lt": {
+        "event": "XVIII eilinė savaitė, Antradienis",
+        "reading1": "Jer 30, 1-2. 12-15. 18-22",
+        "psalm": "Ps 101, 16-21. 29. 22-23",
+        "gospel": "Mt 15, 1-2. 10-14",
+        "line": "O jeigu aklas aklą ves, abu į duobę įkris“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint John Vianney, Priest",
+        "reading1": "Jer 30:1-2, 12-15, 18-22",
+        "psalm": "Ps 102:16-18, 19-21, 29, 22-23",
+        "gospel": "Mt 14:22-36",
+        "line": "If a blind man leads a blind man, both will fall into a pit."
       }
     }
   }
