@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-30": {
-      "date": "2026-07-30",
-      "lt": {
-        "event": "XVII eilinė savaitė, Ketvirtadienis",
-        "reading1": "Jer 18, 1-6",
-        "psalm": "Ps 145, 1-6",
-        "gospel": "Mt 13, 47-53",
-        "line": "Baigęs sakyti tuos palyginimus, Jėzus iškeliavo iš tenai."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Seventeenth Week in Ordinary Time",
-        "reading1": "Jer 18:1-6",
-        "psalm": "Ps 146:1B-2, 3-4, 5-6ab",
-        "gospel": "Mt 13:47-53",
-        "line": "The angels will go out and separate the wicked from the righteous and throw them into the fiery furnace, where there will be wailing and grinding of teeth.” “Do you understand all "
-      }
-    },
     "2026-07-31": {
       "date": "2026-07-31",
       "lt": {
@@ -47,7 +29,7 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 404: Not Found"
+        "error": "HTTP Error 403: Forbidden"
       }
     },
     "2026-08-02": {
@@ -122,6 +104,26 @@
         "psalm": "Jer 31:10, 11-12ab, 13",
         "gospel": "Mt 15:21-28",
         "line": "Let it be done for you as you wish.” And her daughter was healed from that hour."
+      }
+    },
+    "2026-08-06": {
+      "date": "2026-08-06",
+      "lt": {
+        "event": "Rugpjūčio 6 d., KRISTAUS ATSIMAINYMAS (A)",
+        "reading1": "Dan 7, 9-10. 13-14",
+        "psalm": "Ps 96, 1-2. 5-6. 9",
+        "reading2": "2 Pt 1, 16-19",
+        "gospel": "Mt 17, 1-9",
+        "line": "Besileidžiant nuo kalno, Jėzus jiems įsakė: „Niekam nepasakokite apie regėjimą, kol Žmogaus Sūnus prisikels iš numirusių."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Feast of the Transfiguration of the Lord",
+        "reading1": "Dn 7:9-10, 13-14",
+        "psalm": "Ps 97:1-2, 5-6, 9",
+        "reading2": "2 Pt 1:16-19",
+        "gospel": "Mt 17:1-9",
+        "line": "As they were coming down from the mountain, Jesus charged them, “Do not tell the vision to anyone until the Son of Man has been raised from the dead."
       }
     }
   }
