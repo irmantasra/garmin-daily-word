@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-07-31": {
-      "date": "2026-07-31",
-      "lt": {
-        "event": "XVII eilinė savaitė, Penktadienis",
-        "reading1": "Jer 26, 1-9",
-        "psalm": "Ps 68, 5. 8-10. 14",
-        "gospel": "Mt 13, 54-58",
-        "line": "Dėl jų netikėjimo jis ten nedarė tiek daug stebuklų."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Ignatius of Loyola, Priest",
-        "reading1": "Jer 26:1-9",
-        "psalm": "Ps 69:5, 8-10, 14",
-        "gospel": "Mt 13:54-58",
-        "line": "But Jesus said to them, “A prophet is not without honor except in his native place and in his own house.” And he did not work many mighty deeds there because of their lack of faith"
-      }
-    },
     "2026-08-01": {
       "date": "2026-08-01",
       "lt": {
@@ -29,7 +11,7 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "error": "HTTP Error 404: Not Found"
       }
     },
     "2026-08-02": {
@@ -124,6 +106,24 @@
         "reading2": "2 Pt 1:16-19",
         "gospel": "Mt 17:1-9",
         "line": "As they were coming down from the mountain, Jesus charged them, “Do not tell the vision to anyone until the Son of Man has been raised from the dead."
+      }
+    },
+    "2026-08-07": {
+      "date": "2026-08-07",
+      "lt": {
+        "event": "XVIII eilinė savaitė, Penktadienis",
+        "reading1": "Nah 2, 1-3; 3, 1-3. 6-7",
+        "psalm": "Įst 32, 35-36. 39. 41",
+        "gospel": "Mt 16, 24-28",
+        "line": "Iš tiesų sakau jums: kai kurie iš čia stovinčių neragaus mirties, kol pamatys Žmogaus Sūnų, ateinantį su savo karalyste“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Eighteenth Week in Ordinary Time",
+        "reading1": "Na 2:1, 3; 3:1-3, 6-7",
+        "psalm": "Dt 32:35cd-36ab, 39abcd, 41",
+        "gospel": "Mt 16:24-28",
+        "line": "Amen, I say to you, there are some standing here who will not taste death until they see the Son of Man coming in his Kingdom."
       }
     }
   }

@@ -1,18 +1,14 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "lt": {
-    "event": "XVII eilinė savaitė, Penktadienis",
-    "reading1": "Jer 26, 1-9",
-    "psalm": "Ps 68, 5. 8-10. 14",
-    "gospel": "Mt 13, 54-58",
-    "line": "Dėl jų netikėjimo jis ten nedarė tiek daug stebuklų."
+    "event": "XVII eilinė savaitė, Šeštadienis",
+    "reading1": "Jer 26, 11-16. 24",
+    "psalm": "Ps 68, 15-16. 30-31. 33-34",
+    "gospel": "Mt 14, 1-12",
+    "line": "Tuomet Jono mokiniai atėję pasiėmė kūną, palaidojo ir davė žinią Jėzui."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of Saint Ignatius of Loyola, Priest",
-    "reading1": "Jer 26:1-9",
-    "psalm": "Ps 69:5, 8-10, 14",
-    "gospel": "Mt 13:54-58",
-    "line": "But Jesus said to them, “A prophet is not without honor except in his native place and in his own house.” And he did not work many mighty deeds there because of their lack of faith"
+    "error": "HTTP Error 404: Not Found"
   }
 }
