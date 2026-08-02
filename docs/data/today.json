@@ -1,14 +1,20 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "lt": {
-    "event": "XVII eilinė savaitė, Šeštadienis",
-    "reading1": "Jer 26, 11-16. 24",
-    "psalm": "Ps 68, 15-16. 30-31. 33-34",
-    "gospel": "Mt 14, 1-12",
-    "line": "Tuomet Jono mokiniai atėję pasiėmė kūną, palaidojo ir davė žinią Jėzui."
+    "event": "XVIII eilinis sekmadienis",
+    "reading1": "Iz 55, 1-3",
+    "psalm": "Ps 144 (145), 8-9. 15-16. 17-18",
+    "reading2": "Rom 8, 35. 37-39",
+    "gospel": "Mt 14, 13-21",
+    "line": "O valgytojų buvo apie penkis tūkstančius vyrų, be moterų ir vaikų."
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 404: Not Found"
+    "event": "Eighteenth Sunday In Ordinary Time",
+    "reading1": "Is 55:1-3",
+    "psalm": "Ps 145:8-9, 15-16, 17-18",
+    "reading2": "Rom 8:35, 37-39",
+    "gospel": "Mt 14:13-21",
+    "line": "Those who ate were about five thousand men, not counting women and children."
   }
 }

@@ -1,19 +1,5 @@
 {
   "days": {
-    "2026-08-01": {
-      "date": "2026-08-01",
-      "lt": {
-        "event": "XVII eilinė savaitė, Šeštadienis",
-        "reading1": "Jer 26, 11-16. 24",
-        "psalm": "Ps 68, 15-16. 30-31. 33-34",
-        "gospel": "Mt 14, 1-12",
-        "line": "Tuomet Jono mokiniai atėję pasiėmė kūną, palaidojo ir davė žinią Jėzui."
-      },
-      "season": "ordinary",
-      "en": {
-        "error": "HTTP Error 404: Not Found"
-      }
-    },
     "2026-08-02": {
       "date": "2026-08-02",
       "lt": {
@@ -124,6 +110,20 @@
         "psalm": "Dt 32:35cd-36ab, 39abcd, 41",
         "gospel": "Mt 16:24-28",
         "line": "Amen, I say to you, there are some standing here who will not taste death until they see the Son of Man coming in his Kingdom."
+      }
+    },
+    "2026-08-08": {
+      "date": "2026-08-08",
+      "lt": {
+        "event": "XVIII eilinė savaitė, Šeštadienis",
+        "reading1": "Hab 1, 12-2,4",
+        "psalm": "Ps 9, 8-13",
+        "gospel": "Mt 17, 14-20",
+        "line": "Jums nebūtų nieko negalimo“."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
