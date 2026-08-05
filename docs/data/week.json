@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-04": {
-      "date": "2026-08-04",
-      "lt": {
-        "event": "XVIII eilinė savaitė, Antradienis",
-        "reading1": "Jer 30, 1-2. 12-15. 18-22",
-        "psalm": "Ps 101, 16-21. 29. 22-23",
-        "gospel": "Mt 15, 1-2. 10-14",
-        "line": "O jeigu aklas aklą ves, abu į duobę įkris“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint John Vianney, Priest",
-        "reading1": "Jer 30:1-2, 12-15, 18-22",
-        "psalm": "Ps 102:16-18, 19-21, 29, 22-23",
-        "gospel": "Mt 14:22-36",
-        "line": "If a blind man leads a blind man, both will fall into a pit."
-      }
-    },
     "2026-08-05": {
       "date": "2026-08-05",
       "lt": {
@@ -124,6 +106,24 @@
         "psalm": "Ps 112:1-2, 5-6, 7-8, 9",
         "gospel": "Jn 12:24-26",
         "line": "The Father will honor whoever serves me."
+      }
+    },
+    "2026-08-11": {
+      "date": "2026-08-11",
+      "lt": {
+        "event": "XIX eilinė savaitė, Antradienis",
+        "reading1": "Ez 2, 8-3, 4",
+        "psalm": "Ps 118, 14. 24. 72. 103. 111. 131",
+        "gospel": "Mt 18, 1-5. 10. 12-14",
+        "line": "Taip ir jūsų dangiškasis Tėvas nenori, kad pražūtų bent vienas iš šitų mažutėlių“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Clare, Virgin",
+        "reading1": "Ez 2:8-3:4",
+        "psalm": "Ps 119:14, 24, 72, 103, 111, 131",
+        "gospel": "Mt 18:1-5, 10, 12-14",
+        "line": "In just the same way, it is not the will of your heavenly Father that one of these little ones be lost."
       }
     }
   }
