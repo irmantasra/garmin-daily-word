@@ -1,18 +1,20 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "lt": {
-    "event": "XVIII eilinė savaitė, Trečiadienis",
-    "reading1": "Jer 31, 1-7",
-    "psalm": "Jer 31, 10-13",
-    "gospel": "Mt 15, 21-28",
-    "line": "Ir tą pačią valandą jos duktė pasveiko."
+    "event": "Rugpjūčio 6 d., KRISTAUS ATSIMAINYMAS (A)",
+    "reading1": "Dan 7, 9-10. 13-14",
+    "psalm": "Ps 96, 1-2. 5-6. 9",
+    "reading2": "2 Pt 1, 16-19",
+    "gospel": "Mt 17, 1-9",
+    "line": "Besileidžiant nuo kalno, Jėzus jiems įsakė: „Niekam nepasakokite apie regėjimą, kol Žmogaus Sūnus prisikels iš numirusių."
   },
   "season": "ordinary",
   "en": {
-    "event": "Wednesday of the Eighteenth Week in Ordinary Time",
-    "reading1": "Jer 31:1-7",
-    "psalm": "Jer 31:10, 11-12ab, 13",
-    "gospel": "Mt 15:21-28",
-    "line": "Let it be done for you as you wish.” And her daughter was healed from that hour."
+    "event": "Feast of the Transfiguration of the Lord",
+    "reading1": "Dn 7:9-10, 13-14",
+    "psalm": "Ps 97:1-2, 5-6, 9",
+    "reading2": "2 Pt 1:16-19",
+    "gospel": "Mt 17:1-9",
+    "line": "As they were coming down from the mountain, Jesus charged them, “Do not tell the vision to anyone until the Son of Man has been raised from the dead."
   }
 }
