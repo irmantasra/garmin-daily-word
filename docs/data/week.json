@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-08": {
-      "date": "2026-08-08",
-      "lt": {
-        "event": "XVIII eilinė savaitė, Šeštadienis",
-        "reading1": "Hab 1, 12-2,4",
-        "psalm": "Ps 9, 8-13",
-        "gospel": "Mt 17, 14-20",
-        "line": "Jums nebūtų nieko negalimo“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Dominic, Priest",
-        "reading1": "Hb 1:12—2:4",
-        "psalm": "Ps 9:8-9, 10-11, 12-13",
-        "gospel": "Mt 17:14-20",
-        "line": "Nothing will be impossible for you."
-      }
-    },
     "2026-08-09": {
       "date": "2026-08-09",
       "lt": {
@@ -122,6 +104,21 @@
         "psalm": "Is 12:2-3, 4bcd, 5-6",
         "gospel": "Mt 19:3-12",
         "line": "Whoever can accept this ought to accept it."
+      }
+    },
+    "2026-08-15": {
+      "date": "2026-08-15",
+      "lt": {
+        "event": "Rugpjūčio 15 d., ŠVČ. M. MARIJOS ĖMIMAS Į DANGŲ (Žolinė) (S)",
+        "reading1": "Apr 11, 19a; 12, 1. 3-6a. 10ab",
+        "psalm": "Ps 44, 10bc. 11-12. 16; P.: 10b",
+        "reading2": "1 Kor 15, 20-26",
+        "gospel": "Lk 1, 39-56",
+        "line": "Marija prabuvo pas Elzbietą apie tris mėnesius, o paskui sugrįžo į savo namus."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
