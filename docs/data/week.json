@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-11": {
-      "date": "2026-08-11",
-      "lt": {
-        "event": "XIX eilinė savaitė, Antradienis",
-        "reading1": "Ez 2, 8-3, 4",
-        "psalm": "Ps 118, 14. 24. 72. 103. 111. 131",
-        "gospel": "Mt 18, 1-5. 10. 12-14",
-        "line": "Taip ir jūsų dangiškasis Tėvas nenori, kad pražūtų bent vienas iš šitų mažutėlių“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Clare, Virgin",
-        "reading1": "Ez 2:8-3:4",
-        "psalm": "Ps 119:14, 24, 72, 103, 111, 131",
-        "gospel": "Mt 18:1-5, 10, 12-14",
-        "line": "In just the same way, it is not the will of your heavenly Father that one of these little ones be lost."
-      }
-    },
     "2026-08-12": {
       "date": "2026-08-12",
       "lt": {
@@ -29,7 +11,7 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "error": "HTTP Error 404: Not Found"
       }
     },
     "2026-08-13": {
@@ -119,6 +101,24 @@
         "psalm": "Dt 32:18-19, 20, 21",
         "gospel": "Mt 19:16-22",
         "line": "Then come, follow me.” When the young man heard this statement, he went away sad, for he had many possessions."
+      }
+    },
+    "2026-08-18": {
+      "date": "2026-08-18",
+      "lt": {
+        "event": "XX eilinė savaitė, Antradienis",
+        "reading1": "Ez 28, 1-10",
+        "psalm": "Įst 32, 26-28. 30. 35cd-36ab",
+        "gospel": "Mt 19, 23-30",
+        "line": "Tačiau daugel pirmųjų bus paskutiniai, ir daugel paskutinių – pirmi“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Tuesday of the Twentieth Week in Ordinary Time",
+        "reading1": "Ez 28:1-10",
+        "psalm": "Dt 32:26-27ab, 27cd-28, 30, 35cd-36ab",
+        "gospel": "Mt 19:23-30",
+        "line": "But many who are first will be last, and the last will be first."
       }
     }
   }
