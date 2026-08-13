@@ -1,19 +1,5 @@
 {
   "days": {
-    "2026-08-12": {
-      "date": "2026-08-12",
-      "lt": {
-        "event": "XIX eilinė savaitė, Trečiadienis",
-        "reading1": "Ez 9, 1-7; 10, 18-22",
-        "psalm": "Ps 112, 1-6",
-        "gospel": "Mt 18, 15-20",
-        "line": "Kur du ar trys susirinkę vardan manęs, ten ir aš esu tarp jų“."
-      },
-      "season": "ordinary",
-      "en": {
-        "error": "HTTP Error 404: Not Found"
-      }
-    },
     "2026-08-13": {
       "date": "2026-08-13",
       "lt": {
@@ -62,7 +48,7 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Solemnity of the Assumption of the Blessed Virgin Mary"
       }
     },
     "2026-08-16": {
@@ -119,6 +105,24 @@
         "psalm": "Dt 32:26-27ab, 27cd-28, 30, 35cd-36ab",
         "gospel": "Mt 19:23-30",
         "line": "But many who are first will be last, and the last will be first."
+      }
+    },
+    "2026-08-19": {
+      "date": "2026-08-19",
+      "lt": {
+        "event": "XX eilinė savaitė, Trečiadienis",
+        "reading1": "Ez 34, 1-11",
+        "psalm": "Ps 22, 1-6",
+        "gospel": "Mt 20, 1-16",
+        "line": "Ar todėl tu šnairuoji, kad aš geras?!“ Taip paskutinieji bus pirmi, o pirmieji – paskutiniai“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Twentieth Week in Ordinary Time",
+        "reading1": "Ez 34:1-11",
+        "psalm": "Ps 23:1-3a, 3b-4, 5, 6",
+        "gospel": "Mt 20:1-16",
+        "line": "Are you envious because I am generous?' Thus, the last will be first, and the first will be last."
       }
     }
   }
