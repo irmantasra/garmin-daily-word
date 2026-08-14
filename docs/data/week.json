@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-13": {
-      "date": "2026-08-13",
-      "lt": {
-        "event": "XIX eilinė savaitė, Ketvirtadienis",
-        "reading1": "Ez 12, 1-12",
-        "psalm": "Ps 77, 56-59. 61-62",
-        "gospel": "Mt 18, 21-19, 1",
-        "line": "Pabaigęs šias kalbas, Jėzus pasitraukė iš Galilėjos ir atėjo į Judėjos sritį, anapus Jordano."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Nineteenth Week in Ordinary Time",
-        "reading1": "Ez 12:1-12",
-        "psalm": "Ps 78:56-57, 58-59, 61-62",
-        "gospel": "Mt 18:21–19:1",
-        "line": "So will my heavenly Father do to you, unless each of you forgives his brother from his heart.” When Jesus finished these words, he left Galilee and went to the district of Judea ac"
-      }
-    },
     "2026-08-14": {
       "date": "2026-08-14",
       "lt": {
@@ -123,6 +105,24 @@
         "psalm": "Ps 23:1-3a, 3b-4, 5, 6",
         "gospel": "Mt 20:1-16",
         "line": "Are you envious because I am generous?' Thus, the last will be first, and the first will be last."
+      }
+    },
+    "2026-08-20": {
+      "date": "2026-08-20",
+      "lt": {
+        "event": "XX eilinė savaitė, Ketvirtadienis",
+        "reading1": "Ez 36, 23-28",
+        "psalm": "Ps 50, 12-15. 18-19",
+        "gospel": "Mt 22, 1-14",
+        "line": "Nes daug pašauktųjų, bet maža išrinktųjų“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Bernard, Abbot and Doctor of the Church",
+        "reading1": "Ez 36:23-28",
+        "psalm": "Ps 51:12-13, 14-15, 18-19",
+        "gospel": "Mt 22:1-14",
+        "line": "Then the king said to his attendants, ‘Bind his hands and feet, and cast him into the darkness outside, where there will be wailing and grinding of teeth.’ Many are invited, but fe"
       }
     }
   }

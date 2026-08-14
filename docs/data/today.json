@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "lt": {
-    "event": "XIX eilinė savaitė, Ketvirtadienis",
-    "reading1": "Ez 12, 1-12",
-    "psalm": "Ps 77, 56-59. 61-62",
-    "gospel": "Mt 18, 21-19, 1",
-    "line": "Pabaigęs šias kalbas, Jėzus pasitraukė iš Galilėjos ir atėjo į Judėjos sritį, anapus Jordano."
+    "event": "XIX eilinė savaitė, Penktadienis",
+    "reading1": "Ez 16, 3-15. 60. 63",
+    "psalm": "Iz 12, 2-6",
+    "gospel": "Mt 19, 3-12",
+    "line": "Kas pajėgia išmanyti, teišmano“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Thursday of the Nineteenth Week in Ordinary Time",
-    "reading1": "Ez 12:1-12",
-    "psalm": "Ps 78:56-57, 58-59, 61-62",
-    "gospel": "Mt 18:21–19:1",
-    "line": "So will my heavenly Father do to you, unless each of you forgives his brother from his heart.” When Jesus finished these words, he left Galilee and went to the district of Judea ac"
+    "event": "Memorial of Saint Maximilian Kolbe, Priest and Martyr",
+    "reading1": "Ez 16:1-15, 60, 63",
+    "psalm": "Is 12:2-3, 4bcd, 5-6",
+    "gospel": "Mt 19:3-12",
+    "line": "Whoever can accept this ought to accept it."
   }
 }
