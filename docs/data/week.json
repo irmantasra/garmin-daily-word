@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-14": {
-      "date": "2026-08-14",
-      "lt": {
-        "event": "XIX eilinė savaitė, Penktadienis",
-        "reading1": "Ez 16, 3-15. 60. 63",
-        "psalm": "Iz 12, 2-6",
-        "gospel": "Mt 19, 3-12",
-        "line": "Kas pajėgia išmanyti, teišmano“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Maximilian Kolbe, Priest and Martyr",
-        "reading1": "Ez 16:1-15, 60, 63",
-        "psalm": "Is 12:2-3, 4bcd, 5-6",
-        "gospel": "Mt 19:3-12",
-        "line": "Whoever can accept this ought to accept it."
-      }
-    },
     "2026-08-15": {
       "date": "2026-08-15",
       "lt": {
@@ -123,6 +105,24 @@
         "psalm": "Ps 51:12-13, 14-15, 18-19",
         "gospel": "Mt 22:1-14",
         "line": "Then the king said to his attendants, ‘Bind his hands and feet, and cast him into the darkness outside, where there will be wailing and grinding of teeth.’ Many are invited, but fe"
+      }
+    },
+    "2026-08-21": {
+      "date": "2026-08-21",
+      "lt": {
+        "event": "XX eilinė savaitė, Penktadienis",
+        "reading1": "Ez 37, 1-14",
+        "psalm": "Ps 106, 2-9",
+        "gospel": "Mt 22, 34-40",
+        "line": "Šitais dviem įsakymais remiasi visas Įstatymas ir Pranašai“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Pius X, Pope",
+        "reading1": "Ez 37:1-14",
+        "psalm": "Ps 107:2-3, 4-5, 6-7, 8-9",
+        "gospel": "Mt 22:34-40",
+        "line": "The whole law and the prophets depend on these two commandments."
       }
     }
   }
