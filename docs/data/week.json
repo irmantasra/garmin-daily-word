@@ -1,20 +1,5 @@
 {
   "days": {
-    "2026-08-15": {
-      "date": "2026-08-15",
-      "lt": {
-        "event": "Rugpjūčio 15 d., ŠVČ. M. MARIJOS ĖMIMAS Į DANGŲ (Žolinė) (S)",
-        "reading1": "Apr 11, 19a; 12, 1. 3-6a. 10ab",
-        "psalm": "Ps 44, 10bc. 11-12. 16; P.: 10b",
-        "reading2": "1 Kor 15, 20-26",
-        "gospel": "Lk 1, 39-56",
-        "line": "Marija prabuvo pas Elzbietą apie tris mėnesius, o paskui sugrįžo į savo namus."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Solemnity of the Assumption of the Blessed Virgin Mary"
-      }
-    },
     "2026-08-16": {
       "date": "2026-08-16",
       "lt": {
@@ -123,6 +108,24 @@
         "psalm": "Ps 107:2-3, 4-5, 6-7, 8-9",
         "gospel": "Mt 22:34-40",
         "line": "The whole law and the prophets depend on these two commandments."
+      }
+    },
+    "2026-08-22": {
+      "date": "2026-08-22",
+      "lt": {
+        "event": "XX eilinė savaitė, Šeštadienis",
+        "reading1": "Ez 43, 1-7a",
+        "psalm": "Ps 84, 9-14",
+        "gospel": "Mt 23, 1-12",
+        "line": "Nes kas save aukština, bus pažemintas, o kas save žemina, bus išaukštintas“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of the Queenship of the Blessed Virgin Mary",
+        "reading1": "Ez 43:1-7ab",
+        "psalm": "Ps 85:9ab, 10, 11-12, 13-14",
+        "gospel": "Mt 23:1-12",
+        "line": "Whoever exalts himself will be humbled; but whoever humbles himself will be exalted."
       }
     }
   }
