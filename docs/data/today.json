@@ -1,20 +1,18 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "lt": {
-    "event": "XX eilinis sekmadienis",
-    "reading1": "Iz 56, 1. 6-7",
-    "psalm": "Ps 66 (67), 2-3. 5. 6 ir 8",
-    "reading2": "Rom 11, 13-15. 29-32",
-    "gospel": "Mt 15. 21-28",
-    "line": "Tebūnie tau, kaip prašai.“ Ir tą pačią valandą jos duktė pasveiko."
+    "event": "XX eilinė savaitė, Pirmadienis",
+    "reading1": "Ez 24, 15-24",
+    "psalm": "Įst 32, 18-21",
+    "gospel": "Mt 19, 16-22",
+    "line": "Išgirdęs tuos žodžius, jaunuolis nuliūdęs pasišalino, nes turėjo daug turto."
   },
   "season": "ordinary",
   "en": {
-    "event": "Twentieth Sunday in Ordinary Time",
-    "reading1": "Is 56:1, 6-7",
-    "psalm": "Ps 67:2-3, 5, 6, 8",
-    "reading2": "Rom 11:13-15, 29-32",
-    "gospel": "Mt 15:21-28",
-    "line": "Let it be done for you as you wish.\" And the woman's daughter was healed from that hour."
+    "event": "Monday of the Twentieth Week in Ordinary Time",
+    "reading1": "Ez 24:15-23",
+    "psalm": "Dt 32:18-19, 20, 21",
+    "gospel": "Mt 19:16-22",
+    "line": "Then come, follow me.” When the young man heard this statement, he went away sad, for he had many possessions."
   }
 }
