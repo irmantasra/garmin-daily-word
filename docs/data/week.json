@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-18": {
-      "date": "2026-08-18",
-      "lt": {
-        "event": "XX eilinė savaitė, Antradienis",
-        "reading1": "Ez 28, 1-10",
-        "psalm": "Įst 32, 26-28. 30. 35cd-36ab",
-        "gospel": "Mt 19, 23-30",
-        "line": "Tačiau daugel pirmųjų bus paskutiniai, ir daugel paskutinių – pirmi“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Tuesday of the Twentieth Week in Ordinary Time",
-        "reading1": "Ez 28:1-10",
-        "psalm": "Dt 32:26-27ab, 27cd-28, 30, 35cd-36ab",
-        "gospel": "Mt 19:23-30",
-        "line": "But many who are first will be last, and the last will be first."
-      }
-    },
     "2026-08-19": {
       "date": "2026-08-19",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 145:10-11, 12-13, 17-18",
         "gospel": "Jn 1:45-51",
         "line": "You will see greater things than this.\" And he said to him, \"Amen, amen, I say to you, you will see heaven opened and the angels of God ascending and descending on the Son of Man."
+      }
+    },
+    "2026-08-25": {
+      "date": "2026-08-25",
+      "lt": {
+        "event": "XXI eilinė savaitė, Antradienis",
+        "reading1": "2 Tes 2, 1-3a. 13-17",
+        "psalm": "95, 10-13",
+        "gospel": "Mt 23, 23-26",
+        "line": "Pirmiau išvalyk taurės bei dubens vidų, kad būtų švari ne tik išorė!“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Tuesday of the Twenty-first Week in Ordinary Time",
+        "reading1": "2 Thes 2:1-3a, 14-17",
+        "psalm": "Ps 96:10, 11-12, 13",
+        "gospel": "Mt 23:23-26",
+        "line": "Blind Pharisee, cleanse first the inside of the cup, so that the outside also may be clean."
       }
     }
   }
