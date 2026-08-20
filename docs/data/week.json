@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-19": {
-      "date": "2026-08-19",
-      "lt": {
-        "event": "XX eilinė savaitė, Trečiadienis",
-        "reading1": "Ez 34, 1-11",
-        "psalm": "Ps 22, 1-6",
-        "gospel": "Mt 20, 1-16",
-        "line": "Ar todėl tu šnairuoji, kad aš geras?!“ Taip paskutinieji bus pirmi, o pirmieji – paskutiniai“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Wednesday of the Twentieth Week in Ordinary Time",
-        "reading1": "Ez 34:1-11",
-        "psalm": "Ps 23:1-3a, 3b-4, 5, 6",
-        "gospel": "Mt 20:1-16",
-        "line": "Are you envious because I am generous?' Thus, the last will be first, and the first will be last."
-      }
-    },
     "2026-08-20": {
       "date": "2026-08-20",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 96:10, 11-12, 13",
         "gospel": "Mt 23:23-26",
         "line": "Blind Pharisee, cleanse first the inside of the cup, so that the outside also may be clean."
+      }
+    },
+    "2026-08-26": {
+      "date": "2026-08-26",
+      "lt": {
+        "event": "XXI eilinė savaitė, Trečiadienis",
+        "reading1": "2 Tes 3, 6-10. 16-18",
+        "psalm": "Ps 127, 1-2. 4-5",
+        "gospel": "Mt 23, 27-32",
+        "line": "Pripildykite gi savo tėvų saiką!"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Twenty-first Week in Ordinary Time",
+        "reading1": "2 Thes 3:6-10, 16-18",
+        "psalm": "Ps 128:1-2, 4-5",
+        "gospel": "Mt 23:27-32",
+        "line": "You build the tombs of the prophets and adorn the memorials of the righteous, and you say, ‘If we had lived in the days of our ancestors, we would not have joined them in shedding "
       }
     }
   }
