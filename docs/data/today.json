@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "lt": {
-    "event": "XX eilinė savaitė, Ketvirtadienis",
-    "reading1": "Ez 36, 23-28",
-    "psalm": "Ps 50, 12-15. 18-19",
-    "gospel": "Mt 22, 1-14",
-    "line": "Nes daug pašauktųjų, bet maža išrinktųjų“."
+    "event": "XX eilinė savaitė, Penktadienis",
+    "reading1": "Ez 37, 1-14",
+    "psalm": "Ps 106, 2-9",
+    "gospel": "Mt 22, 34-40",
+    "line": "Šitais dviem įsakymais remiasi visas Įstatymas ir Pranašai“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of Saint Bernard, Abbot and Doctor of the Church",
-    "reading1": "Ez 36:23-28",
-    "psalm": "Ps 51:12-13, 14-15, 18-19",
-    "gospel": "Mt 22:1-14",
-    "line": "Then the king said to his attendants, ‘Bind his hands and feet, and cast him into the darkness outside, where there will be wailing and grinding of teeth.’ Many are invited, but fe"
+    "event": "Memorial of Saint Pius X, Pope",
+    "reading1": "Ez 37:1-14",
+    "psalm": "Ps 107:2-3, 4-5, 6-7, 8-9",
+    "gospel": "Mt 22:34-40",
+    "line": "The whole law and the prophets depend on these two commandments."
   }
 }

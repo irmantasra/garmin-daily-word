@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-20": {
-      "date": "2026-08-20",
-      "lt": {
-        "event": "XX eilinė savaitė, Ketvirtadienis",
-        "reading1": "Ez 36, 23-28",
-        "psalm": "Ps 50, 12-15. 18-19",
-        "gospel": "Mt 22, 1-14",
-        "line": "Nes daug pašauktųjų, bet maža išrinktųjų“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Bernard, Abbot and Doctor of the Church",
-        "reading1": "Ez 36:23-28",
-        "psalm": "Ps 51:12-13, 14-15, 18-19",
-        "gospel": "Mt 22:1-14",
-        "line": "Then the king said to his attendants, ‘Bind his hands and feet, and cast him into the darkness outside, where there will be wailing and grinding of teeth.’ Many are invited, but fe"
-      }
-    },
     "2026-08-21": {
       "date": "2026-08-21",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 128:1-2, 4-5",
         "gospel": "Mt 23:27-32",
         "line": "You build the tombs of the prophets and adorn the memorials of the righteous, and you say, ‘If we had lived in the days of our ancestors, we would not have joined them in shedding "
+      }
+    },
+    "2026-08-27": {
+      "date": "2026-08-27",
+      "lt": {
+        "event": "XXI eilinė savaitė, Ketvirtadienis",
+        "reading1": "1 Kor 1, 1-9",
+        "psalm": "Ps 144, 2-7",
+        "gospel": "Mt 24, 42-51",
+        "line": "Ten bus verksmas ir dantų griežimas“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Monica",
+        "reading1": "1 Cor 1:1-9",
+        "psalm": "Ps 145:2-3, 4-5, 6-7",
+        "gospel": "Mt 24:42-51",
+        "line": "But if that wicked servant says to himself, ‘My master is long delayed,’ and begins to beat his fellow servants, and eat and drink with drunkards, the servant’s master will come on"
       }
     }
   }
