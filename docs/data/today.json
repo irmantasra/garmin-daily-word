@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "lt": {
-    "event": "XX eilinė savaitė, Penktadienis",
-    "reading1": "Ez 37, 1-14",
-    "psalm": "Ps 106, 2-9",
-    "gospel": "Mt 22, 34-40",
-    "line": "Šitais dviem įsakymais remiasi visas Įstatymas ir Pranašai“."
+    "event": "XX eilinė savaitė, Šeštadienis",
+    "reading1": "Ez 43, 1-7a",
+    "psalm": "Ps 84, 9-14",
+    "gospel": "Mt 23, 1-12",
+    "line": "Nes kas save aukština, bus pažemintas, o kas save žemina, bus išaukštintas“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of Saint Pius X, Pope",
-    "reading1": "Ez 37:1-14",
-    "psalm": "Ps 107:2-3, 4-5, 6-7, 8-9",
-    "gospel": "Mt 22:34-40",
-    "line": "The whole law and the prophets depend on these two commandments."
+    "event": "Memorial of the Queenship of the Blessed Virgin Mary",
+    "reading1": "Ez 43:1-7ab",
+    "psalm": "Ps 85:9ab, 10, 11-12, 13-14",
+    "gospel": "Mt 23:1-12",
+    "line": "Whoever exalts himself will be humbled; but whoever humbles himself will be exalted."
   }
 }
