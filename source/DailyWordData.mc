@@ -53,27 +53,27 @@ class DailyWordData {
         fetch(todayKey() + ".json");
     }
 
-    // Fetches as plain text (not JSON): GitHub Pages sends
-    // "application/json; charset=utf-8", which Communications' native JSON
-    // parser rejects with -400. We parse the text ourselves via Json.parse.
+    // The :responseType must match the Content-Type the server actually sends
+    // ("application/json"), otherwise devices reject the body with -400. The
+    // simulator does not enforce this, so a mismatch here only breaks on real
+    // hardware.
     private function fetch(file as String) as Void {
         loading = true;
         var url = baseUrl() + "/" + file;
         var options = {
             :method => Communications.HTTP_REQUEST_METHOD_GET,
-            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN
+            :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
         Communications.makeWebRequest(url, null, options, method(:onReceive));
     }
 
     function onReceive(code as Number, data as Dictionary or String or Null) as Void {
         loading = false;
-        if (code == 200 && data instanceof String) {
-            var parsed = Json.parse(data as String);
-            if (parsed instanceof Dictionary) {
+        if (code == 200) {
+            if (data instanceof Dictionary) {
                 errorMsg = null;
-                readings = parsed as Dictionary;
-                Application.Storage.setValue("readings", parsed);
+                readings = data as Dictionary;
+                Application.Storage.setValue("readings", data);
                 _onUpdate.invoke();
                 return;
             }

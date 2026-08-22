@@ -11,3 +11,6 @@ developer_key.der
 # Python
 __pycache__/
 *.pyc
+
+# macOS
+.DS_Store
