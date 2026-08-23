@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-22": {
-      "date": "2026-08-22",
-      "lt": {
-        "event": "XX eilinė savaitė, Šeštadienis",
-        "reading1": "Ez 43, 1-7a",
-        "psalm": "Ps 84, 9-14",
-        "gospel": "Mt 23, 1-12",
-        "line": "Nes kas save aukština, bus pažemintas, o kas save žemina, bus išaukštintas“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of the Queenship of the Blessed Virgin Mary",
-        "reading1": "Ez 43:1-7ab",
-        "psalm": "Ps 85:9ab, 10, 11-12, 13-14",
-        "gospel": "Mt 23:1-12",
-        "line": "Whoever exalts himself will be humbled; but whoever humbles himself will be exalted."
-      }
-    },
     "2026-08-23": {
       "date": "2026-08-23",
       "lt": {
@@ -126,6 +108,20 @@
         "psalm": "Ps 33:1-2, 4-5, 10-11",
         "gospel": "Mt 25:1-13",
         "line": "Afterwards the other virgins came and said, ‘Lord, Lord, open the door for us!’ But he said in reply, ‘Amen, I say to you, I do not know you.’ Therefore, stay awake, for you know n"
+      }
+    },
+    "2026-08-29": {
+      "date": "2026-08-29",
+      "lt": {
+        "event": "Rugpjūčio 29 d., Šv. Jono Krikštytojo nukankinimas (M)",
+        "reading1": "Jer 1, 17-19",
+        "psalm": "Ps 70, 1-6. 15-17",
+        "gospel": "Mk 6, 17-29",
+        "line": "Tai išgirdę, Jono mokiniai atėjo, pasiėmė jo kūną ir palaidojo kape."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
