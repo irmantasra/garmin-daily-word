@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-08-23": {
-      "date": "2026-08-23",
-      "lt": {
-        "event": "XXI eilinis sekmadienis",
-        "reading1": "Iz 22, 19-23",
-        "psalm": "Ps 137 (138), 1-2a. 2bc-3. 6 ir 8bc",
-        "reading2": "Rom 11, 33-36",
-        "gospel": "Mt 16, 13-20",
-        "line": "Tau duosiu Dangaus Karalystės raktus; ką tu suriši žemėje, bus surišta ir danguje, ir ką atriši žemėje, bus atrišta ir danguje.“ Tuomet jis griežtai įsakė savo mokiniams niekam nes"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Twenty-first Sunday in Ordinary Time",
-        "reading1": "Is 22:19-23",
-        "psalm": "Ps 138:1-2, 2-3, 6, 8",
-        "reading2": "Rom 11:33-36",
-        "gospel": "Mt 16:13-20",
-        "line": "Whatever you bind on earth shall be bound in heaven; and whatever you loose on earth shall be loosed in heaven.\" Then he strictly ordered his disciples to tell no one that he was t"
-      }
-    },
     "2026-08-24": {
       "date": "2026-08-24",
       "lt": {
@@ -122,6 +102,26 @@
       "season": "ordinary",
       "en": {
         "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    "2026-08-30": {
+      "date": "2026-08-30",
+      "lt": {
+        "event": "XXII eilinis sekmadienis",
+        "reading1": "Jer 20, 7-9",
+        "psalm": "Ps 62 (63), 2. 3-4. 5-6. 8-9",
+        "reading2": "Rom 12, 1-2",
+        "gospel": "Mt 16, 21-27",
+        "line": "Nes Žmogaus Sūnus ateis savo Tėvo šlovėje su savo angelais, ir tuomet jis atlygins kiekvienam pagal jo darbus."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Twenty-second Sunday in Ordinary Time",
+        "reading1": "Jer 20:7-9",
+        "psalm": "Ps 63:2, 3-4, 5-6, 8-9",
+        "reading2": "Rom 12:1-2",
+        "gospel": "Mt 16:21-27",
+        "line": "For the Son of Man will come with his angels in his Father's glory, and then he will repay all according to his conduct."
       }
     }
   }

@@ -1,20 +1,18 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "lt": {
-    "event": "XXI eilinis sekmadienis",
-    "reading1": "Iz 22, 19-23",
-    "psalm": "Ps 137 (138), 1-2a. 2bc-3. 6 ir 8bc",
-    "reading2": "Rom 11, 33-36",
-    "gospel": "Mt 16, 13-20",
-    "line": "Tau duosiu Dangaus Karalystės raktus; ką tu suriši žemėje, bus surišta ir danguje, ir ką atriši žemėje, bus atrišta ir danguje.“ Tuomet jis griežtai įsakė savo mokiniams niekam nes"
+    "event": "Rugpjūčio 24 d., Šv. apaštalas Baltramiejus (F)",
+    "reading1": "Apr 21, 9b-14",
+    "psalm": "Ps 144, 10-13. 17-18",
+    "gospel": "Jn 1, 45-51",
+    "line": "Ir pridūrė: „Iš tiesų, iš tiesų sakau jums: jūs matysite atsivėrusį dangų ir Dievo angelus kylančius ir nusileidžiančius ant Žmogaus Sūnaus“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Twenty-first Sunday in Ordinary Time",
-    "reading1": "Is 22:19-23",
-    "psalm": "Ps 138:1-2, 2-3, 6, 8",
-    "reading2": "Rom 11:33-36",
-    "gospel": "Mt 16:13-20",
-    "line": "Whatever you bind on earth shall be bound in heaven; and whatever you loose on earth shall be loosed in heaven.\" Then he strictly ordered his disciples to tell no one that he was t"
+    "event": "Feast of Saint Bartholomew, Apostle",
+    "reading1": "Rv 21:9b-14",
+    "psalm": "Ps 145:10-11, 12-13, 17-18",
+    "gospel": "Jn 1:45-51",
+    "line": "You will see greater things than this.\" And he said to him, \"Amen, amen, I say to you, you will see heaven opened and the angels of God ascending and descending on the Son of Man."
   }
 }
