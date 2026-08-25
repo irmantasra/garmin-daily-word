@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-24": {
-      "date": "2026-08-24",
-      "lt": {
-        "event": "Rugpjūčio 24 d., Šv. apaštalas Baltramiejus (F)",
-        "reading1": "Apr 21, 9b-14",
-        "psalm": "Ps 144, 10-13. 17-18",
-        "gospel": "Jn 1, 45-51",
-        "line": "Ir pridūrė: „Iš tiesų, iš tiesų sakau jums: jūs matysite atsivėrusį dangų ir Dievo angelus kylančius ir nusileidžiančius ant Žmogaus Sūnaus“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Feast of Saint Bartholomew, Apostle",
-        "reading1": "Rv 21:9b-14",
-        "psalm": "Ps 145:10-11, 12-13, 17-18",
-        "gospel": "Jn 1:45-51",
-        "line": "You will see greater things than this.\" And he said to him, \"Amen, amen, I say to you, you will see heaven opened and the angels of God ascending and descending on the Son of Man."
-      }
-    },
     "2026-08-25": {
       "date": "2026-08-25",
       "lt": {
@@ -101,7 +83,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Memorial of the Passion of Saint John the Baptist",
+        "reading1": "1 Cor 1:26-31",
+        "psalm": "Ps 33:12-13, 18-19, 20-21",
+        "gospel": "Mk 6:17-29",
+        "line": "When his disciples heard about it, they came and took his body and laid it in a tomb."
       }
     },
     "2026-08-30": {
@@ -122,6 +108,24 @@
         "reading2": "Rom 12:1-2",
         "gospel": "Mt 16:21-27",
         "line": "For the Son of Man will come with his angels in his Father's glory, and then he will repay all according to his conduct."
+      }
+    },
+    "2026-08-31": {
+      "date": "2026-08-31",
+      "lt": {
+        "event": "XXII eilinė savaitė, Pirmadienis",
+        "reading1": "1 Kor 2, 1-5",
+        "psalm": "Ps 118, 97-102",
+        "gospel": "Lk 4, 16-30",
+        "line": "Bet Jėzus praėjo tarp jų ir pasišalino."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Twenty-second Week in Ordinary Time",
+        "reading1": "1 Cor 2:1-5",
+        "psalm": "Ps 119:97, 98, 99, 100, 101, 102",
+        "gospel": "Lk 4:16-30",
+        "line": "But he passed through the midst of them and went away."
       }
     }
   }

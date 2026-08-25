@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Memorial of the Passion of Saint John the Baptist",
+    "reading1": "1 Cor 1:26-31",
+    "psalm": "Ps 33:12-13, 18-19, 20-21",
+    "gospel": "Mk 6:17-29",
+    "line": "When his disciples heard about it, they came and took his body and laid it in a tomb."
   }
 }
