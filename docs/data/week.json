@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-26": {
-      "date": "2026-08-26",
-      "lt": {
-        "event": "XXI eilinė savaitė, Trečiadienis",
-        "reading1": "2 Tes 3, 6-10. 16-18",
-        "psalm": "Ps 127, 1-2. 4-5",
-        "gospel": "Mt 23, 27-32",
-        "line": "Pripildykite gi savo tėvų saiką!"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Wednesday of the Twenty-first Week in Ordinary Time",
-        "reading1": "2 Thes 3:6-10, 16-18",
-        "psalm": "Ps 128:1-2, 4-5",
-        "gospel": "Mt 23:27-32",
-        "line": "You build the tombs of the prophets and adorn the memorials of the righteous, and you say, ‘If we had lived in the days of our ancestors, we would not have joined them in shedding "
-      }
-    },
     "2026-08-27": {
       "date": "2026-08-27",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 145:8-9, 10-11, 12-13ab, 13cd-14",
         "gospel": "Lk 4:31-37",
         "line": "For with authority and power he commands the unclean spirits, and they come out.” And news of him spread everywhere in the surrounding region."
+      }
+    },
+    "2026-09-02": {
+      "date": "2026-09-02",
+      "lt": {
+        "event": "XXII eilinė savaitė, Trečiadienis",
+        "reading1": "1 Kor 3, 1-9",
+        "psalm": "Ps 32, 12-15. 20-21",
+        "gospel": "Lk 4, 38-44",
+        "line": "Ir jis skelbė žodį Judėjos sinagogose."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Twenty-second Week in Ordinary Time",
+        "reading1": "1 Cor 3:1-9",
+        "psalm": "Ps 33:12-13, 14-15, 20-21",
+        "gospel": "Lk 4:38-44",
+        "line": "But he said to them, “To the other towns also I must proclaim the good news of the Kingdom of God, because for this purpose I have been sent.” And he was preaching in the synagogue"
       }
     }
   }
