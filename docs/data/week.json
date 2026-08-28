@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-27": {
-      "date": "2026-08-27",
-      "lt": {
-        "event": "XXI eilinė savaitė, Ketvirtadienis",
-        "reading1": "1 Kor 1, 1-9",
-        "psalm": "Ps 144, 2-7",
-        "gospel": "Mt 24, 42-51",
-        "line": "Ten bus verksmas ir dantų griežimas“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Monica",
-        "reading1": "1 Cor 1:1-9",
-        "psalm": "Ps 145:2-3, 4-5, 6-7",
-        "gospel": "Mt 24:42-51",
-        "line": "But if that wicked servant says to himself, ‘My master is long delayed,’ and begins to beat his fellow servants, and eat and drink with drunkards, the servant’s master will come on"
-      }
-    },
     "2026-08-28": {
       "date": "2026-08-28",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 33:12-13, 14-15, 20-21",
         "gospel": "Lk 4:38-44",
         "line": "But he said to them, “To the other towns also I must proclaim the good news of the Kingdom of God, because for this purpose I have been sent.” And he was preaching in the synagogue"
+      }
+    },
+    "2026-09-03": {
+      "date": "2026-09-03",
+      "lt": {
+        "event": "XXII eilinė savaitė, Ketvirtadienis",
+        "reading1": "1 Kor 3, 18-23",
+        "psalm": "Ps 23, 1-6",
+        "gospel": "Lk 5, 1-11",
+        "line": "Išvilkę į krantą valtis, jie viską paliko ir nuėjo paskui jį."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Gregory the Great, Pope and Doctor of the Church",
+        "reading1": "1 Cor 3:18-23",
+        "psalm": "Ps 24:1bc-2, 3-4ab, 5-6",
+        "gospel": "Lk 5:1-11",
+        "line": "Jesus said to Simon, \"Do not be afraid; from now on you will be catching men.\" When they brought their boats to the shore, they left everything and followed him."
       }
     }
   }
