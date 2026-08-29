@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-28": {
-      "date": "2026-08-28",
-      "lt": {
-        "event": "XXI eilinė savaitė, Penktadienis",
-        "reading1": "1 Kor 1, 17-25",
-        "psalm": "Ps 32, 1-2. 4-5. 10-11",
-        "gospel": "Mt 25, 1-13",
-        "line": "Vėliau atėjo ir anos mergaitės ir ėmė prašytis: 'Gerbiamasis, atidaryk, čia mes!' O jis atsakė: 'Iš tiesų sakau jums: aš jūsų nepažįstu!' Taigi budėkite, nes nežinote nei dienos, n"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Augustine, Bishop and Doctor of the Church",
-        "reading1": "1 Cor 1:17-25",
-        "psalm": "Ps 33:1-2, 4-5, 10-11",
-        "gospel": "Mt 25:1-13",
-        "line": "Afterwards the other virgins came and said, ‘Lord, Lord, open the door for us!’ But he said in reply, ‘Amen, I say to you, I do not know you.’ Therefore, stay awake, for you know n"
-      }
-    },
     "2026-08-29": {
       "date": "2026-08-29",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 24:1bc-2, 3-4ab, 5-6",
         "gospel": "Lk 5:1-11",
         "line": "Jesus said to Simon, \"Do not be afraid; from now on you will be catching men.\" When they brought their boats to the shore, they left everything and followed him."
+      }
+    },
+    "2026-09-04": {
+      "date": "2026-09-04",
+      "lt": {
+        "event": "XXII eilinė savaitė, Penktadienis",
+        "reading1": "1 Kor 4, 1-5",
+        "psalm": "Ps 36, 3-6. 27-28. 39-40",
+        "gospel": "Lk 5, 33-39",
+        "line": "Ir niekas, gėręs seno vyno, nenori jauno; jis sako: „Senasis geresnis!"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Twenty-second Week in Ordinary Time",
+        "reading1": "1 Cor 4:1-5",
+        "psalm": "Ps 37:3-4, 5-6, 27-28, 39-40",
+        "gospel": "Lk 5:33-39",
+        "line": "And no one who has been drinking old wine desires new, for he says, ‘The old is good.’"
       }
     }
   }
