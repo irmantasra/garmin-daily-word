@@ -1,18 +1,20 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "lt": {
-    "event": "Rugpjūčio 29 d., Šv. Jono Krikštytojo nukankinimas (M)",
-    "reading1": "Jer 1, 17-19",
-    "psalm": "Ps 70, 1-6. 15-17",
-    "gospel": "Mk 6, 17-29",
-    "line": "Tai išgirdę, Jono mokiniai atėjo, pasiėmė jo kūną ir palaidojo kape."
+    "event": "XXII eilinis sekmadienis",
+    "reading1": "Jer 20, 7-9",
+    "psalm": "Ps 62 (63), 2. 3-4. 5-6. 8-9",
+    "reading2": "Rom 12, 1-2",
+    "gospel": "Mt 16, 21-27",
+    "line": "Nes Žmogaus Sūnus ateis savo Tėvo šlovėje su savo angelais, ir tuomet jis atlygins kiekvienam pagal jo darbus."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of the Passion of Saint John the Baptist",
-    "reading1": "1 Cor 1:26-31",
-    "psalm": "Ps 33:12-13, 18-19, 20-21",
-    "gospel": "Mk 6:17-29",
-    "line": "When his disciples heard about it, they came and took his body and laid it in a tomb."
+    "event": "Twenty-second Sunday in Ordinary Time",
+    "reading1": "Jer 20:7-9",
+    "psalm": "Ps 63:2, 3-4, 5-6, 8-9",
+    "reading2": "Rom 12:1-2",
+    "gospel": "Mt 16:21-27",
+    "line": "For the Son of Man will come with his angels in his Father's glory, and then he will repay all according to his conduct."
   }
 }

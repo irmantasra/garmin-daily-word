@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-29": {
-      "date": "2026-08-29",
-      "lt": {
-        "event": "Rugpjūčio 29 d., Šv. Jono Krikštytojo nukankinimas (M)",
-        "reading1": "Jer 1, 17-19",
-        "psalm": "Ps 70, 1-6. 15-17",
-        "gospel": "Mk 6, 17-29",
-        "line": "Tai išgirdę, Jono mokiniai atėjo, pasiėmė jo kūną ir palaidojo kape."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of the Passion of Saint John the Baptist",
-        "reading1": "1 Cor 1:26-31",
-        "psalm": "Ps 33:12-13, 18-19, 20-21",
-        "gospel": "Mk 6:17-29",
-        "line": "When his disciples heard about it, they came and took his body and laid it in a tomb."
-      }
-    },
     "2026-08-30": {
       "date": "2026-08-30",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 37:3-4, 5-6, 27-28, 39-40",
         "gospel": "Lk 5:33-39",
         "line": "And no one who has been drinking old wine desires new, for he says, ‘The old is good.’"
+      }
+    },
+    "2026-09-05": {
+      "date": "2026-09-05",
+      "lt": {
+        "event": "XXII eilinė savaitė, Šeštadienis",
+        "reading1": "1 Kor 4, 6b-15",
+        "psalm": "Ps 144, 17-21",
+        "gospel": "Lk 6, 1-5",
+        "line": "Kaip jis įėjo į Dievo namus, ėmė padėtinės duonos, valgė ir davė savo palydovams, nors jos niekam nevalia valgyti, tik kunigams!“ Ir jis pridūrė: „Žmogaus Sūnus yra ir šeštadienio "
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Saturday of the Twenty-second Week in Ordinary Time",
+        "reading1": "1 Cor 4:6b-15",
+        "psalm": "Ps 145:17-18, 19-20, 21",
+        "gospel": "Lk 6:1-5",
+        "line": "How he went into the house of God, took the bread of offering, which only the priests could lawfully eat, ate of it, and shared it with his companions?” Then he said to them, “The "
       }
     }
   }
