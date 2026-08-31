@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-08-30": {
-      "date": "2026-08-30",
-      "lt": {
-        "event": "XXII eilinis sekmadienis",
-        "reading1": "Jer 20, 7-9",
-        "psalm": "Ps 62 (63), 2. 3-4. 5-6. 8-9",
-        "reading2": "Rom 12, 1-2",
-        "gospel": "Mt 16, 21-27",
-        "line": "Nes Žmogaus Sūnus ateis savo Tėvo šlovėje su savo angelais, ir tuomet jis atlygins kiekvienam pagal jo darbus."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Twenty-second Sunday in Ordinary Time",
-        "reading1": "Jer 20:7-9",
-        "psalm": "Ps 63:2, 3-4, 5-6, 8-9",
-        "reading2": "Rom 12:1-2",
-        "gospel": "Mt 16:21-27",
-        "line": "For the Son of Man will come with his angels in his Father's glory, and then he will repay all according to his conduct."
-      }
-    },
     "2026-08-31": {
       "date": "2026-08-31",
       "lt": {
@@ -126,6 +106,26 @@
         "psalm": "Ps 145:17-18, 19-20, 21",
         "gospel": "Lk 6:1-5",
         "line": "How he went into the house of God, took the bread of offering, which only the priests could lawfully eat, ate of it, and shared it with his companions?” Then he said to them, “The "
+      }
+    },
+    "2026-09-06": {
+      "date": "2026-09-06",
+      "lt": {
+        "event": "XXIII eilinis sekmadienis",
+        "reading1": "Ez 33, 7-9",
+        "psalm": "Ps 94 (95), 1-2. 6-7. 8-9",
+        "reading2": "Rom 13, 8-10",
+        "gospel": "Mt 18, 15-20",
+        "line": "Kur du ar trys susirinkę mano vardu, ten ir aš esu tarp jų."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Twenty-third Sunday in Ordinary Time",
+        "reading1": "Ez 33:7-9",
+        "psalm": "Ps 95:1-2, 6-7, 8-9",
+        "reading2": "Rom 13:8-10",
+        "gospel": "Mt 18:15-20",
+        "line": "For where two or three are gathered together in my name, there am I in the midst of them."
       }
     }
   }

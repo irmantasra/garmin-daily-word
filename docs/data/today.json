@@ -1,20 +1,18 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "lt": {
-    "event": "XXII eilinis sekmadienis",
-    "reading1": "Jer 20, 7-9",
-    "psalm": "Ps 62 (63), 2. 3-4. 5-6. 8-9",
-    "reading2": "Rom 12, 1-2",
-    "gospel": "Mt 16, 21-27",
-    "line": "Nes Žmogaus Sūnus ateis savo Tėvo šlovėje su savo angelais, ir tuomet jis atlygins kiekvienam pagal jo darbus."
+    "event": "XXII eilinė savaitė, Pirmadienis",
+    "reading1": "1 Kor 2, 1-5",
+    "psalm": "Ps 118, 97-102",
+    "gospel": "Lk 4, 16-30",
+    "line": "Bet Jėzus praėjo tarp jų ir pasišalino."
   },
   "season": "ordinary",
   "en": {
-    "event": "Twenty-second Sunday in Ordinary Time",
-    "reading1": "Jer 20:7-9",
-    "psalm": "Ps 63:2, 3-4, 5-6, 8-9",
-    "reading2": "Rom 12:1-2",
-    "gospel": "Mt 16:21-27",
-    "line": "For the Son of Man will come with his angels in his Father's glory, and then he will repay all according to his conduct."
+    "event": "Monday of the Twenty-second Week in Ordinary Time",
+    "reading1": "1 Cor 2:1-5",
+    "psalm": "Ps 119:97, 98, 99, 100, 101, 102",
+    "gospel": "Lk 4:16-30",
+    "line": "But he passed through the midst of them and went away."
   }
 }
