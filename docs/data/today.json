@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "lt": {
-    "event": "XXII eilinė savaitė, Pirmadienis",
-    "reading1": "1 Kor 2, 1-5",
-    "psalm": "Ps 118, 97-102",
-    "gospel": "Lk 4, 16-30",
-    "line": "Bet Jėzus praėjo tarp jų ir pasišalino."
+    "event": "XXII eilinė savaitė, Antradienis",
+    "reading1": "1 Kor 2, 10b-16",
+    "psalm": "Ps 144, 8-14",
+    "gospel": "Lk 4, 31-37",
+    "line": "Visi nustėro ir kalbėjosi: „Kas tai per žodis: jis su valdžia ir galia įsakinėja netyrosioms dvasioms, ir tos pasitraukia?!“ Ir gandas apie jį plito visose aplinkinėse vietovėse."
   },
   "season": "ordinary",
   "en": {
-    "event": "Monday of the Twenty-second Week in Ordinary Time",
-    "reading1": "1 Cor 2:1-5",
-    "psalm": "Ps 119:97, 98, 99, 100, 101, 102",
-    "gospel": "Lk 4:16-30",
-    "line": "But he passed through the midst of them and went away."
+    "event": "Tuesday of the Twenty-second Week in Ordinary Time",
+    "reading1": "1 Cor 2:10b-16",
+    "psalm": "Ps 145:8-9, 10-11, 12-13ab, 13cd-14",
+    "gospel": "Lk 4:31-37",
+    "line": "For with authority and power he commands the unclean spirits, and they come out.” And news of him spread everywhere in the surrounding region."
   }
 }

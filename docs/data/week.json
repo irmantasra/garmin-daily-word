@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-08-31": {
-      "date": "2026-08-31",
-      "lt": {
-        "event": "XXII eilinė savaitė, Pirmadienis",
-        "reading1": "1 Kor 2, 1-5",
-        "psalm": "Ps 118, 97-102",
-        "gospel": "Lk 4, 16-30",
-        "line": "Bet Jėzus praėjo tarp jų ir pasišalino."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Twenty-second Week in Ordinary Time",
-        "reading1": "1 Cor 2:1-5",
-        "psalm": "Ps 119:97, 98, 99, 100, 101, 102",
-        "gospel": "Lk 4:16-30",
-        "line": "But he passed through the midst of them and went away."
-      }
-    },
     "2026-09-01": {
       "date": "2026-09-01",
       "lt": {
@@ -126,6 +108,24 @@
         "reading2": "Rom 13:8-10",
         "gospel": "Mt 18:15-20",
         "line": "For where two or three are gathered together in my name, there am I in the midst of them."
+      }
+    },
+    "2026-09-07": {
+      "date": "2026-09-07",
+      "lt": {
+        "event": "XXIII eilinė savaitė, Pirmadienis",
+        "reading1": "1 Kor 5, 1-8",
+        "psalm": "Ps 5, 5-7. 12",
+        "gospel": "Lk 6, 6-11",
+        "line": "O jie baisiai įniršo ir tarėsi, ką Jėzui padaryti."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Twenty-third Week in Ordinary Time",
+        "reading1": "1 Cor 5:1-8",
+        "psalm": "Ps 5:5-6, 7, 12",
+        "gospel": "Lk 6:6-11",
+        "line": "But they became enraged and discussed together what they might do to Jesus."
       }
     }
   }
