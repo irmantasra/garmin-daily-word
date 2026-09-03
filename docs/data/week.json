@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-02": {
-      "date": "2026-09-02",
-      "lt": {
-        "event": "XXII eilinė savaitė, Trečiadienis",
-        "reading1": "1 Kor 3, 1-9",
-        "psalm": "Ps 32, 12-15. 20-21",
-        "gospel": "Lk 4, 38-44",
-        "line": "Ir jis skelbė žodį Judėjos sinagogose."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Wednesday of the Twenty-second Week in Ordinary Time",
-        "reading1": "1 Cor 3:1-9",
-        "psalm": "Ps 33:12-13, 14-15, 20-21",
-        "gospel": "Lk 4:38-44",
-        "line": "But he said to them, “To the other towns also I must proclaim the good news of the Kingdom of God, because for this purpose I have been sent.” And he was preaching in the synagogue"
-      }
-    },
     "2026-09-03": {
       "date": "2026-09-03",
       "lt": {
@@ -127,6 +109,20 @@
         "psalm": "Ps 13:6ab, 6c",
         "gospel": "Mt 1:1-16, 18-23",
         "line": "She will bear a son and you are to name him Jesus, because he will save his people from their sins.\" All this took place to fulfill what the Lord had said through the prophet: Beho"
+      }
+    },
+    "2026-09-09": {
+      "date": "2026-09-09",
+      "lt": {
+        "event": "XXIII eilinė savaitė, Trečiadienis",
+        "reading1": "1 Kor 7,25-31",
+        "psalm": "Ps 44, 11-12. 14-17",
+        "gospel": "Lk 6, 20-26",
+        "line": "Vargas jums, kai visi žmonės jus giria, nes ir jų protėviai lygiai taip gyrė netikrus pranašus“."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
