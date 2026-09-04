@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "lt": {
-    "event": "XXII eilinė savaitė, Ketvirtadienis",
-    "reading1": "1 Kor 3, 18-23",
-    "psalm": "Ps 23, 1-6",
-    "gospel": "Lk 5, 1-11",
-    "line": "Išvilkę į krantą valtis, jie viską paliko ir nuėjo paskui jį."
+    "event": "XXII eilinė savaitė, Penktadienis",
+    "reading1": "1 Kor 4, 1-5",
+    "psalm": "Ps 36, 3-6. 27-28. 39-40",
+    "gospel": "Lk 5, 33-39",
+    "line": "Ir niekas, gėręs seno vyno, nenori jauno; jis sako: „Senasis geresnis!"
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of Saint Gregory the Great, Pope and Doctor of the Church",
-    "reading1": "1 Cor 3:18-23",
-    "psalm": "Ps 24:1bc-2, 3-4ab, 5-6",
-    "gospel": "Lk 5:1-11",
-    "line": "Jesus said to Simon, \"Do not be afraid; from now on you will be catching men.\" When they brought their boats to the shore, they left everything and followed him."
+    "event": "Friday of the Twenty-second Week in Ordinary Time",
+    "reading1": "1 Cor 4:1-5",
+    "psalm": "Ps 37:3-4, 5-6, 27-28, 39-40",
+    "gospel": "Lk 5:33-39",
+    "line": "And no one who has been drinking old wine desires new, for he says, ‘The old is good.’"
   }
 }
