@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-04": {
-      "date": "2026-09-04",
-      "lt": {
-        "event": "XXII eilinė savaitė, Penktadienis",
-        "reading1": "1 Kor 4, 1-5",
-        "psalm": "Ps 36, 3-6. 27-28. 39-40",
-        "gospel": "Lk 5, 33-39",
-        "line": "Ir niekas, gėręs seno vyno, nenori jauno; jis sako: „Senasis geresnis!"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Twenty-second Week in Ordinary Time",
-        "reading1": "1 Cor 4:1-5",
-        "psalm": "Ps 37:3-4, 5-6, 27-28, 39-40",
-        "gospel": "Lk 5:33-39",
-        "line": "And no one who has been drinking old wine desires new, for he says, ‘The old is good.’"
-      }
-    },
     "2026-09-05": {
       "date": "2026-09-05",
       "lt": {
@@ -104,7 +86,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Memorial of Saint Peter Claver, Priest",
+        "reading1": "1 Cor 7:25-31",
+        "psalm": "Ps 45:11-12, 14-15, 16-17",
+        "gospel": "Lk 6:20-26",
+        "line": "Woe to you when all speak well of you, for their ancestors treated the false prophets in this way."
       }
     },
     "2026-09-10": {
@@ -123,6 +109,24 @@
         "psalm": "Ps 139:1b-3, 13-14ab, 23-24",
         "gospel": "Lk 6:27-38",
         "line": "For the measure with which you measure will in return be measured out to you."
+      }
+    },
+    "2026-09-11": {
+      "date": "2026-09-11",
+      "lt": {
+        "event": "XXIII eilinė savaitė, Penktadienis",
+        "reading1": "1 Kor 9, 16-19. 22b-27",
+        "psalm": "Ps 83, 3-6. 12",
+        "gospel": "Lk 6, 39-42",
+        "line": "Veidmainy, pirmiau išsiritink rąstą iš savo akies, o tada matysi, kaip iš brolio akies išimti krislelį“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Twenty-third Week in Ordinary Time",
+        "reading1": "1 Cor 9:16-19, 22b-27",
+        "psalm": "Ps 84:3, 4, 5-6, 12",
+        "gospel": "Lk 6:39-42",
+        "line": "Remove the wooden beam from your eye first; then you will see clearly to remove the splinter in your brother's eye."
       }
     }
   }

@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Memorial of Saint Peter Claver, Priest",
+    "reading1": "1 Cor 7:25-31",
+    "psalm": "Ps 45:11-12, 14-15, 16-17",
+    "gospel": "Lk 6:20-26",
+    "line": "Woe to you when all speak well of you, for their ancestors treated the false prophets in this way."
   }
 }
