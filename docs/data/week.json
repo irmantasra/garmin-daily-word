@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-09-06": {
-      "date": "2026-09-06",
-      "lt": {
-        "event": "XXIII eilinis sekmadienis",
-        "reading1": "Ez 33, 7-9",
-        "psalm": "Ps 94 (95), 1-2. 6-7. 8-9",
-        "reading2": "Rom 13, 8-10",
-        "gospel": "Mt 18, 15-20",
-        "line": "Kur du ar trys susirinkę mano vardu, ten ir aš esu tarp jų."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Twenty-third Sunday in Ordinary Time",
-        "reading1": "Ez 33:7-9",
-        "psalm": "Ps 95:1-2, 6-7, 8-9",
-        "reading2": "Rom 13:8-10",
-        "gospel": "Mt 18:15-20",
-        "line": "For where two or three are gathered together in my name, there am I in the midst of them."
-      }
-    },
     "2026-09-07": {
       "date": "2026-09-07",
       "lt": {
@@ -127,6 +107,26 @@
         "psalm": "Ps 116:12-13, 17-18",
         "gospel": "Lk 6:43-49",
         "line": "When the river burst against it, it collapsed at once and was completely destroyed."
+      }
+    },
+    "2026-09-13": {
+      "date": "2026-09-13",
+      "lt": {
+        "event": "XXIV eilinis sekmadienis",
+        "reading1": "Sir 27, 30 - 28, 7",
+        "psalm": "Ps 102 (103), 1-2. 3-4. 9-10. 11-12.",
+        "reading2": "Rom 14, 7-9",
+        "gospel": "Mt 18, 21-35",
+        "line": "Taip ir mano dangiškasis Tėvas padarys jums, jeigu kiekvienas iš tikros širdies neatleisite savo broliui."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Twenty-fourth Sunday in Ordinary Time",
+        "reading1": "Sir 27:30—28:7",
+        "psalm": "Ps 103:1-2, 3-4, 9-10, 11-12",
+        "reading2": "Rom 14:7-9",
+        "gospel": "Mt 18:21-35",
+        "line": "So will my heavenly Father do to you, unless each of you forgives your brother from your heart."
       }
     }
   }
