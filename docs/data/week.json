@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-07": {
-      "date": "2026-09-07",
-      "lt": {
-        "event": "XXIII eilinė savaitė, Pirmadienis",
-        "reading1": "1 Kor 5, 1-8",
-        "psalm": "Ps 5, 5-7. 12",
-        "gospel": "Lk 6, 6-11",
-        "line": "O jie baisiai įniršo ir tarėsi, ką Jėzui padaryti."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Twenty-third Week in Ordinary Time",
-        "reading1": "1 Cor 5:1-8",
-        "psalm": "Ps 5:5-6, 7, 12",
-        "gospel": "Lk 6:6-11",
-        "line": "But they became enraged and discussed together what they might do to Jesus."
-      }
-    },
     "2026-09-08": {
       "date": "2026-09-08",
       "lt": {
@@ -127,6 +109,26 @@
         "reading2": "Rom 14:7-9",
         "gospel": "Mt 18:21-35",
         "line": "So will my heavenly Father do to you, unless each of you forgives your brother from your heart."
+      }
+    },
+    "2026-09-14": {
+      "date": "2026-09-14",
+      "lt": {
+        "event": "Rugsėjo 14 d., Šventojo Kryžiaus išaukštinimas (F)",
+        "reading1": "Sk 21, 4-9",
+        "psalm": "Ps 77, 1-2. 34-38",
+        "reading2": "Fil 2, 6-11",
+        "gospel": "Jn 3, 13-17",
+        "line": "Dievas gi nesiuntė savo Sūnaus į pasaulį, kad jis pasaulį pasmerktų, bet kad pasaulis per jį būtų išgelbėtas“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Feast of the Exaltation of the Holy Cross",
+        "reading1": "Nm 21:4b-9",
+        "psalm": "Ps 78:1bc-2, 34-35, 36-37, 38",
+        "reading2": "Phil 2:6-11",
+        "gospel": "Jn 3:13-17",
+        "line": "For God did not send his Son into the world to condemn the world, but that the world might be saved through him."
       }
     }
   }
