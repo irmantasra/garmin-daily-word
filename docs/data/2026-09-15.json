@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Memorial of Our Lady of Sorrows",
+    "reading1": "1 Cor 12:12-14, 27-31a",
+    "psalm": "Ps 100:1b-2, 3, 4, 5",
+    "gospel": "Jn 19:25-27",
+    "line": "or Luke 2:33-35 Jesus’ father and mother were amazed at what was said about him; and Simeon blessed them and said to Mary his mother, “Behold, this child is destined for the fall a"
   }
 }
