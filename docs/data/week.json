@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-10": {
-      "date": "2026-09-10",
-      "lt": {
-        "event": "XXIII eilinė savaitė, Ketvirtadienis",
-        "reading1": "1 Kor 8, 1b-7. 11-13",
-        "psalm": "Ps 138, 1-3. 13-14ab. 23-24",
-        "gospel": "Lk 6, 27-38",
-        "line": "Kokiu saiku seikite, tokiu jums bus atseikėta“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Twenty-third Week in Ordinary Time",
-        "reading1": "1 Cor 8:1b-7, 11-13",
-        "psalm": "Ps 139:1b-3, 13-14ab, 23-24",
-        "gospel": "Lk 6:27-38",
-        "line": "For the measure with which you measure will in return be measured out to you."
-      }
-    },
     "2026-09-11": {
       "date": "2026-09-11",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 33:2-3, 4-5, 12 and 22",
         "gospel": "Lk 7:31-35",
         "line": "We sang a dirge, but you did not weep.’ For John the Baptist came neither eating food nor drinking wine, and you said, ‘He is possessed by a demon.’ The Son of Man came eating and "
+      }
+    },
+    "2026-09-17": {
+      "date": "2026-09-17",
+      "lt": {
+        "event": "XXIV eilinė savaitė, Ketvirtadienis",
+        "reading1": "1 Kor 15, 1-11",
+        "psalm": "Ps 117, 1-2. 16-17. 28",
+        "gospel": "Lk 7, 36-50",
+        "line": "Eik sau rami!"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thursday of the Twenty-fourth Week in Ordinary Time",
+        "reading1": "1 Cor 15:1-11",
+        "psalm": "Ps 118:1b-2, 16ab-17, 28",
+        "gospel": "Lk 7:36-50",
+        "line": "But the one to whom little is forgiven, loves little.” He said to her, “Your sins are forgiven.” The others at table said to themselves, “Who is this who even forgives sins?” But h"
       }
     }
   }
