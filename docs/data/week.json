@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-12": {
-      "date": "2026-09-12",
-      "lt": {
-        "event": "XXIII eilinė savaitė, Šeštadienis",
-        "reading1": "1 Kor 10, 14-22a",
-        "psalm": "Ps 115, 12-13. 17-18",
-        "gospel": "Lk 6, 43-49",
-        "line": "Vos tik srovė į jį atsimušė, jis bematant sugriuvo, ir to namo griuvimas buvo smarkus“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Twenty-Third Week in Ordinary Time",
-        "reading1": "1 Cor 10:14-22",
-        "psalm": "Ps 116:12-13, 17-18",
-        "gospel": "Lk 6:43-49",
-        "line": "When the river burst against it, it collapsed at once and was completely destroyed."
-      }
-    },
     "2026-09-13": {
       "date": "2026-09-13",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 17:1bcd, 6-7, 8b, 15",
         "gospel": "Lk 8:1-3",
         "line": "Accompanying him were the Twelve and some women who had been cured of evil spirits and infirmities, Mary, called Magdalene, from whom seven demons had gone out, Joanna, the wife of"
+      }
+    },
+    "2026-09-19": {
+      "date": "2026-09-19",
+      "lt": {
+        "event": "XXIV eilinė savaitė, Šeštadienis",
+        "reading1": "1 Kor 15, 35-37. 42-49",
+        "psalm": "Ps 55, 10-14",
+        "gospel": "Lk 8, 4-15",
+        "line": "Nukritusi į gerą žemę sėkla – tai tie, kurie klauso žodžio, išsaugo jį geroje širdyje ir duoda vaisių kantrumu“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Saturday of the Twenty-fourth Week in Ordinary Time",
+        "reading1": "1 Cor 15:35-37, 42-49",
+        "psalm": "Ps 56:10c-12, 13-14",
+        "gospel": "Lk 8:4-15",
+        "line": "But as for the seed that fell on rich soil, they are the ones who, when they have heard the word, embrace it with a generous and good heart, and bear fruit through perseverance."
       }
     }
   }
