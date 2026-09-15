@@ -1,20 +1,18 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "lt": {
-    "event": "Rugsėjo 14 d., Šventojo Kryžiaus išaukštinimas (F)",
-    "reading1": "Sk 21, 4-9",
-    "psalm": "Ps 77, 1-2. 34-38",
-    "reading2": "Fil 2, 6-11",
-    "gospel": "Jn 3, 13-17",
-    "line": "Dievas gi nesiuntė savo Sūnaus į pasaulį, kad jis pasaulį pasmerktų, bet kad pasaulis per jį būtų išgelbėtas“."
+    "event": "Rugsėjo 15 d., Švč. M. Marija Sopulingoji (M)",
+    "reading1": "Žyd 5, 7-9",
+    "psalm": "Ps 30, 2-6. 15-16. 20",
+    "gospel": "Jn 19, 25-27",
+    "line": "Pamatęs stovinčius motiną ir mylimąjį mokinį, Jėzus tarė motinai: „Moterie, štai tavo sūnus!“ Paskui tarė mokiniui: „Štai tavo motina!“ Ir nuo tos valandos mokinys pasiėmė ją pas s"
   },
   "season": "ordinary",
   "en": {
-    "event": "Feast of the Exaltation of the Holy Cross",
-    "reading1": "Nm 21:4b-9",
-    "psalm": "Ps 78:1bc-2, 34-35, 36-37, 38",
-    "reading2": "Phil 2:6-11",
-    "gospel": "Jn 3:13-17",
-    "line": "For God did not send his Son into the world to condemn the world, but that the world might be saved through him."
+    "event": "Memorial of Our Lady of Sorrows",
+    "reading1": "1 Cor 12:12-14, 27-31a",
+    "psalm": "Ps 100:1b-2, 3, 4, 5",
+    "gospel": "Jn 19:25-27",
+    "line": "or Luke 2:33-35 Jesus’ father and mother were amazed at what was said about him; and Simeon blessed them and said to Mary his mother, “Behold, this child is destined for the fall a"
   }
 }
