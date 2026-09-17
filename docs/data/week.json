@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-16": {
-      "date": "2026-09-16",
-      "lt": {
-        "event": "XXIV eilinė savaitė, Trečiadienis",
-        "reading1": "1 Kor 12, 31-13, 13",
-        "psalm": "Ps 32, 2-5. 12. 22",
-        "gospel": "Lk 7, 31-35",
-        "line": "Bet išmintį pateisino visi jos vaikai“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
-        "reading1": "1 Cor 12:31-13:13",
-        "psalm": "Ps 33:2-3, 4-5, 12 and 22",
-        "gospel": "Lk 7:31-35",
-        "line": "We sang a dirge, but you did not weep.’ For John the Baptist came neither eating food nor drinking wine, and you said, ‘He is possessed by a demon.’ The Son of Man came eating and "
-      }
-    },
     "2026-09-17": {
       "date": "2026-09-17",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 119:1, 27, 30, 34, 35, 44",
         "gospel": "Lk 8:19-21",
         "line": "He was told, “Your mother and your brothers are standing outside and they wish to see you.” He said to them in reply, “My mother and my brothers are those who hear the word of God "
+      }
+    },
+    "2026-09-23": {
+      "date": "2026-09-23",
+      "lt": {
+        "event": "XXV eilinė savaitė, Trečiadienis",
+        "reading1": "Pat 30, 5-9",
+        "psalm": "Ps 118, 29. 72. 89. 101. 104. 163",
+        "gospel": "Lk 9, 1-6",
+        "line": "Taigi išėję jie traukė per aplinkinius kaimus, visur skelbdami gerąją naujieną bei gydydami sergančiuosius."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Pius of Pietrelcina, Priest",
+        "reading1": "Prv 30:5-9",
+        "psalm": "Ps 119:29, 72, 89, 101, 104, 163",
+        "gospel": "Lk 9:1-6",
+        "line": "And as for those who do not welcome you, when you leave that town, shake the dust from your feet in testimony against them.\" Then they set out and went from village to village proc"
       }
     }
   }
