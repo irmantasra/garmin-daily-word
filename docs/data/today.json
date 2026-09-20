@@ -1,18 +1,20 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "lt": {
-    "event": "XXIV eilinė savaitė, Šeštadienis",
-    "reading1": "1 Kor 15, 35-37. 42-49",
-    "psalm": "Ps 55, 10-14",
-    "gospel": "Lk 8, 4-15",
-    "line": "Nukritusi į gerą žemę sėkla – tai tie, kurie klauso žodžio, išsaugo jį geroje širdyje ir duoda vaisių kantrumu“."
+    "event": "XXV eilinis sekmadienis",
+    "reading1": "Iz 55, 6-9",
+    "psalm": "Ps 144 (145), 2-3. 8-9. 17-18",
+    "reading2": "Fil 1, 20c-24. 27a",
+    "gospel": "Mt 20, 1-16",
+    "line": "Ar todėl šnairuoji, kad aš geras?!’ Taip paskutinieji bus pirmi, o pirmieji – paskutiniai."
   },
   "season": "ordinary",
   "en": {
-    "event": "Saturday of the Twenty-fourth Week in Ordinary Time",
-    "reading1": "1 Cor 15:35-37, 42-49",
-    "psalm": "Ps 56:10c-12, 13-14",
-    "gospel": "Lk 8:4-15",
-    "line": "But as for the seed that fell on rich soil, they are the ones who, when they have heard the word, embrace it with a generous and good heart, and bear fruit through perseverance."
+    "event": "Twenty-fifth Sunday in Ordinary Time",
+    "reading1": "Is 55:6-9",
+    "psalm": "Ps 145:2-3, 8-9, 17-18",
+    "reading2": "Phil 1:20c-24, 27a",
+    "gospel": "Mt 20:1-16a",
+    "line": "Are you envious because I am generous?' Thus, the last will be first, and the first will be last."
   }
 }
