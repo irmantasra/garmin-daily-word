@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "lt": {
-    "event": "Rugsėjo 21 d., Šv. apaštalas Matas (F)",
-    "reading1": "Ef 4, 1-7. 11-13",
-    "psalm": "Ps 18, 2-5",
-    "gospel": "Mt 9, 9-13",
-    "line": "Aš ir atėjau kviesti ne teisiųjų, bet nusidėjėlių“."
+    "event": "XXV eilinė savaitė, Antradienis",
+    "reading1": "Pat 21, 1-6. 10-13",
+    "psalm": "Ps 118, 1. 27. 30. 34-35. 44.",
+    "gospel": "Lk 8, 19-21",
+    "line": "O jis atsakė: „Mano motina ir mano broliai – tai tie, kurie klausosi Dievo žodžio ir jį vykdo“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Feast of Saint Matthew, Apostle and evangelist",
-    "reading1": "Eph 4:1-7, 11-13",
-    "psalm": "Ps 19:2-3, 4-5",
-    "gospel": "Mt 9:9-13",
-    "line": "I did not come to call the righteous but sinners."
+    "event": "Tuesday of the Twenty-fifth Week in Ordinary Time",
+    "reading1": "Prv 21:1-6, 10-13",
+    "psalm": "Ps 119:1, 27, 30, 34, 35, 44",
+    "gospel": "Lk 8:19-21",
+    "line": "He was told, “Your mother and your brothers are standing outside and they wish to see you.” He said to them in reply, “My mother and my brothers are those who hear the word of God "
   }
 }
