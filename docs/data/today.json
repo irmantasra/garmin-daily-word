@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "lt": {
-    "event": "XXV eilinė savaitė, Antradienis",
-    "reading1": "Pat 21, 1-6. 10-13",
-    "psalm": "Ps 118, 1. 27. 30. 34-35. 44.",
-    "gospel": "Lk 8, 19-21",
-    "line": "O jis atsakė: „Mano motina ir mano broliai – tai tie, kurie klausosi Dievo žodžio ir jį vykdo“."
+    "event": "XXV eilinė savaitė, Trečiadienis",
+    "reading1": "Pat 30, 5-9",
+    "psalm": "Ps 118, 29. 72. 89. 101. 104. 163",
+    "gospel": "Lk 9, 1-6",
+    "line": "Taigi išėję jie traukė per aplinkinius kaimus, visur skelbdami gerąją naujieną bei gydydami sergančiuosius."
   },
   "season": "ordinary",
   "en": {
-    "event": "Tuesday of the Twenty-fifth Week in Ordinary Time",
-    "reading1": "Prv 21:1-6, 10-13",
-    "psalm": "Ps 119:1, 27, 30, 34, 35, 44",
-    "gospel": "Lk 8:19-21",
-    "line": "He was told, “Your mother and your brothers are standing outside and they wish to see you.” He said to them in reply, “My mother and my brothers are those who hear the word of God "
+    "event": "Memorial of Saint Pius of Pietrelcina, Priest",
+    "reading1": "Prv 30:5-9",
+    "psalm": "Ps 119:29, 72, 89, 101, 104, 163",
+    "gospel": "Lk 9:1-6",
+    "line": "And as for those who do not welcome you, when you leave that town, shake the dust from your feet in testimony against them.\" Then they set out and went from village to village proc"
   }
 }
