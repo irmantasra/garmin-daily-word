@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-23": {
-      "date": "2026-09-23",
-      "lt": {
-        "event": "XXV eilinė savaitė, Trečiadienis",
-        "reading1": "Pat 30, 5-9",
-        "psalm": "Ps 118, 29. 72. 89. 101. 104. 163",
-        "gospel": "Lk 9, 1-6",
-        "line": "Taigi išėję jie traukė per aplinkinius kaimus, visur skelbdami gerąją naujieną bei gydydami sergančiuosius."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Pius of Pietrelcina, Priest",
-        "reading1": "Prv 30:5-9",
-        "psalm": "Ps 119:29, 72, 89, 101, 104, 163",
-        "gospel": "Lk 9:1-6",
-        "line": "And as for those who do not welcome you, when you leave that town, shake the dust from your feet in testimony against them.\" Then they set out and went from village to village proc"
-      }
-    },
     "2026-09-24": {
       "date": "2026-09-24",
       "lt": {
@@ -125,6 +107,24 @@
         "psalm": "Ps 138:1-2ab, 2cde-3, 4-5",
         "gospel": "Jn 1:47-51",
         "line": "You will see greater things than this.\" And he said to him, \"Amen, amen, I say to you, you will see heaven opened and the angels of God ascending and descending on the Son of Man."
+      }
+    },
+    "2026-09-30": {
+      "date": "2026-09-30",
+      "lt": {
+        "event": "XXVI eilinė savaitė, Trečiadienis",
+        "reading1": "Job 9, 1-12. 14-16",
+        "psalm": "Ps 87, 10-15",
+        "gospel": "Lk 9, 57-62",
+        "line": "Jėzus jam pasakė: „Nė vienas, kuris prideda ranką prie arklo ir žvalgosi atgal, netinka Dievo karalystei“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Jerome, Priest and Doctor of the Church",
+        "reading1": "Jb 9:1-12, 14-16",
+        "psalm": "Ps 88:10bc-11, 12-13, 14-15",
+        "gospel": "Lk 9:57-62",
+        "line": "But you, go and proclaim the Kingdom of God.\" And another said, \"I will follow you, Lord, but first let me say farewell to my family at home.\" Jesus answered him, \"No one who sets "
       }
     }
   }
