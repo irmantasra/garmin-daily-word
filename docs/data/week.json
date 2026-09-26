@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-25": {
-      "date": "2026-09-25",
-      "lt": {
-        "event": "XXV eilinė savaitė, Penktadienis",
-        "reading1": "Koh 3, 1-11",
-        "psalm": "Ps 143, 1-4",
-        "gospel": "Lk 9, 18-22",
-        "line": "Jis bus seniūnų, aukštųjų kunigų bei Rašto aiškintojų atmestas, nužudytas ir trečią dieną prisikels“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Twenty-fifth Week in Ordinary Time",
-        "reading1": "Eccl 3:1-11",
-        "psalm": "Ps 144:1b and 2abc, 3-4",
-        "gospel": "Lk 9:18-22",
-        "line": "He said, “The Son of Man must suffer greatly and be rejected by the elders, the chief priests, and the scribes, and be killed and on the third day be raised."
-      }
-    },
     "2026-09-26": {
       "date": "2026-09-26",
       "lt": {
@@ -126,6 +108,20 @@
         "psalm": "Ps 27:7-8a, 8b-9abc, 13-14",
         "gospel": "Lk 10:1-12",
         "line": "I tell you, it will be more tolerable for Sodom on that day than for that town."
+      }
+    },
+    "2026-10-02": {
+      "date": "2026-10-02",
+      "lt": {
+        "event": "Spalio 2 d., Šv. Angelai Sargai (M)",
+        "reading1": "Iš 23, 20-23",
+        "psalm": "Ps 90, 1-6. 10-11",
+        "gospel": "Mt 18, 1-5. 10",
+        "line": "Žiūrėkite, kad nepaniekintumėte nė vieno iš šitų mažutėlių, nes, sakau jums, jų angelai danguje visuomet mato mano dangiškojo Tėvo veidą“."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
