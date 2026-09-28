@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-09-27": {
-      "date": "2026-09-27",
-      "lt": {
-        "event": "XXVI eilinis sekmadienis",
-        "reading1": "Ez 18, 25-28",
-        "psalm": "Ps 24 (25), 4-5. 6-7. 8-9",
-        "reading2": "Fil 2, 1-11",
-        "gospel": "Mt 21, 28-32",
-        "line": "Bet jūs, nors tai matėte, nė vėliau neapsigalvojote ir netikėjote juo."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Twenty-sixth Sunday in Ordinary Time",
-        "reading1": "Ez 18:25-28",
-        "psalm": "Ps 25:4-5, 6-7, 8-9",
-        "reading2": "Phil 2:1-11",
-        "gospel": "Mt 21:28-32",
-        "line": "Yet even when you saw that, you did not later change your minds and believe him."
-      }
-    },
     "2026-09-28": {
       "date": "2026-09-28",
       "lt": {
@@ -122,6 +102,26 @@
         "psalm": "Ps 119:66, 71, 75, 91, 125, 130",
         "gospel": "Lk 10:17-24",
         "line": "For I say to you, many prophets and kings desired to see what you see, but did not see it, and to hear what you hear, but did not hear it."
+      }
+    },
+    "2026-10-04": {
+      "date": "2026-10-04",
+      "lt": {
+        "event": "XXVII eilinis sekmadienis",
+        "reading1": "Iz 5, 1-7",
+        "psalm": "Ps 79 (80), 9 ir 12. 13-14. 15-16. 19-20",
+        "reading2": "Fil 4, 6-9",
+        "gospel": "Mt 21, 33-43",
+        "line": "Todėl sakau jums: Dievo Karalystė bus iš jūsų atimta ir atiduota tautai, kuri duos vaisių."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Twenty-seventh Sunday in Ordinary Time",
+        "reading1": "Is 5:1-7",
+        "psalm": "Ps 80:9, 12, 13-14, 15-16, 19-20",
+        "reading2": "Phil 4:6-9",
+        "gospel": "Mt 21:33-43",
+        "line": "Therefore, I say to you, the kingdom of God will be taken away from you and given to a people that will produce its fruit."
       }
     }
   }
