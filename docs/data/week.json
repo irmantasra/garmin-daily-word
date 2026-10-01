@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-09-30": {
-      "date": "2026-09-30",
-      "lt": {
-        "event": "XXVI eilinė savaitė, Trečiadienis",
-        "reading1": "Job 9, 1-12. 14-16",
-        "psalm": "Ps 87, 10-15",
-        "gospel": "Lk 9, 57-62",
-        "line": "Jėzus jam pasakė: „Nė vienas, kuris prideda ranką prie arklo ir žvalgosi atgal, netinka Dievo karalystei“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Jerome, Priest and Doctor of the Church",
-        "reading1": "Jb 9:1-12, 14-16",
-        "psalm": "Ps 88:10bc-11, 12-13, 14-15",
-        "gospel": "Lk 9:57-62",
-        "line": "But you, go and proclaim the Kingdom of God.\" And another said, \"I will follow you, Lord, but first let me say farewell to my family at home.\" Jesus answered him, \"No one who sets "
-      }
-    },
     "2026-10-01": {
       "date": "2026-10-01",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 139:1b-3, 13-14ab, 14c-15",
         "gospel": "Lk 10:38-42",
         "line": "Mary has chosen the better part and it will not be taken from her."
+      }
+    },
+    "2026-10-07": {
+      "date": "2026-10-07",
+      "lt": {
+        "event": "XXVII eilinė savaitė, Trečiadienis",
+        "reading1": "Gal 2, 1-2. 7-14",
+        "psalm": "Ps 116, 1-2",
+        "gospel": "Lk 11, 1-4",
+        "line": "Kasdienės mūsų duonos duok mums kasdien ir atleisk mums mūsų kaltes, nes ir mes atleidžiame visiems savo skolininkams, ir nevesk mūsų į pagundą'“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Our Lady of the Rosary",
+        "reading1": "Gal 2:1-2, 7-14",
+        "psalm": "Ps 117:1bc, 2",
+        "gospel": "Lk 11:1-4",
+        "line": "Give us each day our daily bread and forgive us our sins for we ourselves forgive everyone in debt to us, and do not subject us to the final test."
       }
     }
   }
