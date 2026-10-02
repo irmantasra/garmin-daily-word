@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-01": {
-      "date": "2026-10-01",
-      "lt": {
-        "event": "XXVI eilinė savaitė, Ketvirtadienis",
-        "reading1": "Job 19, 21-27",
-        "psalm": "Ps 26, 7-9. 13-14",
-        "gospel": "Lk 10, 1-12",
-        "line": "Gydykite to miesto ligonius ir sakykite visiems: 'Jums prisiartino Dievo karalystė!' O jeigu užsuksite į tokį miestą, kur jūsų nepriims, išėję į aikštę, tarkite: 'Mes jums nukratom"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
-        "reading1": "Jb 19:21-27",
-        "psalm": "Ps 27:7-8a, 8b-9abc, 13-14",
-        "gospel": "Lk 10:1-12",
-        "line": "I tell you, it will be more tolerable for Sodom on that day than for that town."
-      }
-    },
     "2026-10-02": {
       "date": "2026-10-02",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 117:1bc, 2",
         "gospel": "Lk 11:1-4",
         "line": "Give us each day our daily bread and forgive us our sins for we ourselves forgive everyone in debt to us, and do not subject us to the final test."
+      }
+    },
+    "2026-10-08": {
+      "date": "2026-10-08",
+      "lt": {
+        "event": "XXVII eilinė savaitė, Ketvirtadienis",
+        "reading1": "Gal 3, 1-5",
+        "psalm": "Plg. Lk 1, 69-75",
+        "gospel": "Lk 11, 5-13",
+        "line": "Jei tad jūs, būdami nelabi, mokate savo vaikams duoti gerų daiktų, juo labiau jūsų Tėvas iš dangaus suteiks Šventąją Dvasią tiems, kurie jį prašo“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thursday of the Twenty-seventh Week in Ordinary Time",
+        "reading1": "Gal 3:1-5",
+        "psalm": "Lk 1:69-70, 71-72, 73-75",
+        "gospel": "Lk 11:5-13",
+        "line": "If you then, who are wicked, know how to give good gifts to your children, how much more will the Father in heaven give the Holy Spirit to those who ask him?"
       }
     }
   }
