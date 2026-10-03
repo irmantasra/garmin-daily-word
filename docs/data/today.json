@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "lt": {
-    "event": "Spalio 2 d., Šv. Angelai Sargai (M)",
-    "reading1": "Iš 23, 20-23",
-    "psalm": "Ps 90, 1-6. 10-11",
-    "gospel": "Mt 18, 1-5. 10",
-    "line": "Žiūrėkite, kad nepaniekintumėte nė vieno iš šitų mažutėlių, nes, sakau jums, jų angelai danguje visuomet mato mano dangiškojo Tėvo veidą“."
+    "event": "XXVI eilinė savaitė, Šeštadienis",
+    "reading1": "Job 42, 1-3. 5-6. 12-16",
+    "psalm": "Ps 118, 66. 71. 75. 91. 125. 130",
+    "gospel": "Lk 10, 17-24",
+    "line": "Sakau jums: daugel pranašų ir karalių troško išvysti, ką jūs matote, bet neišvydo, ir išgirsti, ką jūs girdite, bet neišgirdo“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of the Holy Guardian Angels",
-    "reading1": "Jb 38:1, 12-21; 40:3-5",
-    "psalm": "Ps 139:1-3, 7-8, 9-10, 13-14ab",
-    "gospel": "Mt 18:1-5, 10",
-    "line": "See that you do not despise one of these little ones, for I say to you that their angels in heaven always look upon the face of my heavenly Father."
+    "event": "Saturday of the Twenty-sixth Week in Ordinary Time",
+    "reading1": "Jb 42:1-3, 5-6, 12-17",
+    "psalm": "Ps 119:66, 71, 75, 91, 125, 130",
+    "gospel": "Lk 10:17-24",
+    "line": "For I say to you, many prophets and kings desired to see what you see, but did not see it, and to hear what you hear, but did not hear it."
   }
 }
