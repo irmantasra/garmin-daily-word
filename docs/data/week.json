@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-03": {
-      "date": "2026-10-03",
-      "lt": {
-        "event": "XXVI eilinė savaitė, Šeštadienis",
-        "reading1": "Job 42, 1-3. 5-6. 12-16",
-        "psalm": "Ps 118, 66. 71. 75. 91. 125. 130",
-        "gospel": "Lk 10, 17-24",
-        "line": "Sakau jums: daugel pranašų ir karalių troško išvysti, ką jūs matote, bet neišvydo, ir išgirsti, ką jūs girdite, bet neišgirdo“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Twenty-sixth Week in Ordinary Time",
-        "reading1": "Jb 42:1-3, 5-6, 12-17",
-        "psalm": "Ps 119:66, 71, 75, 91, 125, 130",
-        "gospel": "Lk 10:17-24",
-        "line": "For I say to you, many prophets and kings desired to see what you see, but did not see it, and to hear what you hear, but did not hear it."
-      }
-    },
     "2026-10-04": {
       "date": "2026-10-04",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 111:1b-2, 3-4, 5-6",
         "gospel": "Lk 11:15-26",
         "line": "Then it goes and brings back seven other spirits more wicked than itself who move in and dwell there, and the last condition of that man is worse than the first."
+      }
+    },
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "lt": {
+        "event": "XXVII eilinė savaitė, Šeštadienis",
+        "reading1": "Gal 3, 22-29",
+        "psalm": "Ps 104, 2-7",
+        "gospel": "Lk 11, 27-28",
+        "line": "(Lk 11, 27–28) Jėzui bekalbant, viena moteris iš minios garsiai sušuko: „Palaimintos įsčios, kurios tave nešiojo, ir krūtys, kurias žindai!“ O jis atsiliepė: „Dar labiau palaiminti"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Saturday of the Twenty-seventh Week in Ordinary Time",
+        "reading1": "Gal 3:22-29",
+        "psalm": "Ps 105:2-3, 4-5, 6-7",
+        "gospel": "Lk 11:27-28",
+        "line": "While Jesus was speaking, a woman from the crowd called out and said to him, “Blessed is the womb that carried you and the breasts at which you nursed.” He replied, “Rather, blesse"
       }
     }
   }
