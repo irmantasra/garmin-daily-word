@@ -1,20 +1,18 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "lt": {
-    "event": "XXVII eilinis sekmadienis",
-    "reading1": "Iz 5, 1-7",
-    "psalm": "Ps 79 (80), 9 ir 12. 13-14. 15-16. 19-20",
-    "reading2": "Fil 4, 6-9",
-    "gospel": "Mt 21, 33-43",
-    "line": "Todėl sakau jums: Dievo Karalystė bus iš jūsų atimta ir atiduota tautai, kuri duos vaisių."
+    "event": "XXVII eilinė savaitė, Pirmadienis",
+    "reading1": "Gal 1, 6-12",
+    "psalm": "Ps 110, 1-2. 7-10c",
+    "gospel": "Lk 10, 25-37",
+    "line": "Jėzus atsakė: „Eik ir tu taip daryk!"
   },
   "season": "ordinary",
   "en": {
-    "event": "Twenty-seventh Sunday in Ordinary Time",
-    "reading1": "Is 5:1-7",
-    "psalm": "Ps 80:9, 12, 13-14, 15-16, 19-20",
-    "reading2": "Phil 4:6-9",
-    "gospel": "Mt 21:33-43",
-    "line": "Therefore, I say to you, the kingdom of God will be taken away from you and given to a people that will produce its fruit."
+    "event": "Monday of the Twenty-seventh Week in Ordinary Time",
+    "reading1": "Gal 1:6-12",
+    "psalm": "Ps 111:1b-2, 7-8, 9, 10c",
+    "gospel": "Lk 10:25-37",
+    "line": "If you spend more than what I have given you, I shall repay you on my way back.’ Which of these three, in your opinion, was neighbor to the robbers’ victim?” He answered, “The one "
   }
 }
