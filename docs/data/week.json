@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-06": {
-      "date": "2026-10-06",
-      "lt": {
-        "event": "XXVII eilinė savaitė, Antradienis",
-        "reading1": "Gal 1, 13-24",
-        "psalm": "Ps 138, 1-3. 13-15",
-        "gospel": "Lk 10, 38-42",
-        "line": "Marija išsirinko geriausiąją dalį, kuri nebus iš jos atimta“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Tuesday of the Twenty-seventh Week in Ordinary Time",
-        "reading1": "Gal 1:13-24",
-        "psalm": "Ps 139:1b-3, 13-14ab, 14c-15",
-        "gospel": "Lk 10:38-42",
-        "line": "Mary has chosen the better part and it will not be taken from her."
-      }
-    },
     "2026-10-07": {
       "date": "2026-10-07",
       "lt": {
@@ -102,7 +84,12 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Twenty-eighth Sunday in Ordinary Time",
+        "reading1": "Is 25:6-10a",
+        "psalm": "Ps 23:1-3a, 3b-4, 5, 6",
+        "reading2": "Phil 4:12-14, 19-20",
+        "gospel": "Mt 22:1-14",
+        "line": "Then the king said to his attendants, 'Bind his hands and feet, and cast him into the darkness outside, where there will be wailing and grinding of teeth.' Many are invited, but fe"
       }
     },
     "2026-10-12": {
@@ -121,6 +108,24 @@
         "psalm": "Ps 113:1b-2, 3-4, 5a, 6-7",
         "gospel": "Lk 11:29-32",
         "line": "At the judgment the men of Nineveh will arise with this generation and condemn it, because at the preaching of Jonah they repented, and there is something greater than Jonah here."
+      }
+    },
+    "2026-10-13": {
+      "date": "2026-10-13",
+      "lt": {
+        "event": "XXVIII eilinė savaitė, Antradienis",
+        "reading1": "Gal 5, 1-6",
+        "psalm": "Ps 118, 41. 43-45. 47-48",
+        "gospel": "Lk 11, 37-41",
+        "line": "Verčiau duokite žmonėms iš savo vidaus tarsi išmaldą, ir viskas jums bus nesutepta“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Tuesday of the Twenty-eighth Week in Ordinary Time",
+        "reading1": "Gal 5:1-6",
+        "psalm": "Ps 119:41, 43, 44, 45, 47, 48",
+        "gospel": "Lk 11:37-41",
+        "line": "But as to what is within, give alms, and behold, everything will be clean for you."
       }
     }
   }
