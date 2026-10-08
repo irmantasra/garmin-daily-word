@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-07": {
-      "date": "2026-10-07",
-      "lt": {
-        "event": "XXVII eilinė savaitė, Trečiadienis",
-        "reading1": "Gal 2, 1-2. 7-14",
-        "psalm": "Ps 116, 1-2",
-        "gospel": "Lk 11, 1-4",
-        "line": "Kasdienės mūsų duonos duok mums kasdien ir atleisk mums mūsų kaltes, nes ir mes atleidžiame visiems savo skolininkams, ir nevesk mūsų į pagundą'“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Our Lady of the Rosary",
-        "reading1": "Gal 2:1-2, 7-14",
-        "psalm": "Ps 117:1bc, 2",
-        "gospel": "Lk 11:1-4",
-        "line": "Give us each day our daily bread and forgive us our sins for we ourselves forgive everyone in debt to us, and do not subject us to the final test."
-      }
-    },
     "2026-10-08": {
       "date": "2026-10-08",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 119:41, 43, 44, 45, 47, 48",
         "gospel": "Lk 11:37-41",
         "line": "But as to what is within, give alms, and behold, everything will be clean for you."
+      }
+    },
+    "2026-10-14": {
+      "date": "2026-10-14",
+      "lt": {
+        "event": "XXVIII eilinė savaitė, Trečiadienis",
+        "reading1": "Gal 5, 18-25",
+        "psalm": "Ps 1, 1-4. 6",
+        "gospel": "Lk 11, 42-46",
+        "line": "Jūs kraunate žmonėms nepakeliamas naštas, o patys tų naštų nė vienu pirštu nepajudinate“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Twenty-eighth Week in Ordinary Time",
+        "reading1": "Gal 5:18-25",
+        "psalm": "Ps 1:1-2, 3, 4, 6",
+        "gospel": "Lk 11:42-46",
+        "line": "You impose on people burdens hard to carry, but you yourselves do not lift one finger to touch them."
       }
     }
   }
