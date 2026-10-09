@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-08": {
-      "date": "2026-10-08",
-      "lt": {
-        "event": "XXVII eilinė savaitė, Ketvirtadienis",
-        "reading1": "Gal 3, 1-5",
-        "psalm": "Plg. Lk 1, 69-75",
-        "gospel": "Lk 11, 5-13",
-        "line": "Jei tad jūs, būdami nelabi, mokate savo vaikams duoti gerų daiktų, juo labiau jūsų Tėvas iš dangaus suteiks Šventąją Dvasią tiems, kurie jį prašo“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Twenty-seventh Week in Ordinary Time",
-        "reading1": "Gal 3:1-5",
-        "psalm": "Lk 1:69-70, 71-72, 73-75",
-        "gospel": "Lk 11:5-13",
-        "line": "If you then, who are wicked, know how to give good gifts to your children, how much more will the Father in heaven give the Holy Spirit to those who ask him?"
-      }
-    },
     "2026-10-09": {
       "date": "2026-10-09",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 1:1-2, 3, 4, 6",
         "gospel": "Lk 11:42-46",
         "line": "You impose on people burdens hard to carry, but you yourselves do not lift one finger to touch them."
+      }
+    },
+    "2026-10-15": {
+      "date": "2026-10-15",
+      "lt": {
+        "event": "XXVIII eilinė savaitė, Ketvirtadienis",
+        "reading1": "Ef 1, 1-10",
+        "psalm": "Ps 97, 1-6",
+        "gospel": "Lk 11, 47-54",
+        "line": "Jam iš ten išėjus, Rašto aiškintojai bei fariziejai pradėjo labai jį pulti ir visaip kamantinėti, tykodami ką nors pagauti iš jo lūpų."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Teresa of Jesus, Virgin and Doctor of the Church",
+        "reading1": "Eph 1:1-10",
+        "psalm": "Ps 98:1, 2-3ab, 3cd-4, 5-6",
+        "gospel": "Lk 11:47-54",
+        "line": "You yourselves did not enter and you stopped those trying to enter.” When Jesus left, the scribes and Pharisees began to act with hostility toward him and to interrogate him about "
       }
     }
   }
