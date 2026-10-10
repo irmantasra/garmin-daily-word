@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "lt": {
-    "event": "XXVII eilinė savaitė, Penktadienis",
-    "reading1": "Gal 3, 7-14",
-    "psalm": "Ps 110, 1-6",
-    "gospel": "Lk 11, 15-26",
-    "line": "Ir paskui tam žmogui darosi blogiau, negu pirma“."
+    "event": "XXVII eilinė savaitė, Šeštadienis",
+    "reading1": "Gal 3, 22-29",
+    "psalm": "Ps 104, 2-7",
+    "gospel": "Lk 11, 27-28",
+    "line": "(Lk 11, 27–28) Jėzui bekalbant, viena moteris iš minios garsiai sušuko: „Palaimintos įsčios, kurios tave nešiojo, ir krūtys, kurias žindai!“ O jis atsiliepė: „Dar labiau palaiminti"
   },
   "season": "ordinary",
   "en": {
-    "event": "Friday of the Twenty-seventh Week in Ordinary Time",
-    "reading1": "Gal 3:7-14",
-    "psalm": "Ps 111:1b-2, 3-4, 5-6",
-    "gospel": "Lk 11:15-26",
-    "line": "Then it goes and brings back seven other spirits more wicked than itself who move in and dwell there, and the last condition of that man is worse than the first."
+    "event": "Saturday of the Twenty-seventh Week in Ordinary Time",
+    "reading1": "Gal 3:22-29",
+    "psalm": "Ps 105:2-3, 4-5, 6-7",
+    "gospel": "Lk 11:27-28",
+    "line": "While Jesus was speaking, a woman from the crowd called out and said to him, “Blessed is the womb that carried you and the breasts at which you nursed.” He replied, “Rather, blesse"
   }
 }
