@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-12": {
-      "date": "2026-10-12",
-      "lt": {
-        "event": "XXVIII eilinė savaitė, Pirmadienis",
-        "reading1": "Gal 4, 22-24. 26-27. 31-5, 1",
-        "psalm": "Ps 112, 1-7",
-        "gospel": "Lk 11, 29-32",
-        "line": "Ninevės gyventojai stos teisme drauge su šia karta ir ją pasmerks, nes jie atsivertė, išgirdę Jonos pamokslus, o štai čia daugiau, negu Jona“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Twenty-eighth Week in Ordinary Time",
-        "reading1": "Gal 4:22-24, 26-27, 31–5:1",
-        "psalm": "Ps 113:1b-2, 3-4, 5a, 6-7",
-        "gospel": "Lk 11:29-32",
-        "line": "At the judgment the men of Nineveh will arise with this generation and condemn it, because at the preaching of Jonah they repented, and there is something greater than Jonah here."
-      }
-    },
     "2026-10-13": {
       "date": "2026-10-13",
       "lt": {
@@ -101,7 +83,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Memorial of Saint Ignatius of Antioch, Bishop and Martyr",
+        "reading1": "Eph 1:15-23",
+        "psalm": "Ps 8:2-3ab, 4-5, 6-7",
+        "gospel": "Lk 12:8-12",
+        "line": "For the Holy Spirit will teach you at that moment what you should say."
       }
     },
     "2026-10-18": {
@@ -122,6 +108,24 @@
         "reading2": "1 Thes 1:1-5b",
         "gospel": "Mt 22:15-21",
         "line": "He said to them, \"Whose image is this and whose inscription?\" They replied, \"Caesar's.\" At that he said to them, \"Then repay to Caesar what belongs to Caesar and to God what belong"
+      }
+    },
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "lt": {
+        "event": "XXIX eilinė savaitė, Pirmadienis",
+        "reading1": "Ef 2, 1-10",
+        "psalm": "Ps 99, 2-5",
+        "gospel": "Lk 12, 13-21",
+        "line": "Kam gi atiteks ką susikrovei?' Taip ir bus tam, kas krauna turtus, bet nesirūpina tapti turtingas pas Dievą“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "reading1": "Eph 2:1-10",
+        "psalm": "Ps 100:1b-2, 3, 4ab, 4c-5",
+        "gospel": "Lk 12:13-21",
+        "line": "There I shall store all my grain and other goods and I shall say to myself, “Now as for you, you have so many good things stored up for many years, rest, eat, drink, be merry!”’ Bu"
       }
     }
   }

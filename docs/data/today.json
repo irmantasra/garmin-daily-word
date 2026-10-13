@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "lt": {
-    "event": "XXVIII eilinė savaitė, Pirmadienis",
-    "reading1": "Gal 4, 22-24. 26-27. 31-5, 1",
-    "psalm": "Ps 112, 1-7",
-    "gospel": "Lk 11, 29-32",
-    "line": "Ninevės gyventojai stos teisme drauge su šia karta ir ją pasmerks, nes jie atsivertė, išgirdę Jonos pamokslus, o štai čia daugiau, negu Jona“."
+    "event": "XXVIII eilinė savaitė, Antradienis",
+    "reading1": "Gal 5, 1-6",
+    "psalm": "Ps 118, 41. 43-45. 47-48",
+    "gospel": "Lk 11, 37-41",
+    "line": "Verčiau duokite žmonėms iš savo vidaus tarsi išmaldą, ir viskas jums bus nesutepta“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Monday of the Twenty-eighth Week in Ordinary Time",
-    "reading1": "Gal 4:22-24, 26-27, 31–5:1",
-    "psalm": "Ps 113:1b-2, 3-4, 5a, 6-7",
-    "gospel": "Lk 11:29-32",
-    "line": "At the judgment the men of Nineveh will arise with this generation and condemn it, because at the preaching of Jonah they repented, and there is something greater than Jonah here."
+    "event": "Tuesday of the Twenty-eighth Week in Ordinary Time",
+    "reading1": "Gal 5:1-6",
+    "psalm": "Ps 119:41, 43, 44, 45, 47, 48",
+    "gospel": "Lk 11:37-41",
+    "line": "But as to what is within, give alms, and behold, everything will be clean for you."
   }
 }
