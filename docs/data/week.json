@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-14": {
-      "date": "2026-10-14",
-      "lt": {
-        "event": "XXVIII eilinė savaitė, Trečiadienis",
-        "reading1": "Gal 5, 18-25",
-        "psalm": "Ps 1, 1-4. 6",
-        "gospel": "Lk 11, 42-46",
-        "line": "Jūs kraunate žmonėms nepakeliamas naštas, o patys tų naštų nė vienu pirštu nepajudinate“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Wednesday of the Twenty-eighth Week in Ordinary Time",
-        "reading1": "Gal 5:18-25",
-        "psalm": "Ps 1:1-2, 3, 4, 6",
-        "gospel": "Lk 11:42-46",
-        "line": "You impose on people burdens hard to carry, but you yourselves do not lift one finger to touch them."
-      }
-    },
     "2026-10-15": {
       "date": "2026-10-15",
       "lt": {
@@ -121,7 +103,29 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Tuesday of the Twenty-ninth Week in Ordinary Time",
+        "reading1": "Eph 2:12-22",
+        "psalm": "Ps 85:9ab-10, 11-12, 13-14",
+        "gospel": "Lk 12:35-38",
+        "line": "And should he come in the second or third watch and find them prepared in this way, blessed are those servants."
+      }
+    },
+    "2026-10-21": {
+      "date": "2026-10-21",
+      "lt": {
+        "event": "XXIX eilinė savaitė, Trečiadienis",
+        "reading1": "Ef 3, 2-12",
+        "psalm": "Iz 12, 2-6",
+        "gospel": "Lk 12, 39-48",
+        "line": "Iš kiekvieno, kuriam daug duota, bus daug pareikalauta, ir kam daug patikėta, iš to bus daug ir išieškota“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Twenty-ninth Week in Ordinary Time",
+        "reading1": "Eph 3:2-12",
+        "psalm": "Is 12:2-3, 4bcd, 5-6",
+        "gospel": "Lk 12:39-48",
+        "line": "Much will be required of the person entrusted with much, and still more will be demanded of the person entrusted with more."
       }
     }
   }
