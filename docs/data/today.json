@@ -1,18 +1,20 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "lt": {
-    "event": "XXVIII eilinė savaitė, Šeštadienis",
-    "reading1": "Ef 1, 15-23",
-    "psalm": "Ps 8, 2-3a. 4-7",
-    "gospel": "Lk 12, 8-12",
-    "line": "Kai jie ves jus į sinagogas pas viršininkus ar vyresnybes, nesirūpinkite, kaip ginsitės ar ką atsakinėsite, nes Šventoji Dvasia tada jus pamokys, ką kalbėti“."
+    "event": "XXIX eilinis sekmadienis",
+    "reading1": "Iz 45, 1. 4-6",
+    "psalm": "Ps 95 (96), 1 ir 3. 4-5. 7-8. 9-10a ir c",
+    "reading2": "1 Tes 1, 1-5b",
+    "gospel": "Mt 22, 15-21",
+    "line": "Jis paklausė: „Kieno čia paveikslas ir įrašas?“ Jie atsakė: „Ciesoriaus.“ Tuomet Jėzus tarė: „Atiduokite tad, kas ciesoriaus – ciesoriui, o kas Dievo – Dievui."
   },
   "season": "ordinary",
   "en": {
-    "event": "Memorial of Saint Ignatius of Antioch, Bishop and Martyr",
-    "reading1": "Eph 1:15-23",
-    "psalm": "Ps 8:2-3ab, 4-5, 6-7",
-    "gospel": "Lk 12:8-12",
-    "line": "For the Holy Spirit will teach you at that moment what you should say."
+    "event": "Twenty-ninth Sunday in Ordinary Time",
+    "reading1": "Is 45:1, 4-6",
+    "psalm": "Ps 96:1, 3, 4-5, 7-8, 9-10",
+    "reading2": "1 Thes 1:1-5b",
+    "gospel": "Mt 22:15-21",
+    "line": "He said to them, \"Whose image is this and whose inscription?\" They replied, \"Caesar's.\" At that he said to them, \"Then repay to Caesar what belongs to Caesar and to God what belong"
   }
 }

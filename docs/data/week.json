@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-17": {
-      "date": "2026-10-17",
-      "lt": {
-        "event": "XXVIII eilinė savaitė, Šeštadienis",
-        "reading1": "Ef 1, 15-23",
-        "psalm": "Ps 8, 2-3a. 4-7",
-        "gospel": "Lk 12, 8-12",
-        "line": "Kai jie ves jus į sinagogas pas viršininkus ar vyresnybes, nesirūpinkite, kaip ginsitės ar ką atsakinėsite, nes Šventoji Dvasia tada jus pamokys, ką kalbėti“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Ignatius of Antioch, Bishop and Martyr",
-        "reading1": "Eph 1:15-23",
-        "psalm": "Ps 8:2-3ab, 4-5, 6-7",
-        "gospel": "Lk 12:8-12",
-        "line": "For the Holy Spirit will teach you at that moment what you should say."
-      }
-    },
     "2026-10-18": {
       "date": "2026-10-18",
       "lt": {
@@ -126,6 +108,20 @@
         "psalm": "Ps 24:1-2, 3-4ab, 5-6",
         "gospel": "Lk 12:54-59",
         "line": "I say to you, you will not be released until you have paid the last penny."
+      }
+    },
+    "2026-10-24": {
+      "date": "2026-10-24",
+      "lt": {
+        "event": "XXIX eilinė savaitė, Šeštadienis",
+        "reading1": "Ef 4, 7-16",
+        "psalm": "Ps 121, 1-5",
+        "gospel": "Lk 13, 1-9",
+        "line": "O jei ne, tada jį iškirsdinsi'“."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }
