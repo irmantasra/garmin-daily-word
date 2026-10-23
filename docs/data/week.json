@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-22": {
-      "date": "2026-10-22",
-      "lt": {
-        "event": "XXIX eilinė savaitė, Ketvirtadienis",
-        "reading1": "Ef 3, 14-21",
-        "psalm": "Ps 32, 1-2. 4-5. 11-12. 18-19",
-        "gospel": "Lk 12, 49-53",
-        "line": "Tėvas stos prieš sūnų, o sūnus prieš tėvą, motina prieš dukterį, o duktė prieš motiną; anyta prieš marčią, ir marti prieš anytą“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Twenty-ninth Week in Ordinary Time",
-        "reading1": "Eph 3:14-21",
-        "psalm": "Ps 33:1-2, 4-5, 11-12, 18-19",
-        "gospel": "Lk 12:49-53",
-        "line": "From now on a household of five will be divided, three against two and two against three; a father will be divided against his son and a son against his father, a mother against he"
-      }
-    },
     "2026-10-23": {
       "date": "2026-10-23",
       "lt": {
@@ -118,6 +100,24 @@
       "season": "ordinary",
       "en": {
         "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    "2026-10-29": {
+      "date": "2026-10-29",
+      "lt": {
+        "event": "XXX eilinė savaitė, Ketvirtadienis",
+        "reading1": "Ef 6, 10-20",
+        "psalm": "Ps 143, 1-2. 9-10",
+        "gospel": "Lk 13, 31-35",
+        "line": "Ir aš sakau jums: jūs manęs nebematysite, kol ateis laikas, kada imsite šaukti; 'Garbė tam, kuris ateina Viešpaties vardu!"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thursday of the Thirtieth Week in Ordinary Time",
+        "reading1": "Eph 6:10-20",
+        "psalm": "Ps 144:1b, 2, 9-10",
+        "gospel": "Lk 13:31-35",
+        "line": "But I tell you, you will not see me until the time comes when you say, Blessed is he who comes in the name of the Lord ."
       }
     }
   }

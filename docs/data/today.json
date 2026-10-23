@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "lt": {
-    "event": "XXIX eilinė savaitė, Ketvirtadienis",
-    "reading1": "Ef 3, 14-21",
-    "psalm": "Ps 32, 1-2. 4-5. 11-12. 18-19",
-    "gospel": "Lk 12, 49-53",
-    "line": "Tėvas stos prieš sūnų, o sūnus prieš tėvą, motina prieš dukterį, o duktė prieš motiną; anyta prieš marčią, ir marti prieš anytą“."
+    "event": "XXIX eilinė savaitė, Penktadienis",
+    "reading1": "Ef 4, 1-6",
+    "psalm": "Ps 23, 1-6",
+    "gospel": "Lk 12, 54-59",
+    "line": "Sakau tau: iš ten neišeisi, kol neatsiteisi ligi paskutinio skatiko“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Thursday of the Twenty-ninth Week in Ordinary Time",
-    "reading1": "Eph 3:14-21",
-    "psalm": "Ps 33:1-2, 4-5, 11-12, 18-19",
-    "gospel": "Lk 12:49-53",
-    "line": "From now on a household of five will be divided, three against two and two against three; a father will be divided against his son and a son against his father, a mother against he"
+    "event": "Friday of the Twenty-ninth Week in Ordinary Time",
+    "reading1": "Eph 4:1-6",
+    "psalm": "Ps 24:1-2, 3-4ab, 5-6",
+    "gospel": "Lk 12:54-59",
+    "line": "I say to you, you will not be released until you have paid the last penny."
   }
 }
