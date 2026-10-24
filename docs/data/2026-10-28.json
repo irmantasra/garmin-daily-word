@@ -9,6 +9,10 @@
   },
   "season": "ordinary",
   "en": {
-    "error": "HTTP Error 403: Forbidden"
+    "event": "Feast of Saints Simon and Jude, Apostles",
+    "reading1": "Eph 2:19-22",
+    "psalm": "Ps 19:2-3, 4-5",
+    "gospel": "Lk 6:12-16",
+    "line": "When day came, he called his disciples to himself, and from them he chose Twelve, whom he also named Apostles: Simon, whom he named Peter, and his brother Andrew, James, John, Phil"
   }
 }

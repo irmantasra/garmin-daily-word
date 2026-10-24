@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-23": {
-      "date": "2026-10-23",
-      "lt": {
-        "event": "XXIX eilinė savaitė, Penktadienis",
-        "reading1": "Ef 4, 1-6",
-        "psalm": "Ps 23, 1-6",
-        "gospel": "Lk 12, 54-59",
-        "line": "Sakau tau: iš ten neišeisi, kol neatsiteisi ligi paskutinio skatiko“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Twenty-ninth Week in Ordinary Time",
-        "reading1": "Eph 4:1-6",
-        "psalm": "Ps 24:1-2, 3-4ab, 5-6",
-        "gospel": "Lk 12:54-59",
-        "line": "I say to you, you will not be released until you have paid the last penny."
-      }
-    },
     "2026-10-24": {
       "date": "2026-10-24",
       "lt": {
@@ -67,7 +49,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Monday of the Thirtieth Week in Ordinary Time",
+        "reading1": "Eph 4:32–5:8",
+        "psalm": "Ps 1:1-2, 3, 4, 6",
+        "gospel": "Lk 13:10-17",
+        "line": "This daughter of Abraham, whom Satan has bound for eighteen years now, ought she not to have been set free on the sabbath day from this bondage?” When he said this, all his adversa"
       }
     },
     "2026-10-27": {
@@ -99,7 +85,11 @@
       },
       "season": "ordinary",
       "en": {
-        "error": "HTTP Error 403: Forbidden"
+        "event": "Feast of Saints Simon and Jude, Apostles",
+        "reading1": "Eph 2:19-22",
+        "psalm": "Ps 19:2-3, 4-5",
+        "gospel": "Lk 6:12-16",
+        "line": "When day came, he called his disciples to himself, and from them he chose Twelve, whom he also named Apostles: Simon, whom he named Peter, and his brother Andrew, James, John, Phil"
       }
     },
     "2026-10-29": {
@@ -118,6 +108,24 @@
         "psalm": "Ps 144:1b, 2, 9-10",
         "gospel": "Lk 13:31-35",
         "line": "But I tell you, you will not see me until the time comes when you say, Blessed is he who comes in the name of the Lord ."
+      }
+    },
+    "2026-10-30": {
+      "date": "2026-10-30",
+      "lt": {
+        "event": "XXX eilinė savaitė, Penktadienis",
+        "reading1": "Fil 1, 1-11",
+        "psalm": "Ps 110, 1-6",
+        "gospel": "Lk 14, 1-6",
+        "line": "O jiems pasakė: „Jei kurio iš jūsų sūnus ar galvijas įkris į šulinį, argi tučtuojau neištrauks jų šeštadienį?!“ Ir jie nesugebėjo į tai atsakyti."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Thirtieth Week in Ordinary Time",
+        "reading1": "Phil 1:1-11",
+        "psalm": "Ps 111:1-2, 3-4, 5-6",
+        "gospel": "Lk 14:1-6",
+        "line": "Then he said to them “Who among you, if your son or ox falls into a cistern, would not immediately pull him out on the sabbath day?” But they were unable to answer his question."
       }
     }
   }

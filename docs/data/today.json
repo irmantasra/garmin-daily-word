@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "lt": {
-    "event": "XXIX eilinė savaitė, Penktadienis",
-    "reading1": "Ef 4, 1-6",
-    "psalm": "Ps 23, 1-6",
-    "gospel": "Lk 12, 54-59",
-    "line": "Sakau tau: iš ten neišeisi, kol neatsiteisi ligi paskutinio skatiko“."
+    "event": "XXIX eilinė savaitė, Šeštadienis",
+    "reading1": "Ef 4, 7-16",
+    "psalm": "Ps 121, 1-5",
+    "gospel": "Lk 13, 1-9",
+    "line": "O jei ne, tada jį iškirsdinsi'“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Friday of the Twenty-ninth Week in Ordinary Time",
-    "reading1": "Eph 4:1-6",
-    "psalm": "Ps 24:1-2, 3-4ab, 5-6",
-    "gospel": "Lk 12:54-59",
-    "line": "I say to you, you will not be released until you have paid the last penny."
+    "event": "Saturday of the Twenty-ninth Week in Ordinary Time",
+    "reading1": "Eph 4:7-16",
+    "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
+    "gospel": "Lk 13:1-9",
+    "line": "If not you can cut it down.’"
   }
 }
