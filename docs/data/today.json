@@ -1,18 +1,20 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lt": {
-    "event": "XXIX eilinė savaitė, Šeštadienis",
-    "reading1": "Ef 4, 7-16",
-    "psalm": "Ps 121, 1-5",
-    "gospel": "Lk 13, 1-9",
-    "line": "O jei ne, tada jį iškirsdinsi'“."
+    "event": "XXX eilinis sekmadienis",
+    "reading1": "Iš 22, 20-26",
+    "psalm": "Ps 17 (18), 2-3a. 3bc-4. 47 ir 51 ab",
+    "reading2": "1 Tes 1, 5c-10",
+    "gospel": "Mt 22, 34-40",
+    "line": "Šitais dviem įsakymais remiasi visas Įstatymas ir Pranašai."
   },
   "season": "ordinary",
   "en": {
-    "event": "Saturday of the Twenty-ninth Week in Ordinary Time",
-    "reading1": "Eph 4:7-16",
-    "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
-    "gospel": "Lk 13:1-9",
-    "line": "If not you can cut it down.’"
+    "event": "Thirtieth Sunday in Ordinary Time",
+    "reading1": "Ex 22:20-26",
+    "psalm": "Ps 18:2-3, 3-4, 47, 51",
+    "reading2": "1 Thes 1:5c-10",
+    "gospel": "Mt 22:34-40",
+    "line": "The whole law and the prophets depend on these two commandments."
   }
 }

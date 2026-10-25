@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-24": {
-      "date": "2026-10-24",
-      "lt": {
-        "event": "XXIX eilinė savaitė, Šeštadienis",
-        "reading1": "Ef 4, 7-16",
-        "psalm": "Ps 121, 1-5",
-        "gospel": "Lk 13, 1-9",
-        "line": "O jei ne, tada jį iškirsdinsi'“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Twenty-ninth Week in Ordinary Time",
-        "reading1": "Eph 4:7-16",
-        "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
-        "gospel": "Lk 13:1-9",
-        "line": "If not you can cut it down.’"
-      }
-    },
     "2026-10-25": {
       "date": "2026-10-25",
       "lt": {
@@ -126,6 +108,24 @@
         "psalm": "Ps 111:1-2, 3-4, 5-6",
         "gospel": "Lk 14:1-6",
         "line": "Then he said to them “Who among you, if your son or ox falls into a cistern, would not immediately pull him out on the sabbath day?” But they were unable to answer his question."
+      }
+    },
+    "2026-10-31": {
+      "date": "2026-10-31",
+      "lt": {
+        "event": "XXX eilinė savaitė, Šeštadienis",
+        "reading1": "Fil 1, 18b-26",
+        "psalm": "Ps 41, 2-3. 5",
+        "gospel": "Lk 14, 1. 7-11",
+        "line": "Kiekvienas, kuris save aukština, bus pažemintas, o kuris save žemina, bus išaukštintas“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Saturday of the Thirtieth Week in Ordinary Time",
+        "reading1": "Phil 1:18b-26",
+        "psalm": "Ps 42:2, 3, 5cdef",
+        "gospel": "Lk 14:1, 7-11",
+        "line": "For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted."
       }
     }
   }
