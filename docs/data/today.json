@@ -1,20 +1,18 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lt": {
-    "event": "XXX eilinis sekmadienis",
-    "reading1": "Iš 22, 20-26",
-    "psalm": "Ps 17 (18), 2-3a. 3bc-4. 47 ir 51 ab",
-    "reading2": "1 Tes 1, 5c-10",
-    "gospel": "Mt 22, 34-40",
-    "line": "Šitais dviem įsakymais remiasi visas Įstatymas ir Pranašai."
+    "event": "XXX eilinė savaitė, Pirmadienis",
+    "reading1": "Ef 4, 32-5, 8",
+    "psalm": "Ps 1, 1-4. 6",
+    "gospel": "Lk 13, 10-17",
+    "line": "Argi šios Abraomo dukters, kurią šėtonas laikė sukaustęs jau aštuoniolika metų, nereikėjo išvaduoti iš pančių šeštadienį?“ Jam tai bekalbant, visi jo priešai susigėdo, o visa minia"
   },
   "season": "ordinary",
   "en": {
-    "event": "Thirtieth Sunday in Ordinary Time",
-    "reading1": "Ex 22:20-26",
-    "psalm": "Ps 18:2-3, 3-4, 47, 51",
-    "reading2": "1 Thes 1:5c-10",
-    "gospel": "Mt 22:34-40",
-    "line": "The whole law and the prophets depend on these two commandments."
+    "event": "Monday of the Thirtieth Week in Ordinary Time",
+    "reading1": "Eph 4:32–5:8",
+    "psalm": "Ps 1:1-2, 3, 4, 6",
+    "gospel": "Lk 13:10-17",
+    "line": "This daughter of Abraham, whom Satan has bound for eighteen years now, ought she not to have been set free on the sabbath day from this bondage?” When he said this, all his adversa"
   }
 }
