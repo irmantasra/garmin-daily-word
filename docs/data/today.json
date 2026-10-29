@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "lt": {
-    "event": "Spalio 28 d., Šv. apaštalai Simonas ir Judas (F)",
-    "reading1": "Ef 2, 19-22",
-    "psalm": "Ps 18, 2-5",
-    "gospel": "Lk 6, 12-19",
-    "line": "Visa minia stengėsi jį paliesti, nes iš jo ėjo galia ir visus gydė."
+    "event": "XXX eilinė savaitė, Ketvirtadienis",
+    "reading1": "Ef 6, 10-20",
+    "psalm": "Ps 143, 1-2. 9-10",
+    "gospel": "Lk 13, 31-35",
+    "line": "Ir aš sakau jums: jūs manęs nebematysite, kol ateis laikas, kada imsite šaukti; 'Garbė tam, kuris ateina Viešpaties vardu!"
   },
   "season": "ordinary",
   "en": {
-    "event": "Feast of Saints Simon and Jude, Apostles",
-    "reading1": "Eph 2:19-22",
-    "psalm": "Ps 19:2-3, 4-5",
-    "gospel": "Lk 6:12-16",
-    "line": "When day came, he called his disciples to himself, and from them he chose Twelve, whom he also named Apostles: Simon, whom he named Peter, and his brother Andrew, James, John, Phil"
+    "event": "Thursday of the Thirtieth Week in Ordinary Time",
+    "reading1": "Eph 6:10-20",
+    "psalm": "Ps 144:1b, 2, 9-10",
+    "gospel": "Lk 13:31-35",
+    "line": "But I tell you, you will not see me until the time comes when you say, Blessed is he who comes in the name of the Lord ."
   }
 }

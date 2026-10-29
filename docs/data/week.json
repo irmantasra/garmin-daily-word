@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-28": {
-      "date": "2026-10-28",
-      "lt": {
-        "event": "Spalio 28 d., Šv. apaštalai Simonas ir Judas (F)",
-        "reading1": "Ef 2, 19-22",
-        "psalm": "Ps 18, 2-5",
-        "gospel": "Lk 6, 12-19",
-        "line": "Visa minia stengėsi jį paliesti, nes iš jo ėjo galia ir visus gydė."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Feast of Saints Simon and Jude, Apostles",
-        "reading1": "Eph 2:19-22",
-        "psalm": "Ps 19:2-3, 4-5",
-        "gospel": "Lk 6:12-16",
-        "line": "When day came, he called his disciples to himself, and from them he chose Twelve, whom he also named Apostles: Simon, whom he named Peter, and his brother Andrew, James, John, Phil"
-      }
-    },
     "2026-10-29": {
       "date": "2026-10-29",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 22:26b-27, 28-30ab, 30e, 31-32",
         "gospel": "Lk 14:15-24",
         "line": "For, I tell you, none of those men who were invited will taste my dinner.’"
+      }
+    },
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "lt": {
+        "event": "XXXI eilinė savaitė, Trečiadienis",
+        "reading1": "Fil 2, 12-18",
+        "psalm": "Ps 26, 1. 4. 13-14",
+        "gospel": "Lk 14, 25-33",
+        "line": "Taip pat kiekvienas iš jūsų, kuris neatsižada visos savo nuosavybės, negali būti mano mokinys“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Charles Borromeo, Bishop",
+        "reading1": "Phil 2:12-18",
+        "psalm": "Ps 27:1, 4, 13-14",
+        "gospel": "Lk 14:25-33",
+        "line": "In the same way, everyone of you who does not renounce all his possessions cannot be my disciple."
       }
     }
   }
