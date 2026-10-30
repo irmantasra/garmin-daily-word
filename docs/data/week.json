@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-29": {
-      "date": "2026-10-29",
-      "lt": {
-        "event": "XXX eilinė savaitė, Ketvirtadienis",
-        "reading1": "Ef 6, 10-20",
-        "psalm": "Ps 143, 1-2. 9-10",
-        "gospel": "Lk 13, 31-35",
-        "line": "Ir aš sakau jums: jūs manęs nebematysite, kol ateis laikas, kada imsite šaukti; 'Garbė tam, kuris ateina Viešpaties vardu!"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Thirtieth Week in Ordinary Time",
-        "reading1": "Eph 6:10-20",
-        "psalm": "Ps 144:1b, 2, 9-10",
-        "gospel": "Lk 13:31-35",
-        "line": "But I tell you, you will not see me until the time comes when you say, Blessed is he who comes in the name of the Lord ."
-      }
-    },
     "2026-10-30": {
       "date": "2026-10-30",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 27:1, 4, 13-14",
         "gospel": "Lk 14:25-33",
         "line": "In the same way, everyone of you who does not renounce all his possessions cannot be my disciple."
+      }
+    },
+    "2026-11-05": {
+      "date": "2026-11-05",
+      "lt": {
+        "event": "XXXI eilinė savaitė, Ketvirtadienis",
+        "reading1": "Fil 3, 3-8a",
+        "psalm": "Ps 104, 2-7",
+        "gospel": "Lk 15, 1-10",
+        "line": "Sakau jums, šitaip džiaugiasi Dievo angelai dėl vieno atsivertusio nusidėjėlio“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thursday of the Thirty-first Week in Ordinary Time",
+        "reading1": "Phil 3:3-8a",
+        "psalm": "Ps 105:2-3, 4-5, 6-7",
+        "gospel": "Lk 15:1-10",
+        "line": "And when she does find it, she calls together her friends and neighbors and says to them, ‘Rejoice with me because I have found the coin that I lost.’ In just the same way, I tell "
       }
     }
   }

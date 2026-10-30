@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "lt": {
-    "event": "XXX eilinė savaitė, Ketvirtadienis",
-    "reading1": "Ef 6, 10-20",
-    "psalm": "Ps 143, 1-2. 9-10",
-    "gospel": "Lk 13, 31-35",
-    "line": "Ir aš sakau jums: jūs manęs nebematysite, kol ateis laikas, kada imsite šaukti; 'Garbė tam, kuris ateina Viešpaties vardu!"
+    "event": "XXX eilinė savaitė, Penktadienis",
+    "reading1": "Fil 1, 1-11",
+    "psalm": "Ps 110, 1-6",
+    "gospel": "Lk 14, 1-6",
+    "line": "O jiems pasakė: „Jei kurio iš jūsų sūnus ar galvijas įkris į šulinį, argi tučtuojau neištrauks jų šeštadienį?!“ Ir jie nesugebėjo į tai atsakyti."
   },
   "season": "ordinary",
   "en": {
-    "event": "Thursday of the Thirtieth Week in Ordinary Time",
-    "reading1": "Eph 6:10-20",
-    "psalm": "Ps 144:1b, 2, 9-10",
-    "gospel": "Lk 13:31-35",
-    "line": "But I tell you, you will not see me until the time comes when you say, Blessed is he who comes in the name of the Lord ."
+    "event": "Friday of the Thirtieth Week in Ordinary Time",
+    "reading1": "Phil 1:1-11",
+    "psalm": "Ps 111:1-2, 3-4, 5-6",
+    "gospel": "Lk 14:1-6",
+    "line": "Then he said to them “Who among you, if your son or ox falls into a cistern, would not immediately pull him out on the sabbath day?” But they were unable to answer his question."
   }
 }
