@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-30": {
-      "date": "2026-10-30",
-      "lt": {
-        "event": "XXX eilinė savaitė, Penktadienis",
-        "reading1": "Fil 1, 1-11",
-        "psalm": "Ps 110, 1-6",
-        "gospel": "Lk 14, 1-6",
-        "line": "O jiems pasakė: „Jei kurio iš jūsų sūnus ar galvijas įkris į šulinį, argi tučtuojau neištrauks jų šeštadienį?!“ Ir jie nesugebėjo į tai atsakyti."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Thirtieth Week in Ordinary Time",
-        "reading1": "Phil 1:1-11",
-        "psalm": "Ps 111:1-2, 3-4, 5-6",
-        "gospel": "Lk 14:1-6",
-        "line": "Then he said to them “Who among you, if your son or ox falls into a cistern, would not immediately pull him out on the sabbath day?” But they were unable to answer his question."
-      }
-    },
     "2026-10-31": {
       "date": "2026-10-31",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 105:2-3, 4-5, 6-7",
         "gospel": "Lk 15:1-10",
         "line": "And when she does find it, she calls together her friends and neighbors and says to them, ‘Rejoice with me because I have found the coin that I lost.’ In just the same way, I tell "
+      }
+    },
+    "2026-11-06": {
+      "date": "2026-11-06",
+      "lt": {
+        "event": "XXXI eilinė savaitė, Penktadienis",
+        "reading1": "Fil 3, 17-4, 1",
+        "psalm": "Ps 121, 1-5",
+        "gospel": "Lk 16, 1-8",
+        "line": "Šio pasaulio vaikai apsukresni tarp panašių į save, negu šviesos vaikai“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Friday of the Thirty-first Week in Ordinary Time",
+        "reading1": "Phil 3:17—4:1",
+        "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
+        "gospel": "Lk 16:1-8",
+        "line": "For the children of this world are more prudent in dealing with their own generation than the children of light."
       }
     }
   }
