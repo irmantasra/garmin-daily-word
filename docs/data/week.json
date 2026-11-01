@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-10-31": {
-      "date": "2026-10-31",
-      "lt": {
-        "event": "XXX eilinė savaitė, Šeštadienis",
-        "reading1": "Fil 1, 18b-26",
-        "psalm": "Ps 41, 2-3. 5",
-        "gospel": "Lk 14, 1. 7-11",
-        "line": "Kiekvienas, kuris save aukština, bus pažemintas, o kuris save žemina, bus išaukštintas“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Thirtieth Week in Ordinary Time",
-        "reading1": "Phil 1:18b-26",
-        "psalm": "Ps 42:2, 3, 5cdef",
-        "gospel": "Lk 14:1, 7-11",
-        "line": "For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted."
-      }
-    },
     "2026-11-01": {
       "date": "2026-11-01",
       "lt": {
@@ -128,6 +110,20 @@
         "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
         "gospel": "Lk 16:1-8",
         "line": "For the children of this world are more prudent in dealing with their own generation than the children of light."
+      }
+    },
+    "2026-11-07": {
+      "date": "2026-11-07",
+      "lt": {
+        "event": "XXXI eilinė savaitė, Šeštadienis",
+        "reading1": "Fil 4, 10-19",
+        "psalm": "Ps 111, 1-2. 5-6. 8-9",
+        "gospel": "Lk 16, 9-15",
+        "line": "Kas žmonėms atrodo prakilnu, Dievo akivaizdoje bjauru“."
+      },
+      "season": "ordinary",
+      "en": {
+        "error": "HTTP Error 403: Forbidden"
       }
     }
   }

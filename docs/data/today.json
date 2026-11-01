@@ -1,18 +1,20 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "lt": {
-    "event": "XXX eilinė savaitė, Šeštadienis",
-    "reading1": "Fil 1, 18b-26",
-    "psalm": "Ps 41, 2-3. 5",
-    "gospel": "Lk 14, 1. 7-11",
-    "line": "Kiekvienas, kuris save aukština, bus pažemintas, o kuris save žemina, bus išaukštintas“."
+    "event": "Lapkričio 1 d., Visi Šventieji (S)",
+    "reading1": "Apr 7, 2-4. 9-14",
+    "psalm": "Ps 23, 1-6",
+    "reading2": "1 Jn 3, 1-3",
+    "gospel": "Mt 5, 1-12a",
+    "line": "Būkite linksmi ir džiūgaukite, nes jūsų laukia gausus atlygis danguje“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Saturday of the Thirtieth Week in Ordinary Time",
-    "reading1": "Phil 1:18b-26",
-    "psalm": "Ps 42:2, 3, 5cdef",
-    "gospel": "Lk 14:1, 7-11",
-    "line": "For everyone who exalts himself will be humbled, but the one who humbles himself will be exalted."
+    "event": "Solemnity of All Saints",
+    "reading1": "Rv 7:2-4, 9-14",
+    "psalm": "Ps 24:1bc-2, 3-4ab, 5-6",
+    "reading2": "1 Jn 3:1-3",
+    "gospel": "Mt 5:1-12a",
+    "line": "Rejoice and be glad, for your reward will be great in heaven."
   }
 }
