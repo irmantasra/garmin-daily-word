@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-03": {
-      "date": "2026-11-03",
-      "lt": {
-        "event": "XXXI eilinė savaitė, Antradienis",
-        "reading1": "Fil 2, 5-11",
-        "psalm": "Ps 21, 26b-32",
-        "gospel": "Lk 14, 15-24",
-        "line": "Sakau jums,– nė vienas iš anų kviestųjų žmonių neragaus mano vaišių'“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Tuesday of the Thirty-first Week in Ordinary Time",
-        "reading1": "Phil 2:5-11",
-        "psalm": "Ps 22:26b-27, 28-30ab, 30e, 31-32",
-        "gospel": "Lk 14:15-24",
-        "line": "For, I tell you, none of those men who were invited will taste my dinner.’"
-      }
-    },
     "2026-11-04": {
       "date": "2026-11-04",
       "lt": {
@@ -128,6 +110,24 @@
         "reading2": "1 Cor 3:9c-11, 16-17",
         "gospel": "Jn 2:13-22",
         "line": "Therefore, when he was raised from the dead, his disciples remembered that he had said this, and they came to believe the Scripture and the word Jesus had spoken."
+      }
+    },
+    "2026-11-10": {
+      "date": "2026-11-10",
+      "lt": {
+        "event": "XXXII eilinė savaitė, Antradienis",
+        "reading1": "Tit 2, 1-8. 11-14",
+        "psalm": "Ps 36, 3-4. 18. 23. 27. 29",
+        "gospel": "Lk 17, 7-10",
+        "line": "Padarėme, ką turėjome padaryti'“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Leo the Great, Pope and Doctor of the Church",
+        "reading1": "Titus 2:1-8, 11-14",
+        "psalm": "Ps 37:3-4, 18 and 23, 27 and 29",
+        "gospel": "Lk 17:7-10",
+        "line": "When you have done all you have been commanded, say, ‘We are unprofitable servants; we have done what we were obliged to do.’"
       }
     }
   }

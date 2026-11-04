@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "lt": {
-    "event": "XXXI eilinė savaitė, Antradienis",
-    "reading1": "Fil 2, 5-11",
-    "psalm": "Ps 21, 26b-32",
-    "gospel": "Lk 14, 15-24",
-    "line": "Sakau jums,– nė vienas iš anų kviestųjų žmonių neragaus mano vaišių'“."
+    "event": "XXXI eilinė savaitė, Trečiadienis",
+    "reading1": "Fil 2, 12-18",
+    "psalm": "Ps 26, 1. 4. 13-14",
+    "gospel": "Lk 14, 25-33",
+    "line": "Taip pat kiekvienas iš jūsų, kuris neatsižada visos savo nuosavybės, negali būti mano mokinys“."
   },
   "season": "ordinary",
   "en": {
-    "event": "Tuesday of the Thirty-first Week in Ordinary Time",
-    "reading1": "Phil 2:5-11",
-    "psalm": "Ps 22:26b-27, 28-30ab, 30e, 31-32",
-    "gospel": "Lk 14:15-24",
-    "line": "For, I tell you, none of those men who were invited will taste my dinner.’"
+    "event": "Memorial of Saint Charles Borromeo, Bishop",
+    "reading1": "Phil 2:12-18",
+    "psalm": "Ps 27:1, 4, 13-14",
+    "gospel": "Lk 14:25-33",
+    "line": "In the same way, everyone of you who does not renounce all his possessions cannot be my disciple."
   }
 }
