@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-04": {
-      "date": "2026-11-04",
-      "lt": {
-        "event": "XXXI eilinė savaitė, Trečiadienis",
-        "reading1": "Fil 2, 12-18",
-        "psalm": "Ps 26, 1. 4. 13-14",
-        "gospel": "Lk 14, 25-33",
-        "line": "Taip pat kiekvienas iš jūsų, kuris neatsižada visos savo nuosavybės, negali būti mano mokinys“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Charles Borromeo, Bishop",
-        "reading1": "Phil 2:12-18",
-        "psalm": "Ps 27:1, 4, 13-14",
-        "gospel": "Lk 14:25-33",
-        "line": "In the same way, everyone of you who does not renounce all his possessions cannot be my disciple."
-      }
-    },
     "2026-11-05": {
       "date": "2026-11-05",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 37:3-4, 18 and 23, 27 and 29",
         "gospel": "Lk 17:7-10",
         "line": "When you have done all you have been commanded, say, ‘We are unprofitable servants; we have done what we were obliged to do.’"
+      }
+    },
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "lt": {
+        "event": "XXXII eilinė savaitė, Trečiadienis",
+        "reading1": "Tit 3, 1-7",
+        "psalm": "Ps 22, 1-6",
+        "gospel": "Lk 17, 11-19",
+        "line": "Tavo tikėjimas išgydė tave“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Martin of Tours, Bishop",
+        "reading1": "Titus 3:1-7",
+        "psalm": "Ps 23:1b-3a, 3bc-4, 5, 6",
+        "gospel": "Lk 17:11-19",
+        "line": "Has none but this foreigner returned to give thanks to God?” Then he said to him, “Stand up and go; your faith has saved you."
       }
     }
   }
