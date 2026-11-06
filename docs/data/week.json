@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-05": {
-      "date": "2026-11-05",
-      "lt": {
-        "event": "XXXI eilinė savaitė, Ketvirtadienis",
-        "reading1": "Fil 3, 3-8a",
-        "psalm": "Ps 104, 2-7",
-        "gospel": "Lk 15, 1-10",
-        "line": "Sakau jums, šitaip džiaugiasi Dievo angelai dėl vieno atsivertusio nusidėjėlio“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thursday of the Thirty-first Week in Ordinary Time",
-        "reading1": "Phil 3:3-8a",
-        "psalm": "Ps 105:2-3, 4-5, 6-7",
-        "gospel": "Lk 15:1-10",
-        "line": "And when she does find it, she calls together her friends and neighbors and says to them, ‘Rejoice with me because I have found the coin that I lost.’ In just the same way, I tell "
-      }
-    },
     "2026-11-06": {
       "date": "2026-11-06",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 23:1b-3a, 3bc-4, 5, 6",
         "gospel": "Lk 17:11-19",
         "line": "Has none but this foreigner returned to give thanks to God?” Then he said to him, “Stand up and go; your faith has saved you."
+      }
+    },
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "lt": {
+        "event": "XXXII eilinė savaitė, Ketvirtadienis",
+        "reading1": "Fm 7-20",
+        "psalm": "Ps 145, 7-10",
+        "gospel": "Lk 17, 20-25",
+        "line": "Bet pirmiau jam reikės daug iškentėti ir būti šios kartos atmestam“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Josaphat, Bishop and Martyr",
+        "reading1": "Phlm 7-20",
+        "psalm": "Ps 146:7, 8-9a, 9bc-10",
+        "gospel": "Lk 17:20-25",
+        "line": "But first he must suffer greatly and be rejected by this generation."
       }
     }
   }
