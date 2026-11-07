@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-06": {
-      "date": "2026-11-06",
-      "lt": {
-        "event": "XXXI eilinė savaitė, Penktadienis",
-        "reading1": "Fil 3, 17-4, 1",
-        "psalm": "Ps 121, 1-5",
-        "gospel": "Lk 16, 1-8",
-        "line": "Šio pasaulio vaikai apsukresni tarp panašių į save, negu šviesos vaikai“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Thirty-first Week in Ordinary Time",
-        "reading1": "Phil 3:17—4:1",
-        "psalm": "Ps 122:1-2, 3-4ab, 4cd-5",
-        "gospel": "Lk 16:1-8",
-        "line": "For the children of this world are more prudent in dealing with their own generation than the children of light."
-      }
-    },
     "2026-11-07": {
       "date": "2026-11-07",
       "lt": {
@@ -128,6 +110,24 @@
         "psalm": "Ps 146:7, 8-9a, 9bc-10",
         "gospel": "Lk 17:20-25",
         "line": "But first he must suffer greatly and be rejected by this generation."
+      }
+    },
+    "2026-11-13": {
+      "date": "2026-11-13",
+      "lt": {
+        "event": "XXXII eilinė savaitė, Penktadienis",
+        "reading1": "2 Jn 4-9",
+        "psalm": "Ps 118, 1-2. 10-11. 17-18",
+        "gospel": "Lk 17, 26-37",
+        "line": "Tada jie atsiliepė: „O kurgi, Viešpatie?“ Jis atsakė: „Kur bus lavonų, ten sulėks ir maitvanagiai“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Frances Xavier Cabrini, Virgin [In the Dioceses of the United States]",
+        "reading1": "2 Jn 4-9",
+        "psalm": "Ps 119:1, 2, 10, 11, 17, 18",
+        "gospel": "Lk 17:26-37",
+        "line": "And there will be two women grinding meal together; one will be taken, the other left.” They said to him in reply, “Where, Lord?” He said to them, “Where the body is, there also th"
       }
     }
   }
