@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-11-08": {
-      "date": "2026-11-08",
-      "lt": {
-        "event": "XXXII eilinis sekmadienis",
-        "reading1": "Išm 6, 12-16",
-        "psalm": "Ps 62 (63), 2. 3-4. 5-6. 7-8",
-        "reading2": "1 Tes 4, 13-18",
-        "gospel": "Mt 25, 1-13",
-        "line": "Vėliau atėjo ir anos mergaitės ir ėmė prašytis: ‘Gerbiamasis, atidaryk, čia mes!’ O jis atsakė: ‘Iš tiesų sakau jums: aš jūsų nepažįstu!’ Taigi budėkite, nes nežinote nei dienos, n"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thirty-second Sunday in Ordinary Time",
-        "reading1": "Wis 6:12-16",
-        "psalm": "Ps 63:2, 3-4, 5-6, 7-8",
-        "reading2": "1 Thes 4:13-18",
-        "gospel": "Mt 25:1-13",
-        "line": "Afterwards the other virgins came and said, 'Lord, Lord, open the door for us!' But he said in reply, 'Amen, I say to you, I do not know you.' Therefore, stay awake, for you know n"
-      }
-    },
     "2026-11-09": {
       "date": "2026-11-09",
       "lt": {
@@ -128,6 +108,26 @@
         "psalm": "Ps 112:1-2, 3-4, 5-6",
         "gospel": "Lk 18:1-8",
         "line": "But when the Son of Man comes, will he find faith on earth?"
+      }
+    },
+    "2026-11-15": {
+      "date": "2026-11-15",
+      "lt": {
+        "event": "XXXIII eilinis sekmadienis",
+        "reading1": "Pat 31, 10-13. 19-20. 30-31",
+        "psalm": "Ps 127 (128), 1-2. 3. 4-5",
+        "reading2": "1 Tes 5, 1-6",
+        "gospel": "Mt 25, 14-15. 19-20",
+        "line": "Atėjo tas, kuris buvo gavęs penkis talentus; jis atnešė kitus penkis ir tarė: ‘Šeimininke, davei man penkis talentus, štai aš pelniau kitus penkis.’"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Thirty-third Sunday in Ordinary Time",
+        "reading1": "Prv 31:10-13, 19-20, 30-31",
+        "psalm": "Ps 128:1-2, 3, 4-5",
+        "reading2": "1 Thes 5:1-6",
+        "gospel": "Mt 25:14-30",
+        "line": "And throw this useless servant into the darkness outside, where there will be wailing and grinding of teeth."
       }
     }
   }
