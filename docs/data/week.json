@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-11-09": {
-      "date": "2026-11-09",
-      "lt": {
-        "event": "Lapkričio 9 d., Laterano bazilikos pašventinimas",
-        "reading1": "Ez 47, 1-2. 8-9. 12",
-        "psalm": "Ps 45, 2-3. 5-6. 8-9",
-        "reading2": "1 Kor 3, 9b-11. 16-17",
-        "gospel": "Jn 2, 13-22",
-        "line": "Jie įtikėjo Raštu ir Jėzaus pasakytais žodžiais."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Feast of the Dedication of the Lateran Basilica in Rome",
-        "reading1": "Ez 47:1-2, 8-9, 12",
-        "psalm": "Ps 46:2-3, 5-6, 8-9",
-        "reading2": "1 Cor 3:9c-11, 16-17",
-        "gospel": "Jn 2:13-22",
-        "line": "Therefore, when he was raised from the dead, his disciples remembered that he had said this, and they came to believe the Scripture and the word Jesus had spoken."
-      }
-    },
     "2026-11-10": {
       "date": "2026-11-10",
       "lt": {
@@ -128,6 +108,25 @@
         "reading2": "1 Thes 5:1-6",
         "gospel": "Mt 25:14-30",
         "line": "And throw this useless servant into the darkness outside, where there will be wailing and grinding of teeth."
+      }
+    },
+    "2026-11-16": {
+      "date": "2026-11-16",
+      "lt": {
+        "event": "Lapkričio 16 d., Švč. Mergelė Marija, Gailestingumo Motina",
+        "reading1": "Iz 9, 1-3. 5-6",
+        "psalm": "Ps 112, 1-8",
+        "reading2": "Gal 4, 4-7",
+        "gospel": "Jn 19, 25-27",
+        "line": "Pamatęs stovinčius motiną ir mylimąjį mokinį, Jėzus tarė motinai: „Moterie, štai tavo sūnus!“ Paskui tarė mokiniui: „Štai tavo motina!“ Ir nuo tos valandos mokinys pasiėmė ją pas s"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Thirty-third Week in Ordinary Time",
+        "reading1": "Rv 1:1-4; 2:1-5",
+        "psalm": "Ps 1:1-2, 3, 4, 6",
+        "gospel": "Lk 18:35-43",
+        "line": "When they saw this, all the people gave praise to God."
       }
     }
   }
