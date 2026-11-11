@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-10": {
-      "date": "2026-11-10",
-      "lt": {
-        "event": "XXXII eilinė savaitė, Antradienis",
-        "reading1": "Tit 2, 1-8. 11-14",
-        "psalm": "Ps 36, 3-4. 18. 23. 27. 29",
-        "gospel": "Lk 17, 7-10",
-        "line": "Padarėme, ką turėjome padaryti'“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Leo the Great, Pope and Doctor of the Church",
-        "reading1": "Titus 2:1-8, 11-14",
-        "psalm": "Ps 37:3-4, 18 and 23, 27 and 29",
-        "gospel": "Lk 17:7-10",
-        "line": "When you have done all you have been commanded, say, ‘We are unprofitable servants; we have done what we were obliged to do.’"
-      }
-    },
     "2026-11-11": {
       "date": "2026-11-11",
       "lt": {
@@ -127,6 +109,24 @@
         "psalm": "Ps 1:1-2, 3, 4, 6",
         "gospel": "Lk 18:35-43",
         "line": "When they saw this, all the people gave praise to God."
+      }
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "lt": {
+        "event": "XXXIII eilinė savaitė, Antradienis",
+        "reading1": "Apr 3, 1-6. 14-22",
+        "psalm": "Ps 14, 2-5",
+        "gospel": "Lk 19, 1-10",
+        "line": "Žmogaus Sūnus atėjo ieškoti ir gelbėti, kas buvo pražuvę“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of Saint Elizabeth of Hungary, Religious",
+        "reading1": "Rv 3:1-6, 14-22",
+        "psalm": "Ps 15:2-3a, 3bc-4ab, 5",
+        "gospel": "Lk 19:1-10",
+        "line": "For the Son of Man has come to seek and to save what was lost."
       }
     }
   }
