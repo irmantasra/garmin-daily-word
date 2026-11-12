@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-11": {
-      "date": "2026-11-11",
-      "lt": {
-        "event": "XXXII eilinė savaitė, Trečiadienis",
-        "reading1": "Tit 3, 1-7",
-        "psalm": "Ps 22, 1-6",
-        "gospel": "Lk 17, 11-19",
-        "line": "Tavo tikėjimas išgydė tave“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Martin of Tours, Bishop",
-        "reading1": "Titus 3:1-7",
-        "psalm": "Ps 23:1b-3a, 3bc-4, 5, 6",
-        "gospel": "Lk 17:11-19",
-        "line": "Has none but this foreigner returned to give thanks to God?” Then he said to him, “Stand up and go; your faith has saved you."
-      }
-    },
     "2026-11-12": {
       "date": "2026-11-12",
       "lt": {
@@ -127,6 +109,24 @@
         "psalm": "Ps 15:2-3a, 3bc-4ab, 5",
         "gospel": "Lk 19:1-10",
         "line": "For the Son of Man has come to seek and to save what was lost."
+      }
+    },
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "lt": {
+        "event": "XXXIII eilinė savaitė, Trečiadienis",
+        "reading1": "Apr 4, 1-11",
+        "psalm": "Ps 150, 1-6",
+        "gospel": "Lk 19, 11-28",
+        "line": "Mano priešus, nenorėjusius, kad jiems viešpataučiau, atveskite čionai ir nugalabykite mano akyse!'“ Tai pasakęs, Jėzus visų priekyje leidosi į Jeruzalę."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Thirty-third Week in Ordinary Time",
+        "reading1": "Rv 4:1-11",
+        "psalm": "Ps 150:1b-2, 3-4, 5-6",
+        "gospel": "Lk 19:11-28",
+        "line": "Now as for those enemies of mine who did not want me as their king, bring them here and slay them before me.’” After he had said this, he proceeded on his journey up to Jerusalem."
       }
     }
   }
