@@ -1,23 +1,5 @@
 {
   "days": {
-    "2026-11-14": {
-      "date": "2026-11-14",
-      "lt": {
-        "event": "XXXII eilinė savaitė, Šeštadienis",
-        "reading1": "3 Jn 5-8",
-        "psalm": "Ps 111, 1-6",
-        "gospel": "Lk 18, 1-8",
-        "line": "Bet ar atėję Žmogaus Sūnus beras žemėje tikėjimą?"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Saturday of the Thirty-second Week in Ordinary Time",
-        "reading1": "3 Jn 5-8",
-        "psalm": "Ps 112:1-2, 3-4, 5-6",
-        "gospel": "Lk 18:1-8",
-        "line": "But when the Son of Man comes, will he find faith on earth?"
-      }
-    },
     "2026-11-15": {
       "date": "2026-11-15",
       "lt": {
@@ -127,6 +109,23 @@
         "psalm": "Ps 119:14, 24, 72, 103, 111, 131",
         "gospel": "Lk 19:45-48",
         "line": "The chief priests, the scribes, and the leaders of the people, meanwhile, were seeking to put him to death, but they could find no way to accomplish their purpose because all the p"
+      }
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "lt": {
+        "event": "Lapkričio 21 d., Švč. Mergelės Marijos Paaukojimas",
+        "reading1": "Zch 2, 14-17",
+        "psalm": "Lk 1, 46-55",
+        "gospel": "Mt 12, 46-50",
+        "line": "Kiekvienas, kas tik vykdo mano dangiškojo Tėvo valią, yra man ir brolis, ir sesuo, ir motina“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Memorial of the Presentation of the Blessed Virgin Mary",
+        "psalm": "Ps 144:1, 2, 9-10",
+        "gospel": "Lk 20:27-40",
+        "line": "That the dead will rise even Moses made known in the passage about the bush, when he called ‘Lord’ the God of Abraham, the God of Isaac, and the God of Jacob; and he is not God of "
       }
     }
   }

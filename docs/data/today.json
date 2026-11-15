@@ -1,18 +1,20 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "lt": {
-    "event": "XXXII eilinė savaitė, Šeštadienis",
-    "reading1": "3 Jn 5-8",
-    "psalm": "Ps 111, 1-6",
-    "gospel": "Lk 18, 1-8",
-    "line": "Bet ar atėję Žmogaus Sūnus beras žemėje tikėjimą?"
+    "event": "XXXIII eilinis sekmadienis",
+    "reading1": "Pat 31, 10-13. 19-20. 30-31",
+    "psalm": "Ps 127 (128), 1-2. 3. 4-5",
+    "reading2": "1 Tes 5, 1-6",
+    "gospel": "Mt 25, 14-15. 19-20",
+    "line": "Atėjo tas, kuris buvo gavęs penkis talentus; jis atnešė kitus penkis ir tarė: ‘Šeimininke, davei man penkis talentus, štai aš pelniau kitus penkis.’"
   },
   "season": "ordinary",
   "en": {
-    "event": "Saturday of the Thirty-second Week in Ordinary Time",
-    "reading1": "3 Jn 5-8",
-    "psalm": "Ps 112:1-2, 3-4, 5-6",
-    "gospel": "Lk 18:1-8",
-    "line": "But when the Son of Man comes, will he find faith on earth?"
+    "event": "Thirty-third Sunday in Ordinary Time",
+    "reading1": "Prv 31:10-13, 19-20, 30-31",
+    "psalm": "Ps 128:1-2, 3, 4-5",
+    "reading2": "1 Thes 5:1-6",
+    "gospel": "Mt 25:14-30",
+    "line": "And throw this useless servant into the darkness outside, where there will be wailing and grinding of teeth."
   }
 }
