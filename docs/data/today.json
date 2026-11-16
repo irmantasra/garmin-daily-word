@@ -1,20 +1,19 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "lt": {
-    "event": "XXXIII eilinis sekmadienis",
-    "reading1": "Pat 31, 10-13. 19-20. 30-31",
-    "psalm": "Ps 127 (128), 1-2. 3. 4-5",
-    "reading2": "1 Tes 5, 1-6",
-    "gospel": "Mt 25, 14-15. 19-20",
-    "line": "Atėjo tas, kuris buvo gavęs penkis talentus; jis atnešė kitus penkis ir tarė: ‘Šeimininke, davei man penkis talentus, štai aš pelniau kitus penkis.’"
+    "event": "Lapkričio 16 d., Švč. Mergelė Marija, Gailestingumo Motina",
+    "reading1": "Iz 9, 1-3. 5-6",
+    "psalm": "Ps 112, 1-8",
+    "reading2": "Gal 4, 4-7",
+    "gospel": "Jn 19, 25-27",
+    "line": "Pamatęs stovinčius motiną ir mylimąjį mokinį, Jėzus tarė motinai: „Moterie, štai tavo sūnus!“ Paskui tarė mokiniui: „Štai tavo motina!“ Ir nuo tos valandos mokinys pasiėmė ją pas s"
   },
   "season": "ordinary",
   "en": {
-    "event": "Thirty-third Sunday in Ordinary Time",
-    "reading1": "Prv 31:10-13, 19-20, 30-31",
-    "psalm": "Ps 128:1-2, 3, 4-5",
-    "reading2": "1 Thes 5:1-6",
-    "gospel": "Mt 25:14-30",
-    "line": "And throw this useless servant into the darkness outside, where there will be wailing and grinding of teeth."
+    "event": "Monday of the Thirty-third Week in Ordinary Time",
+    "reading1": "Rv 1:1-4; 2:1-5",
+    "psalm": "Ps 1:1-2, 3, 4, 6",
+    "gospel": "Lk 18:35-43",
+    "line": "When they saw this, all the people gave praise to God."
   }
 }

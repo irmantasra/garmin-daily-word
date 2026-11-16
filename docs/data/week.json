@@ -1,25 +1,5 @@
 {
   "days": {
-    "2026-11-15": {
-      "date": "2026-11-15",
-      "lt": {
-        "event": "XXXIII eilinis sekmadienis",
-        "reading1": "Pat 31, 10-13. 19-20. 30-31",
-        "psalm": "Ps 127 (128), 1-2. 3. 4-5",
-        "reading2": "1 Tes 5, 1-6",
-        "gospel": "Mt 25, 14-15. 19-20",
-        "line": "Atėjo tas, kuris buvo gavęs penkis talentus; jis atnešė kitus penkis ir tarė: ‘Šeimininke, davei man penkis talentus, štai aš pelniau kitus penkis.’"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Thirty-third Sunday in Ordinary Time",
-        "reading1": "Prv 31:10-13, 19-20, 30-31",
-        "psalm": "Ps 128:1-2, 3, 4-5",
-        "reading2": "1 Thes 5:1-6",
-        "gospel": "Mt 25:14-30",
-        "line": "And throw this useless servant into the darkness outside, where there will be wailing and grinding of teeth."
-      }
-    },
     "2026-11-16": {
       "date": "2026-11-16",
       "lt": {
@@ -126,6 +106,26 @@
         "psalm": "Ps 144:1, 2, 9-10",
         "gospel": "Lk 20:27-40",
         "line": "That the dead will rise even Moses made known in the passage about the bush, when he called ‘Lord’ the God of Abraham, the God of Isaac, and the God of Jacob; and he is not God of "
+      }
+    },
+    "2026-11-22": {
+      "date": "2026-11-22",
+      "lt": {
+        "event": "kristus, visatos valdovas kristus karalius",
+        "reading1": "Ez 34, 11-12. 15-17",
+        "psalm": "Ps 22 (23), 1- 2a. 2b-3. 5. 6",
+        "reading2": "1 Kor 15, 20-26. 28",
+        "gospel": "Mt 25, 31-46",
+        "line": "Nes aš buvau išalkęs, ir jūs manęs nepavalgydinote, buvau ištroškęs, ir manęs nepagirdėte, buvau keleivis, ir manęs nepriglaudėte, nuogas – neaprengėte, ligonis ir kalinys – ir jūs"
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "The Solemnity of Our Lord Jesus Christ, King of the Universe",
+        "reading1": "Ez 34:11-12, 15-17",
+        "psalm": "Ps 23:1-2, 2-3, 5-6",
+        "reading2": "1 Cor 15:20-26, 28",
+        "gospel": "Mt 25:31-46",
+        "line": "For I was hungry and you gave me no food, I was thirsty and you gave me no drink, a stranger and you gave me no welcome, naked and you gave me no clothing, ill and in prison, and y"
       }
     }
   }
