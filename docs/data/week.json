@@ -1,24 +1,5 @@
 {
   "days": {
-    "2026-11-16": {
-      "date": "2026-11-16",
-      "lt": {
-        "event": "Lapkričio 16 d., Švč. Mergelė Marija, Gailestingumo Motina",
-        "reading1": "Iz 9, 1-3. 5-6",
-        "psalm": "Ps 112, 1-8",
-        "reading2": "Gal 4, 4-7",
-        "gospel": "Jn 19, 25-27",
-        "line": "Pamatęs stovinčius motiną ir mylimąjį mokinį, Jėzus tarė motinai: „Moterie, štai tavo sūnus!“ Paskui tarė mokiniui: „Štai tavo motina!“ Ir nuo tos valandos mokinys pasiėmė ją pas s"
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Monday of the Thirty-third Week in Ordinary Time",
-        "reading1": "Rv 1:1-4; 2:1-5",
-        "psalm": "Ps 1:1-2, 3, 4, 6",
-        "gospel": "Lk 18:35-43",
-        "line": "When they saw this, all the people gave praise to God."
-      }
-    },
     "2026-11-17": {
       "date": "2026-11-17",
       "lt": {
@@ -33,8 +14,7 @@
         "event": "Memorial of Saint Elizabeth of Hungary, Religious",
         "reading1": "Rv 3:1-6, 14-22",
         "psalm": "Ps 15:2-3a, 3bc-4ab, 5",
-        "gospel": "Lk 19:1-10",
-        "line": "For the Son of Man has come to seek and to save what was lost."
+        "gospel": "Lk 19:1-10"
       }
     },
     "2026-11-18": {
@@ -69,8 +49,7 @@
         "event": "Thursday of the Thirty-third Week in Ordinary Time",
         "reading1": "Rv 5:1-10",
         "psalm": "Ps 149:1b-2, 3-4, 5-6b, 9b",
-        "gospel": "Lk 19:41-44",
-        "line": "They will smash you to the ground and your children within you, and they will not leave one stone upon another within you because you did not recognize the time of your visitation."
+        "gospel": "Lk 19:41-44"
       }
     },
     "2026-11-20": {
@@ -104,8 +83,7 @@
       "en": {
         "event": "Memorial of the Presentation of the Blessed Virgin Mary",
         "psalm": "Ps 144:1, 2, 9-10",
-        "gospel": "Lk 20:27-40",
-        "line": "That the dead will rise even Moses made known in the passage about the bush, when he called ‘Lord’ the God of Abraham, the God of Isaac, and the God of Jacob; and he is not God of "
+        "gospel": "Lk 20:27-40"
       }
     },
     "2026-11-22": {
@@ -126,6 +104,23 @@
         "reading2": "1 Cor 15:20-26, 28",
         "gospel": "Mt 25:31-46",
         "line": "For I was hungry and you gave me no food, I was thirsty and you gave me no drink, a stranger and you gave me no welcome, naked and you gave me no clothing, ill and in prison, and y"
+      }
+    },
+    "2026-11-23": {
+      "date": "2026-11-23",
+      "lt": {
+        "event": "XXXIV eilinė savaitė, Pirmadienis",
+        "reading1": "Apr 14, 1-3. 4b-5",
+        "psalm": "Ps 23, 1-6",
+        "gospel": "Lk 21, 1-4",
+        "line": "Anie visi aukojo Dievui dovanų iš to, kas jiems atlieka, o ji iš savo neturto įmetė viską, ką turėjo pragyvenimui“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Monday of the Thirty-fourth Week in Ordinary Time",
+        "reading1": "Rv 14:1-3, 4b-5",
+        "psalm": "Ps 24:1bc-2, 3-4ab, 5-6",
+        "gospel": "Lk 21:1-4"
       }
     }
   }
