@@ -1,22 +1,5 @@
 {
   "days": {
-    "2026-11-18": {
-      "date": "2026-11-18",
-      "lt": {
-        "event": "XXXIII eilinė savaitė, Trečiadienis",
-        "reading1": "Apr 4, 1-11",
-        "psalm": "Ps 150, 1-6",
-        "gospel": "Lk 19, 11-28",
-        "line": "Mano priešus, nenorėjusius, kad jiems viešpataučiau, atveskite čionai ir nugalabykite mano akyse!'“ Tai pasakęs, Jėzus visų priekyje leidosi į Jeruzalę."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Wednesday of the Thirty-third Week in Ordinary Time",
-        "reading1": "Rv 4:1-11",
-        "psalm": "Ps 150:1b-2, 3-4, 5-6",
-        "gospel": "Lk 19:11-28"
-      }
-    },
     "2026-11-19": {
       "date": "2026-11-19",
       "lt": {
@@ -118,6 +101,23 @@
         "reading1": "Rv 14:14-19",
         "psalm": "Ps 96:10, 11-12, 13",
         "gospel": "Lk 21:5-11"
+      }
+    },
+    "2026-11-25": {
+      "date": "2026-11-25",
+      "lt": {
+        "event": "XXXIV eilinė savaitė, Trečiadienis",
+        "reading1": "Apr 15, 1-4",
+        "psalm": "Ps 97, 1-3. 7-9",
+        "gospel": "Lk 21, 12-19",
+        "line": "Savo ištverme jūs išsaugosite savo gyvybę“."
+      },
+      "season": "ordinary",
+      "en": {
+        "event": "Wednesday of the Thirty-fourth Week in Ordinary Time",
+        "reading1": "Rv 15:1-4",
+        "psalm": "Ps 98:1, 2-3ab, 7-8, 9",
+        "gospel": "Lk 21:12-19"
       }
     }
   }
