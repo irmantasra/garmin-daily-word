@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "lt": {
-    "event": "XXXIII eilinė savaitė, Ketvirtadienis",
-    "reading1": "Apr 5, 1-10",
-    "psalm": "Ps 149, 1-6. 9",
-    "gospel": "Lk 19, 41-44",
-    "line": "Tu sulauksi dienų, kai tavo priešai apjuos tave pylimu, apguls iš visų pusių ir suspaus tave; jie parblokš ant žemės tave ir tavo vaikus su tavim ir nepaliks tavyje akmens ant akme"
+    "event": "XXXIII eilinė savaitė, Penktadienis",
+    "reading1": "Apr 10, 8-11",
+    "psalm": "Ps 118, 14. 24. 72. 103. 111. 131",
+    "gospel": "Lk 19, 45-48",
+    "line": "Aukštieji kunigai ir Rašto aiškintojai bei tautos seniūnai svarstė, kaip jį pražudyti, tačiau neišmanė, ko griebtis, nes visi žmonės tik ir klausėsi jo mokslo."
   },
   "season": "ordinary",
   "en": {
-    "event": "Thursday of the Thirty-third Week in Ordinary Time",
-    "reading1": "Rv 5:1-10",
-    "psalm": "Ps 149:1b-2, 3-4, 5-6b, 9b",
-    "gospel": "Lk 19:41-44"
+    "event": "Friday of the Thirty-third Week in Ordinary Time",
+    "reading1": "Rv 10:8-11",
+    "psalm": "Ps 119:14, 24, 72, 103, 111, 131",
+    "gospel": "Lk 19:45-48"
   }
 }
