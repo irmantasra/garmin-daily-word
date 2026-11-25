@@ -1,22 +1,5 @@
 {
   "days": {
-    "2026-11-24": {
-      "date": "2026-11-24",
-      "lt": {
-        "event": "XXXIV eilinė savaitė, Antradienis",
-        "reading1": "Apr 14, 14-20a",
-        "psalm": "Ps 95, 10-13",
-        "gospel": "Lk 21, 5-11",
-        "line": "Bus baisenybių ir didelių ženklų iš dangaus“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Memorial of Saint Andrew Dung-Lac, Priest, and Companions, Martyrs",
-        "reading1": "Rv 14:14-19",
-        "psalm": "Ps 96:10, 11-12, 13",
-        "gospel": "Lk 21:5-11"
-      }
-    },
     "2026-11-25": {
       "date": "2026-11-25",
       "lt": {
@@ -45,7 +28,7 @@
       },
       "season": "ordinary",
       "en": {
-        "event": "Thursday of the Thirty-fourth Week in Ordinary Time-Thanksgiving"
+        "error": "HTTP Error 403: Forbidden"
       }
     },
     "2026-11-27": {
@@ -116,6 +99,23 @@
         "reading1": "Rom 10:9-18",
         "psalm": "Ps 19:8, 9, 10, 11",
         "gospel": "Mt 4:18-22"
+      }
+    },
+    "2026-12-01": {
+      "date": "2026-12-01",
+      "lt": {
+        "event": "I advento savaitė antradienis",
+        "reading1": "Iz 11, 1-10",
+        "psalm": "Ps 71 (72), 1-2. 7-8. 12-13. 17",
+        "gospel": "Lk 10, 21-24",
+        "line": "Sakau jums: daugel pranašų ir karalių troško išvysti, ką jūs matote, bet neišvydo, ir išgirsti, ką jūs girdite, bet neišgirdo."
+      },
+      "season": "lent",
+      "en": {
+        "event": "Tuesday of the First Week of Advent",
+        "reading1": "Is 11:1-10",
+        "psalm": "Ps 72:1-2, 7-8, 12-13, 17",
+        "gospel": "Lk 10:21-24"
       }
     }
   }
