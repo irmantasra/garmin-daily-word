@@ -1,22 +1,5 @@
 {
   "days": {
-    "2026-11-27": {
-      "date": "2026-11-27",
-      "lt": {
-        "event": "XXXIV eilinė savaitė, Penktadienis",
-        "reading1": "Apr 20, 1-4. 11-21, 2",
-        "psalm": "Ps 83, 3-6. 8",
-        "gospel": "Lk 21, 29-33",
-        "line": "Dangus ir žemė praeis, o mano žodžiai nepraeis“."
-      },
-      "season": "ordinary",
-      "en": {
-        "event": "Friday of the Thirty-fourth Week in Ordinary Time",
-        "reading1": "Rv 20:1-4, 11—21:2",
-        "psalm": "Ps 84:3, 4, 5-6a, 8a",
-        "gospel": "Lk 21:29-33"
-      }
-    },
     "2026-11-28": {
       "date": "2026-11-28",
       "lt": {
@@ -119,6 +102,23 @@
         "reading1": "Is 26:1-6",
         "psalm": "Ps 118:1 and 8-9, 19-21, 25-27a",
         "gospel": "Mt 7:21, 24-27"
+      }
+    },
+    "2026-12-04": {
+      "date": "2026-12-04",
+      "lt": {
+        "event": "I advento savaitė penktadienis",
+        "reading1": "Iz 29, 17-24",
+        "psalm": "Ps 26 (27), 1. 4. 13-14",
+        "gospel": "Mt 9, 27-31",
+        "line": "Jėzus prigrasė: „Žiūrėkite, kad niekas nesužinotų!“ Tačiau tie išėję išgarsino jį po visą tą kraštą."
+      },
+      "season": "lent",
+      "en": {
+        "event": "Friday of the First Week of Advent",
+        "reading1": "Is 29:17-24",
+        "psalm": "Ps 27:1, 4, 13-14",
+        "gospel": "Mt 9:27-31"
       }
     }
   }
